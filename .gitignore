@@ -1,0 +1,5 @@
+.DS_Store
+
+credential.json
+venv/*
+db/psql/*
