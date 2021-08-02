@@ -36,12 +36,12 @@ def run_query(query: str) -> Table:
         return result
 
 
-def trim_by_line(text: str, max_len: int = 140) -> str:
+def trim_by_line(text: str, max_len: int = 140, end: str = '...') -> str:
     result = ''
     for line in text.split('\n'):
         new_result = result + line + '\n'
-        if len(new_result) >= max_len:
-            return result
+        if len(new_result) >= max_len - len(end):
+            return result + end
         result = new_result
     return result
 
@@ -51,7 +51,6 @@ def exec_sql(text: str):
         result = str(run_query(text))
     except Exception as e:
         result = str(e)
-
     return trim_by_line(result)
 
 
@@ -76,5 +75,5 @@ def main():
 
 
 if __name__ == '__main__':
-    # print(exec_sql('select * from Food;'))
+    # print(exec_sql("SELECT * FROM U16Seq WHERE seq < 16;"))
     main()
