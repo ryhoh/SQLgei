@@ -26,7 +26,7 @@ class Table:
 
 
 def run_query(query: str) -> Table:
-    with psycopg2.connect(dsn='postgresql://bot@localhost/sandbox') as conn:
+    with psycopg2.connect(dsn='postgresql://bot:bot@localhost/sandbox') as conn:
         with conn.cursor() as cur:
             cur.execute(query + ';')
             result = Table(
