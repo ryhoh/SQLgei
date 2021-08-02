@@ -3,7 +3,7 @@ import json
 from typing import Any, List, Tuple
 
 import psycopg2
-import twitter
+import tweepy
 
 
 JST = datetime.timezone(datetime.timedelta(hours=+9), 'JST')
@@ -36,7 +36,7 @@ def run_query(query: str) -> Table:
         return result
 
 
-def trim_by_line(text: str, max_len: int = 280, end: str = '...') -> str:
+def trim_by_line(text: str, max_len: int = 280, end: str = '...\n') -> str:
     def tweet_length(tweet_text: str) -> int:
         ascii_n = sum(c.isascii() for c in tweet_text)
         return ascii_n + 2 * (len(tweet_text) - ascii_n)
@@ -52,32 +52,30 @@ def trim_by_line(text: str, max_len: int = 280, end: str = '...') -> str:
 
 def exec_sql(text: str):
     try:
-        result = str(run_query(text))
+        result = str(run_query(text.replace('&lt;', '<').replace('&gt;', '>')))
     except Exception as e:
         result = str(e)
     return trim_by_line(result)
 
 
 def main():
-    with open('/home/pi/SQLgei/credential.json', 'r') as f:
+    with open('credential.json', 'r') as f:
         credential = json.load(f)
     
-    auth = twitter.OAuth(consumer_key=credential["API key"],
-        consumer_secret=credential["API Secret"],
-        token=credential["Token"],
-        token_secret=credential["Token Secret"])
+    auth = tweepy.OAuthHandler(credential["API key"], credential["API Secret"])
+    auth.set_access_token(credential["Token"], credential["Token Secret"])
     
-    t = twitter.Twitter(auth=auth)
-    for timeline_tweet in t.statuses.home_timeline():
-        created_at = datetime.datetime.strptime(timeline_tweet['created_at'], '%a %b %d %H:%M:%S %z %Y')
+    api = tweepy.API(auth)
+    for timeline_tweet in api.home_timeline():
+        tweet_dict = timeline_tweet._json
+        created_at = datetime.datetime.strptime(tweet_dict['created_at'], '%a %b %d %H:%M:%S %z %Y')
         if datetime.datetime.now(JST) - created_at < datetime.timedelta(minutes=5):
-            text = timeline_tweet['text']
-            print('Found: %s, %s, %s' % (created_at, timeline_tweet['user'], text))
+            text = api.get_status(tweet_dict['id'], tweet_mode="extended").full_text
+            print('Found: %s, %s, %s' % (created_at, tweet_dict['user']['screen_name'], text))
             if '#SQL芸' in text:
                 print('has hashtag!')
                 result = exec_sql(text.replace('#SQL芸', ''))
-                t.statuses.update(status='%s\nhttps://twitter.com/%s/status/%s' %
-                    (result, timeline_tweet['user']['screen_name'], timeline_tweet['id']))
+                api.update_status(status=result, attachment_url='https://twitter.com/%s/status/%s' % (tweet_dict['user']['screen_name'], tweet_dict['id']))
                 print('tweeted.')
 
 
