@@ -55,7 +55,7 @@ def exec_sql(text: str):
 
 
 def main():
-    with open('credential.json', 'r') as f:
+    with open('/home/pi/SQLgei/credential.json', 'r') as f:
         credential = json.load(f)
     
     auth = twitter.OAuth(consumer_key=credential["API key"],
