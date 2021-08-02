@@ -36,11 +36,15 @@ def run_query(query: str) -> Table:
         return result
 
 
-def trim_by_line(text: str, max_len: int = 140, end: str = '...') -> str:
+def trim_by_line(text: str, max_len: int = 280, end: str = '...') -> str:
+    def tweet_length(tweet_text: str) -> int:
+        ascii_n = sum(c.isascii() for c in tweet_text)
+        return ascii_n + 2 * (len(tweet_text) - ascii_n)
+    
     result = ''
     for line in text.split('\n'):
         new_result = result + line + '\n'
-        if len(new_result) >= max_len - len(end):
+        if tweet_length(new_result) >= max_len - len(end):
             return result + end
         result = new_result
     return result
@@ -68,12 +72,15 @@ def main():
         created_at = datetime.datetime.strptime(timeline_tweet['created_at'], '%a %b %d %H:%M:%S %z %Y')
         if datetime.datetime.now(JST) - created_at < datetime.timedelta(minutes=5):
             text = timeline_tweet['text']
+            print('Found: %s, %s, %s' % (created_at, timeline_tweet['user'], text))
             if '#SQL芸' in text:
+                print('has hashtag!')
                 result = exec_sql(text.replace('#SQL芸', ''))
                 t.statuses.update(status='%s\nhttps://twitter.com/%s/status/%s' %
                     (result, timeline_tweet['user']['screen_name'], timeline_tweet['id']))
+                print('tweeted.')
 
 
 if __name__ == '__main__':
-    # print(exec_sql("SELECT * FROM U16Seq WHERE seq < 16;"))
+    # print(exec_sql("SELECT * FROM U16Seq;"))
     main()
