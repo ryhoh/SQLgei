@@ -2,6 +2,17 @@
 -- Role Definition
 --------------------
 
+CREATE ROLE maintainer WITH
+	NOSUPERUSER
+	NOCREATEDB
+	NOCREATEROLE
+	INHERIT
+	LOGIN
+	NOREPLICATION
+	NOBYPASSRLS
+	PASSWORD 'maintainer'
+	CONNECTION LIMIT -1;
+
 CREATE ROLE bot WITH
 	NOSUPERUSER
 	NOCREATEDB
@@ -18,4 +29,4 @@ CREATE ROLE bot WITH
 -- DataBase Definition
 --------------------
 CREATE DATABASE sandbox WITH
-	OWNER = bot;
+	OWNER = maintainer;
