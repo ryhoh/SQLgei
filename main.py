@@ -2,6 +2,9 @@ import datetime
 import json
 from typing import Any, List, Tuple
 
+from PIL import Image
+from PIL import ImageDraw
+from PIL import ImageFont
 import psycopg2
 import tweepy
 
@@ -50,12 +53,31 @@ def trim_by_line(text: str, max_len: int = 280, end: str = '...\n') -> str:
     return result
 
 
-def exec_sql(text: str):
+def exec_sql_and_ret_str(text: str) -> str:
     try:
         result = str(run_query(text.replace('&lt;', '<').replace('&gt;', '>')))
     except Exception as e:
         result = str(e)
     return trim_by_line(result)
+
+def exec_sql_and_ret_img(text: str) -> Tuple[str, str]:
+    """
+    画像形式で実行結果を返す
+    (テキスト実行結果，実行結果の画像ファイル名)
+
+    """
+    try:
+        result = str(run_query(text.replace('&lt;', '<').replace('&gt;', '>')))
+    except Exception as e:
+        result = str(e)
+    result = trim_by_line(result, max_len=4000)
+    img = Image.new('RGB', (600, 1024), color=0)
+    draw = ImageDraw.Draw(img)
+    font = ImageFont.truetype('./PlemolJP35Console-Regular.ttf', 13)
+    draw.text((5, 5), result, font=font, fill=(255,255,255,255))
+    filename = 'tmp/tmp' + str(hash(result)) + '.png'  # ハッシュを用いて一意なファイル名を決める
+    img.save(filename)
+    return (trim_by_line(result), filename)
 
 
 def main():
@@ -74,8 +96,12 @@ def main():
             print('Found: %s, %s, %s' % (created_at, tweet_dict['user']['screen_name'], text))
             if '#SQL芸' in text:
                 print('has hashtag!')
-                result = exec_sql(text.replace('#SQL芸', ''))
-                api.update_status(status=result, attachment_url='https://twitter.com/%s/status/%s' % (tweet_dict['user']['screen_name'], tweet_dict['id']))
+                result = exec_sql_and_ret_img(text.replace('#SQL芸', ''))
+                api.update_with_media(
+                    filename=result[1],
+                    status=result[0],
+                    attachment_url='https://twitter.com/%s/status/%s' % (tweet_dict['user']['screen_name'],tweet_dict['id'])
+                )
                 print('tweeted.')
 
 
