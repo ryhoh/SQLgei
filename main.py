@@ -29,7 +29,7 @@ class Table:
 
 
 def run_query(query: str) -> Table:
-    with psycopg2.connect(dsn='postgresql://bot:bot@localhost/sandbox') as conn:
+    with psycopg2.connect(dsn='postgresql://bot:bot@localhost:54321/sandbox') as conn:
         with conn.cursor() as cur:
             cur.execute(query + ';')
             result = Table(
@@ -91,7 +91,7 @@ def main():
     for timeline_tweet in api.home_timeline():
         tweet_dict = timeline_tweet._json
         created_at = datetime.datetime.strptime(tweet_dict['created_at'], '%a %b %d %H:%M:%S %z %Y')
-        if datetime.datetime.now(JST) - created_at < datetime.timedelta(minutes=5):
+        if datetime.datetime.now(JST) - created_at < datetime.timedelta(minutes=2):
             text = api.get_status(tweet_dict['id'], tweet_mode="extended").full_text
             print('Found: %s, %s, %s' % (created_at, tweet_dict['user']['screen_name'], text))
             if '#SQL芸' in text:
