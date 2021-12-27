@@ -18,10 +18,10 @@ class Table:
         self.records = records
 
     def __str__(self) -> str:  # temporary
-        result = '| ' + ' | '.join(self.columns) + ' |\n'
+        result = ' | '.join(self.columns) + '\n'
         for record in self.records:
             record: Tuple[Any]
-            result += '| ' + ' | '.join(map(str, record)) + ' |\n'
+            result += ' | '.join(map(str, record)) + '\n'
         return result
     
     def __repr__(self) -> str:
