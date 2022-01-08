@@ -1,10 +1,8 @@
 import datetime
 import json
+from subprocess import Popen
 from typing import Any, List, Tuple
 
-from PIL import Image
-from PIL import ImageDraw
-from PIL import ImageFont
 import psycopg2
 import tweepy
 
@@ -29,7 +27,7 @@ class Table:
 
 
 def run_query(query: str) -> Table:
-    with psycopg2.connect(dsn='postgresql://bot:bot@localhost:54321/sandbox') as conn:
+    with psycopg2.connect(dsn='postgresql://bot:bot@localhost:54321/sandbox?application_name=SQLgei') as conn:
         with conn.cursor() as cur:
             cur.execute(query + ';')
             result = Table(
@@ -70,14 +68,13 @@ def exec_sql_and_ret_img(text: str) -> Tuple[str, str]:
         result = str(run_query(text.replace('&lt;', '<').replace('&gt;', '>')))
     except Exception as e:
         result = str(e)
-    result = trim_by_line(result, max_len=4000)
-    img = Image.new('RGB', (600, 1024), color=0)
-    draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype('./PlemolJP35Console-Regular.ttf', 13)
-    draw.text((5, 5), result, font=font, fill=(255,255,255,255))
-    filename = 'tmp/tmp' + str(hash(result)) + '.png'  # ハッシュを用いて一意なファイル名を決める
-    img.save(filename)
-    return (trim_by_line(result), filename)
+    result = '\n'.join(result.split('\n')[:50])
+    filename = 'tmp/tmp' + str(hash(result))  # ハッシュを用いて一意なファイル名を決める
+    with open(filename + '.txt', 'w') as f:
+        f.write(result)
+    popen = Popen('carbon-now -h -t %s %s.txt' % (filename, filename), shell=True)
+    popen.wait()
+    return (trim_by_line(result), filename + '.png')
 
 
 def main():
@@ -108,3 +105,4 @@ def main():
 if __name__ == '__main__':
     # print(exec_sql("SELECT * FROM U16Seq;"))
     main()
+    # exec_sql_and_ret_img("SELECT 'あ', '亜', 'a', '💩' FROM u8;")
