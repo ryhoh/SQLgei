@@ -24,6 +24,11 @@ CREATE VIEW starbucks (id, store_id, name, yen) AS
         WHERE stores.name = 'スターバックス'
         ORDER BY RANDOM();
 
+CREATE VIEW help (title, contents) AS
+       SELECT bd.title, bd.contents
+         FROM bot_detail AS bd
+        ORDER BY bd.id ASC;
+
 --------------------
 -- Functions
 --------------------

@@ -61,6 +61,12 @@ CREATE TABLE i16 (
        val INT PRIMARY KEY
 );
 
+CREATE TABLE bot_detail (
+       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       title VARCHAR(32),
+       contents VARCHAR(256)
+);
+
 -- 駅データ.jp ここから
 CREATE TABLE eki_company (
        company_cd      INTEGER          DEFAULT 0 NOT NULL PRIMARY KEY,
