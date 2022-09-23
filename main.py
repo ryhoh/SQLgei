@@ -54,21 +54,28 @@ class Table:
         return self.columns == other.columns and self.records == other.records
 
     """
-    SELECT文を実行して、結果テーブルを返す
+    SQLを実行して、結果テーブルを返す
 
-    @param query 実行するSELECT文
+    @param query 実行するSQL
     @return 実行結果テーブル
-    @note 複数のSELECT文を与えても、結果は最後の1文だけしか返らない
+    @note 複数の文を与えた場合、最後のSELECT文に対する結果を返す
     """
     @classmethod
     def from_select_stmt(self, query: str) -> "Table":
+        sqls = query.split("--")[0]  # コメント開始位置以降は見ない
+        result = None
         with sqlite3.connect(database='db/sandbox.db') as conn:
             cur = conn.cursor()
-            cur.execute(query + ';')
-            result = Table(
-                columns=[col[0] for col in cur.description],
-                records=cur.fetchall()
-            )
+            for sql in sqls.split(";"):
+                cur.execute(sql)
+                if cur.description is not None:
+                    result = Table(
+                        columns=[col[0] for col in cur.description],
+                        records=cur.fetchall()
+                    )
+            conn.commit()
+            if result is None:  # CREATE TABLE や INSERT のみなど、SELECTがない場合
+                result = Table(columns=[], records=[tuple()])
             return result
 
 

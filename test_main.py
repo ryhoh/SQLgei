@@ -6,6 +6,7 @@ from main import *
 # 単体試験
 class TestTable(unittest.TestCase):
     def test_from_select_stmt(self):
+        # 通常ケース
         expected = Table(
             columns=['one', 'two'],
             records=[('1⃣', '2⃣')],
@@ -13,7 +14,41 @@ class TestTable(unittest.TestCase):
         actual = Table.from_select_stmt("select '1⃣' as one, '2⃣' as two")
         self.assertEqual(expected, actual)
 
+        # 複数文
+        expected = Table(
+            columns=['one', 'two'],
+            records=[('1⃣', '2⃣')],
+        )
+        actual = Table.from_select_stmt("select '2⃣' as one, '1⃣' as two; select '1⃣' as one, '2⃣' as two")
+        self.assertEqual(expected, actual)
+
+        # テーブル作成からデータ挿入
+        expected = Table(
+            columns=[],
+            records=[()],
+        )
+        actual = Table.from_select_stmt("""
+create table primes(val int);
+insert into primes values (2), (3), (5), (7), (11);
+""")
+        self.assertEqual(expected, actual)
+        Table.from_select_stmt("drop table primes;")  # 次のテストに備え create したテーブルを捨てる
+
+        # テーブル作成からデータ挿入、データ取得
+        expected = Table(
+            columns=['val'],
+            records=[(2,), (3,), (5,), (7,), (11,)],
+        )
+        actual = Table.from_select_stmt("""
+create table primes(val int);
+insert into primes values (2), (3), (5), (7), (11);
+select * from primes;
+""")
+        self.assertEqual(expected, actual)
+        Table.from_select_stmt("drop table primes;")  # 次のテストに備え create したテーブルを捨てる
+
     def test_str(self):
+        # 通常ケース
         expected = \
 """one | two
 1⃣ | 2⃣
@@ -22,6 +57,16 @@ class TestTable(unittest.TestCase):
             Table(
                 columns=['one', 'two'],
                 records=[('1⃣', '2⃣')],
+            )
+        )
+        self.assertEqual(expected, actual)
+
+        # 空のケース
+        expected = "\n\n"
+        actual = str(
+            Table(
+                columns=[],
+                records=[()],
             )
         )
         self.assertEqual(expected, actual)
@@ -95,3 +140,4 @@ class TestJoin(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
