@@ -93,17 +93,17 @@ def main():
             print('Found: %s, %s, %s' % (created_at, tweet_dict['user']['screen_name'], text))
             if '#SQL芸' in text:
                 print('has hashtag!')
-                # result = exec_sql_and_ret_img(text.replace('#SQL芸', ''))
-                result = exec_sql_and_ret_str(text.replace('#SQL芸', ''))
-                # api.update_with_media(
-                #     filename=result[1],
-                #     status=result[0],
-                #     attachment_url='https://twitter.com/%s/status/%s' % (tweet_dict['user']['screen_name'],tweet_dict['id'])
-                # )
-                api.update_status(
-                    status=result,
-                    attachment_url='https://twitter.com/%s/status/%s' % (tweet_dict['user']['screen_name'],tweet_dict['id']),
+                result = exec_sql_and_ret_img(text.replace('#SQL芸', ''))
+                # result = exec_sql_and_ret_str(text.replace('#SQL芸', ''))
+                api.update_with_media(
+                    filename=result[1],
+                    status=result[0],
+                    attachment_url='https://twitter.com/%s/status/%s' % (tweet_dict['user']['screen_name'],tweet_dict['id'])
                 )
+                # api.update_status(
+                #     status=result,
+                #     attachment_url='https://twitter.com/%s/status/%s' % (tweet_dict['user']['screen_name'],tweet_dict['id']),
+                # )
                 print('tweeted.')
 
 
