@@ -41,6 +41,11 @@ CREATE TABLE editors (
        name VARCHAR(32)
 );
 
+CREATE TABLE persons (
+       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       name VARCHAR(16)
+);
+
 CREATE TABLE digits (
        digit INT PRIMARY KEY
 );
@@ -59,6 +64,12 @@ CREATE TABLE i8 (
 
 CREATE TABLE i16 (
        val INT PRIMARY KEY
+);
+
+CREATE TABLE bot_detail (
+       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       title VARCHAR(32),
+       contents VARCHAR(256)
 );
 
 -- 駅データ.jp ここから

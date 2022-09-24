@@ -658,6 +658,15 @@ VALUES
        ('サクラエディタ'),
        ('メモ帳');
 
+INSERT INTO persons (name)
+VALUES
+       ('Alice'),
+       ('Bob'),
+       ('Carol'),
+       ('Dave'),
+       ('Eve'),
+       ('Frank');
+
 INSERT INTO digits VALUES
        (0), (1), (2), (3), (4), (5), (6), (7), (8), (9);
 
@@ -686,3 +695,9 @@ INSERT INTO i8
 INSERT INTO i16
        SELECT val - 32768
          FROM u16;
+
+INSERT INTO bot_detail (title, contents) VALUES
+       ('データベース', 'sqlite3'),
+       ('OS', 'Ubuntu'),
+       ('説明', '#SQL芸 を付けてSQL文をツイートすると、SQLを実行できます。'),
+       ('リポジトリ', 'https://github.com/ryhoh/SQLgei');
