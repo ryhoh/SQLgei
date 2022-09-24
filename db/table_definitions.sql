@@ -145,5 +145,8 @@ CREATE TABLE eki_station_join (
        station_cd2    INTEGER      DEFAULT 0 NOT NULL,
        
        PRIMARY KEY (line_cd,station_cd1,station_cd2)
+       FOREIGN KEY (line_cd) REFERENCES eki_line(line_cd)
+       FOREIGN KEY (station_cd1) REFERENCES eki_station(station_cd)
+       FOREIGN KEY (station_cd2) REFERENCES eki_station(station_cd)
 );
 -- 駅データ.jp ここまで
