@@ -24,10 +24,18 @@ CREATE VIEW starbucks (id, store_id, name, yen) AS
         WHERE stores.name = 'スターバックス'
         ORDER BY RANDOM();
 
+-- メタデータ出力用
 CREATE VIEW help (title, contents) AS
        SELECT bd.title, bd.contents
          FROM bot_detail AS bd
         ORDER BY bd.id ASC;
+
+-- テーブル一覧取得用
+CREATE VIEW tables ("type", "name", tbl_name, rootpage, "sql") AS
+       SELECT type, name, tbl_name, rootpage, sql
+         FROM sqlite_master
+        WHERE type in ('table', 'view')
+        ORDER BY NAME ASC;
 
 --------------------
 -- Functions
