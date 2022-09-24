@@ -700,4 +700,6 @@ INSERT INTO bot_detail (title, contents) VALUES
        ('データベース', 'sqlite3'),
        ('OS', 'Ubuntu'),
        ('説明', '#SQL芸 を付けてSQL文をツイートすると、SQLを実行できます。'),
-       ('リポジトリ', 'https://github.com/ryhoh/SQLgei');
+       ('リポジトリ', 'https://github.com/ryhoh/SQLgei'),
+       ('テーブル一覧確認', 'select name from tables'),
+       ('テーブル定義確認', 'select sql from tables where name = ''テーブル名''');
