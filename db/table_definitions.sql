@@ -41,6 +41,11 @@ CREATE TABLE editors (
        name VARCHAR(32)
 );
 
+CREATE TABLE persons (
+       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       name VARCHAR(16)
+);
+
 CREATE TABLE digits (
        digit INT PRIMARY KEY
 );

@@ -658,6 +658,15 @@ VALUES
        ('サクラエディタ'),
        ('メモ帳');
 
+INSERT INTO persons (name)
+VALUES
+       ('Alice'),
+       ('Bob'),
+       ('Carol'),
+       ('Dave'),
+       ('Eve'),
+       ('Frank');
+
 INSERT INTO digits VALUES
        (0), (1), (2), (3), (4), (5), (6), (7), (8), (9);
 
