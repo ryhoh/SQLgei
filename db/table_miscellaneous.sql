@@ -34,7 +34,7 @@ CREATE VIEW help (title, contents) AS
 CREATE VIEW tables ("type", "name", tbl_name, rootpage, "sql") AS
        SELECT type, name, tbl_name, rootpage, sql
          FROM sqlite_master
-        WHERE type in ('table', 'view')
+        WHERE type = 'table' or type = 'view'
         ORDER BY NAME ASC;
 
 --------------------
