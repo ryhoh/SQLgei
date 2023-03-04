@@ -31,11 +31,10 @@ CREATE VIEW help (title, contents) AS
         ORDER BY bd.id ASC;
 
 -- テーブル一覧取得用
-CREATE VIEW tables ("type", "name", tbl_name, rootpage, "sql") AS
-       SELECT type, name, tbl_name, rootpage, sql
-         FROM sqlite_master
-        WHERE type = 'table' or type = 'view'
-        ORDER BY NAME ASC;
+CREATE VIEW tables (schemaname, tablename) AS
+       SELECT schemaname, tablename
+         FROM pg_tables
+        WHERE schemaname NOT LIKE 'pg_%' AND schemaname != 'information_schema';
 
 --------------------
 -- Functions
