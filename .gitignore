@@ -4,4 +4,3 @@
 credential.json
 venv/*
 db/psql/*
-db/sandbox.db

@@ -3,18 +3,18 @@
 --------------------
 
 CREATE TABLE nations (
-       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       id SERIAL PRIMARY KEY,
        official VARCHAR(32),
        name VARCHAR(32)
 );
 
 CREATE TABLE prefs (
-       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       id SERIAL PRIMARY KEY,
        name VARCHAR(16)
 );
 
 CREATE TABLE stores (
-       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       id SERIAL PRIMARY KEY,
        name VARCHAR(32),
        hq_pref_id INT,
 
@@ -22,7 +22,7 @@ CREATE TABLE stores (
 );
 
 CREATE TABLE foods (
-       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       id SERIAL PRIMARY KEY,
        store_id INT,
        name VARCHAR(64),
        yen INT,
@@ -32,17 +32,17 @@ CREATE TABLE foods (
 );
 
 CREATE TABLE os (
-       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       id SERIAL PRIMARY KEY,
        name VARCHAR(32)
 );
 
 CREATE TABLE editors (
-       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       id SERIAL PRIMARY KEY,
        name VARCHAR(32)
 );
 
 CREATE TABLE persons (
-       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       id SERIAL PRIMARY KEY,
        name VARCHAR(16)
 );
 
@@ -67,7 +67,7 @@ CREATE TABLE i16 (
 );
 
 CREATE TABLE bot_detail (
-       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       id SERIAL PRIMARY KEY,
        title VARCHAR(32),
        contents VARCHAR(256)
 );
