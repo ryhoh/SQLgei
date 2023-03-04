@@ -1,13 +1,21 @@
 #!/bin/sh
 
-rm -f sandbox.db
-sqlite3 sandbox.db ".read table_definitions.sql"
-sqlite3 sandbox.db ".read table_data.sql"
+pg_ctl stop -D ./psql  # 起動したまま削除しないようにする
+rm -rf ./psql
+
+pg_ctl initdb -D ./psql
+pg_ctl start -D ./psql -o "-p 54321"
+psql -d postgres -p 54321 -f db_definitions.sql
+
+psql -d sandbox -U maintainer -p 54321 -f table_definitions.sql
+psql -d sandbox -U maintainer -p 54321 -f table_data.sql
 
 # 駅データ.jp の csv をインポート
-sqlite3 -separator , sandbox.db ".import ../data/eki/company.csv eki_company"
-sqlite3 -separator , sandbox.db ".import ../data/eki/line.csv eki_line"
-sqlite3 -separator , sandbox.db ".import ../data/eki/station.csv eki_station"
-sqlite3 -separator , sandbox.db ".import ../data/eki/join.csv eki_station_join"
+psql -d sandbox -U maintainer -p 54321 -c "\copy eki_company from ../data/eki/company.csv with csv header"
+psql -d sandbox -U maintainer -p 54321 -c "\copy eki_line from ../data/eki/line.csv with csv header"
+psql -d sandbox -U maintainer -p 54321 -c "\copy eki_station from ../data/eki/station.csv with csv header"
+psql -d sandbox -U maintainer -p 54321 -c "\copy eki_station_join from ../data/eki/join.csv with csv header"
 
-sqlite3 sandbox.db ".read table_miscellaneous.sql"
+psql -d sandbox -U maintainer -p 54321 -f table_miscellaneous.sql
+
+pg_ctl stop -D ./psql
