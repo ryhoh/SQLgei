@@ -22,6 +22,17 @@ class TestTable(unittest.TestCase):
         actual = Table.from_select_stmt("select '2⃣' as one, '1⃣' as two; select '1⃣' as one, '2⃣' as two")
         self.assertEqual(expected, actual)
 
+        # 複数文で、途中にコメントを挟むケース
+        expected = Table(
+            columns=['one', 'two'],
+            records=[('1⃣', '2⃣')],
+        )
+        actual = Table.from_select_stmt("""
+        select '2⃣' as one, '1⃣' as two;  -- first  statement
+        select '1⃣' as one, '2⃣' as two   -- second statement
+        """)
+        self.assertEqual(expected, actual)
+
         # テーブル作成からデータ挿入
         expected = Table(
             columns=[],

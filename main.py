@@ -1,5 +1,6 @@
 import datetime
 import json
+import re
 from subprocess import Popen
 from typing import Any, List, Tuple
 
@@ -62,7 +63,7 @@ class Table:
     """
     @classmethod
     def from_select_stmt(self, query: str) -> "Table":
-        sqls = query.split("--")[0]  # コメント開始位置以降は見ない
+        sqls = re.sub("--.*\n", "\n", query)  # コメントは見ない
         result = None
         with psycopg2.connect(dsn='postgresql://bot:bot@localhost:54321/sandbox?application_name=SQLgei') as conn:
             with conn.cursor() as cur:
