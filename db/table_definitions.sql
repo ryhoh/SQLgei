@@ -7,11 +7,13 @@ CREATE TABLE nations (
        official VARCHAR(32),
        name VARCHAR(32)
 );
+ GRANT SELECT ON nations TO bot;
 
 CREATE TABLE prefs (
        id SERIAL PRIMARY KEY,
        name VARCHAR(16)
 );
+ GRANT SELECT ON prefs TO bot;
 
 CREATE TABLE stores (
        id SERIAL PRIMARY KEY,
@@ -20,6 +22,7 @@ CREATE TABLE stores (
 
        FOREIGN KEY (hq_pref_id) REFERENCES prefs(id)
 );
+ GRANT SELECT ON stores TO bot;
 
 CREATE TABLE foods (
        id SERIAL PRIMARY KEY,
@@ -30,47 +33,57 @@ CREATE TABLE foods (
 	UNIQUE (name, store_id),
        FOREIGN KEY (store_id) REFERENCES stores(id)
 );
+ GRANT SELECT ON foods TO bot;
 
 CREATE TABLE os (
        id SERIAL PRIMARY KEY,
        name VARCHAR(32)
 );
+ GRANT SELECT ON os TO bot;
 
 CREATE TABLE editors (
        id SERIAL PRIMARY KEY,
        name VARCHAR(32)
 );
+ GRANT SELECT ON editors TO bot;
 
 CREATE TABLE persons (
        id SERIAL PRIMARY KEY,
        name VARCHAR(16)
 );
+ GRANT SELECT ON persons TO bot;
 
 CREATE TABLE digits (
        digit INT PRIMARY KEY
 );
+ GRANT SELECT ON digits TO bot;
 
 CREATE TABLE u8 (
        val INT PRIMARY KEY
 );
+ GRANT SELECT ON u8 TO bot;
 
 CREATE TABLE u16 (
        val INT PRIMARY KEY
 );
+ GRANT SELECT ON u16 TO bot;
 
 CREATE TABLE i8 (
        val INT PRIMARY KEY
 );
+ GRANT SELECT ON i8 TO bot;
 
 CREATE TABLE i16 (
        val INT PRIMARY KEY
 );
+ GRANT SELECT ON i16 TO bot;
 
 CREATE TABLE bot_detail (
        id SERIAL PRIMARY KEY,
        title VARCHAR(32),
        contents VARCHAR(256)
 );
+ GRANT SELECT ON bot_detail TO bot;
 
 -- 駅データ.jp ここから
 CREATE TABLE eki_company (
@@ -85,6 +98,7 @@ CREATE TABLE eki_company (
        e_status        INTEGER          DEFAULT 0,
        e_sort          INTEGER          DEFAULT 0
 );
+ GRANT SELECT ON eki_company TO bot;
 
 CREATE INDEX eki_company_rr_cd         ON eki_company(rr_cd);
 CREATE INDEX eki_company_company_type  ON eki_company(company_type);
@@ -107,6 +121,7 @@ CREATE TABLE eki_line (
 
        FOREIGN KEY (company_cd) REFERENCES eki_company(company_cd)
 );
+ GRANT SELECT ON eki_line TO bot;
 
 CREATE INDEX eki_line_company_cd ON eki_line(company_cd);
 CREATE INDEX eki_line_e_sort     ON eki_line(e_sort);
@@ -133,6 +148,7 @@ CREATE TABLE eki_station (
 
        FOREIGN KEY (line_cd) REFERENCES eki_line(line_cd)
 );
+ GRANT SELECT ON eki_station TO bot;
 
 CREATE INDEX eki_station_station_g_cd ON eki_station(station_g_cd);
 CREATE INDEX eki_station_line_cd      ON eki_station(line_cd);
@@ -146,4 +162,5 @@ CREATE TABLE eki_station_join (
        
        PRIMARY KEY (line_cd,station_cd1,station_cd2)
 );
+ GRANT SELECT ON eki_station_join TO bot;
 -- 駅データ.jp ここまで

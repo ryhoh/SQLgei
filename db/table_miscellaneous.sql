@@ -9,6 +9,7 @@ CREATE VIEW matsuya (id, store_id, name, yen) AS
          JOIN stores ON stores.id = foods.store_id
         WHERE stores.name = '松屋'
         ORDER BY RANDOM();
+ GRANT SELECT ON matsuya TO bot;
 
 CREATE VIEW saizeriya (id, store_id, name, yen) AS 
        SELECT foods.id, foods.store_id, foods.name, foods.yen
@@ -16,6 +17,7 @@ CREATE VIEW saizeriya (id, store_id, name, yen) AS
          JOIN stores ON stores.id = foods.store_id
         WHERE stores.name = 'サイゼリヤ'
         ORDER BY RANDOM();
+ GRANT SELECT ON saizeriya TO bot;
 
 CREATE VIEW starbucks (id, store_id, name, yen) AS 
        SELECT foods.id, foods.store_id, foods.name, foods.yen
@@ -23,18 +25,21 @@ CREATE VIEW starbucks (id, store_id, name, yen) AS
          JOIN stores ON stores.id = foods.store_id
         WHERE stores.name = 'スターバックス'
         ORDER BY RANDOM();
+ GRANT SELECT ON starbucks TO bot;
 
 -- メタデータ出力用
 CREATE VIEW help (title, contents) AS
        SELECT bd.title, bd.contents
          FROM bot_detail AS bd
         ORDER BY bd.id ASC;
+ GRANT SELECT ON help TO bot;
 
 -- テーブル一覧取得用
 CREATE VIEW tables (schemaname, tablename) AS
        SELECT schemaname, tablename
          FROM pg_tables
         WHERE schemaname NOT LIKE 'pg_%' AND schemaname != 'information_schema';
+ GRANT SELECT ON tables TO bot;
 
 --------------------
 -- Functions
