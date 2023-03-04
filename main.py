@@ -67,12 +67,18 @@ class Table:
         with psycopg2.connect(dsn='postgresql://bot:bot@localhost:54321/sandbox?application_name=SQLgei') as conn:
             with conn.cursor() as cur:
                 for sql in sqls.split(";"):
-                    cur.execute(sql)
-                    if cur.description is not None:
-                        result = Table(
-                            columns=[col[0] for col in cur.description],
-                            records=cur.fetchall()
-                        )
+                    try:
+                        cur.execute(sql)
+                        if cur.description is not None:
+                            result = Table(
+                                columns=[col[0] for col in cur.description],
+                                records=cur.fetchall()
+                            )
+                    except psycopg2.ProgrammingError as e:
+                        if e.args[0] == "can't execute an empty query":
+                            pass
+                        else:
+                            raise e
                 conn.commit()
                 if result is None:  # CREATE TABLE や INSERT のみなど、SELECTがない場合
                     result = Table(columns=[], records=[tuple()])
