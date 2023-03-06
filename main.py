@@ -1,11 +1,18 @@
+import asyncio
 import datetime
 import json
 import re
 from subprocess import Popen
+import sys
 from typing import Any, List, Tuple
 
+from misskey import Misskey
 import psycopg2
 import tweepy
+import websockets
+
+
+import util
 
 
 # Timezone を日本に合わせる
@@ -152,25 +159,33 @@ def twit_shorten_for_tweet(text: str, max_len: int = 280, dots: str = '...\n') -
 """
 Twitter API を認証して利用できる状態にする
 
-@param credential_path 認証情報のパス
 @return tweepyライブラリのAPIオブジェクト
 
 """
-def twit_auth_ret_api(credential_path: str):
-    with open(credential_path, 'r') as f:
-        credential = json.load(f)
+def twit_auth_ret_api():
+    credential = util.load_credential()
     
     auth = tweepy.OAuthHandler(credential["API key"], credential["API Secret"])
     auth.set_access_token(credential["Token"], credential["Token Secret"])
     return tweepy.API(auth)
 
+"""
+Misskey API を認証して利用できる状態にする
+
+@return (misskeyライブラリのオブジェクト, token)
+"""
+def msky_auth_ret_api():
+    credential = util.load_credential()
+    token = credential['misskey token']
+    api = Misskey('misskey.io', i=token)
+    return (api, token)
 
 """
-botメイン関数
+Twitterメイン関数
 
 """
-def main():
-    api = twit_auth_ret_api('credential.json')
+def twit_main():
+    api = twit_auth_ret_api()
     for timeline_tweet in api.home_timeline():
         tweet_dict = timeline_tweet._json
         created_at = datetime.datetime.strptime(tweet_dict['created_at'], '%a %b %d %H:%M:%S %z %Y')
@@ -190,5 +205,54 @@ def main():
             break
 
 
+"""
+Misskeyメイン関数
+"""
+async def msky_main():
+    api, token = msky_auth_ret_api()
+    websocket_url = 'wss://misskey.io/streaming?i=' + token
+
+    async with websockets.connect(websocket_url) as ws:
+        await ws.send(
+            json.dumps({
+                "type": "connect",
+                "body": {
+                    "channel": "homeTimeline",
+                    "id": "test"
+                }
+            })
+        )
+
+        while True:
+            data = json.loads(await ws.recv())
+            if data['type'] == 'channel':
+                if data['body']['type'] == 'note':
+                    note = data['body']['body']
+                    await on_note(api, note)
+
+# ノートを受け取ったときの処理
+async def on_note(api: Misskey, note: json):
+    text: str = note['text']
+    if '#SQL芸' in text:
+        print('has hashtag!')
+        result = db_run_select_stmt_ret_img(text.replace('#SQL芸', ''))
+        # 先に画像をアップロード
+        with open(result[1], 'rb') as f:
+            img = api.drive_files_create(file=f)
+        # 画像つき、引用ノートを投稿
+        api.notes_create(
+            text=twit_shorten_for_tweet(result[0]),
+            file_ids=[img['id']],
+            renote_id=note['id']
+        )
+        print('noted.')
+
+
 if __name__ == '__main__':
-    main()
+    if sys.argv[1] == 'twitter':
+        twit_main()
+    elif sys.argv[1] == 'misskey':
+        asyncio.get_event_loop().run_until_complete(msky_main())
+    else:
+        print('Usage: python3 main.py [twitter|misskey]')
+        sys.exit(1)
