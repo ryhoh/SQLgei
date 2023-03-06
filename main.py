@@ -4,6 +4,7 @@ import json
 import re
 from subprocess import Popen
 import sys
+import time
 from typing import Any, List, Tuple
 
 from misskey import Misskey
@@ -212,24 +213,33 @@ async def msky_main():
     api, token = msky_auth_ret_api()
     websocket_url = 'wss://misskey.io/streaming?i=' + token
 
-    async with websockets.connect(websocket_url) as ws:
-        await ws.send(
-            json.dumps({
-                "type": "connect",
-                "body": {
-                    "channel": "homeTimeline",
-                    "id": "search_hashtag"
-                }
-            })
-        )
+    while True:
+        try:
+            async with websockets.connect(websocket_url) as ws:
+                await ws.send(
+                    json.dumps({
+                        "type": "connect",
+                        "body": {
+                            "channel": "homeTimeline",
+                            "id": "search_hashtag"
+                        }
+                    })
+                )
 
-        while True:
-            data = json.loads(await ws.recv())
-            print(data)
-            if data['type'] == 'channel':
-                if data['body']['type'] == 'note':
-                    note = data['body']['body']
-                    await on_note(api, note)
+                while True:
+                    data = json.loads(await ws.recv())
+                    print(data)
+                    if data['type'] == 'channel':
+                        if data['body']['type'] == 'note':
+                            note = data['body']['body']
+                            await on_note(api, note)
+        except Exception as e:
+            sys.stderr.write('[error] failed to connect to websocket.')
+            sys.stderr.flush()
+            logname = datetime.now().strftime('%Y%m%d%H%M%S') + '.log'
+            with open(logname, 'w') as f:
+                f.write(str(e))
+            time.sleep(10)
 
 # ノートを受け取ったときの処理
 async def on_note(api: Misskey, note: json):
@@ -255,23 +265,32 @@ async def msky_follow():
     api, token = msky_auth_ret_api()
     websocket_url = 'wss://misskey.io/streaming?i=' + token
 
-    async with websockets.connect(websocket_url) as ws:
-        await ws.send(
-            json.dumps({
-                "type": "connect",
-                "body": {
-                    "channel": "main",
-                    "id": "follow_back"
-                }
-            })
-        )
+    while True:
+        try:
+            async with websockets.connect(websocket_url) as ws:
+                await ws.send(
+                    json.dumps({
+                        "type": "connect",
+                        "body": {
+                            "channel": "main",
+                            "id": "follow_back"
+                        }
+                    })
+                )
 
-        while True:
-            data = json.loads(await ws.recv())
-            print(data)
-            if data['type'] == 'followed':
-                user = data['body']['body']
-                await on_follow(api, user)
+                while True:
+                    data = json.loads(await ws.recv())
+                    print(data)
+                    if data['type'] == 'followed':
+                        user = data['body']['body']
+                        await on_follow(api, user)
+        except Exception as e:
+            sys.stderr.write('[error] failed to connect to websocket.')
+            sys.stderr.flush()
+            logname = datetime.now().strftime('%Y%m%d%H%M%S') + '.log'
+            with open(logname, 'w') as f:
+                f.write(str(e))
+            time.sleep(10)
 
 # フォローされたときの処理
 async def on_follow(api: Misskey, user: json):
@@ -290,9 +309,9 @@ if __name__ == '__main__':
     if sys.argv[1] == 'twitter':
         twit_main()
     elif sys.argv[1] == 'misskey':
-        asyncio.get_event_loop().run_until_complete(msky_main())
+        asyncio.get_running_loop().run_until_complete(msky_main())
     elif sys.argv[1] == 'misskey_sub':
-        asyncio.get_event_loop().run_until_complete(msky_follow())
+        asyncio.get_running_loop().run_until_complete(msky_follow())
     else:
         print('Usage: python3 main.py [twitter|misskey|misskey_sub]')
         sys.exit(1)
