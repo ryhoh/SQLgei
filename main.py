@@ -236,7 +236,7 @@ async def msky_main():
         except Exception as e:
             sys.stderr.write('[error] failed to connect to websocket.')
             sys.stderr.flush()
-            logname = datetime.now().strftime('%Y%m%d%H%M%S') + '.log'
+            logname = datetime.datetime.now().strftime('%Y%m%d%H%M%S') + '.log'
             with open(logname, 'w') as f:
                 f.write(str(e))
             time.sleep(10)
@@ -287,7 +287,7 @@ async def msky_follow():
         except Exception as e:
             sys.stderr.write('[error] failed to connect to websocket.')
             sys.stderr.flush()
-            logname = datetime.now().strftime('%Y%m%d%H%M%S') + '.log'
+            logname = datetime.datetime.now().strftime('%Y%m%d%H%M%S') + '.log'
             with open(logname, 'w') as f:
                 f.write(str(e))
             time.sleep(10)
@@ -300,7 +300,7 @@ async def on_follow(api: Misskey, user: json):
     except Exception as e:
         sys.stderr.write('[error] failed to follow back.')
         sys.stderr.flush()
-        logname = datetime.now().strftime('%Y%m%d%H%M%S') + '.log'
+        logname = datetime.datetime.now().strftime('%Y%m%d%H%M%S') + '.log'
         with open(logname, 'w') as f:
             f.write(str(e))
 
@@ -309,9 +309,9 @@ if __name__ == '__main__':
     if sys.argv[1] == 'twitter':
         twit_main()
     elif sys.argv[1] == 'misskey':
-        asyncio.get_running_loop().run_until_complete(msky_main())
+        asyncio.get_event_loop().run_until_complete(msky_main())
     elif sys.argv[1] == 'misskey_sub':
-        asyncio.get_running_loop().run_until_complete(msky_follow())
+        asyncio.get_event_loop().run_until_complete(msky_follow())
     else:
         print('Usage: python3 main.py [twitter|misskey|misskey_sub]')
         sys.exit(1)
