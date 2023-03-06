@@ -218,13 +218,14 @@ async def msky_main():
                 "type": "connect",
                 "body": {
                     "channel": "homeTimeline",
-                    "id": "test"
+                    "id": "search_hashtag"
                 }
             })
         )
 
         while True:
             data = json.loads(await ws.recv())
+            print(data)
             if data['type'] == 'channel':
                 if data['body']['type'] == 'note':
                     note = data['body']['body']
@@ -247,12 +248,51 @@ async def on_note(api: Misskey, note: json):
         )
         print('noted.')
 
+"""
+Misskeyフォローバック関数
+"""
+async def msky_follow():
+    api, token = msky_auth_ret_api()
+    websocket_url = 'wss://misskey.io/streaming?i=' + token
+
+    async with websockets.connect(websocket_url) as ws:
+        await ws.send(
+            json.dumps({
+                "type": "connect",
+                "body": {
+                    "channel": "main",
+                    "id": "follow_back"
+                }
+            })
+        )
+
+        while True:
+            data = json.loads(await ws.recv())
+            print(data)
+            if data['type'] == 'followed':
+                user = data['body']['body']
+                await on_follow(api, user)
+
+# フォローされたときの処理
+async def on_follow(api: Misskey, user: json):
+    try:
+        api.following_create(user['id'])
+        print('followed back.')
+    except Exception as e:
+        sys.stderr.write('[error] failed to follow back.')
+        sys.stderr.flush()
+        logname = datetime.now().strftime('%Y%m%d%H%M%S') + '.log'
+        with open(logname, 'w') as f:
+            f.write(str(e))
+
 
 if __name__ == '__main__':
     if sys.argv[1] == 'twitter':
         twit_main()
     elif sys.argv[1] == 'misskey':
         asyncio.get_event_loop().run_until_complete(msky_main())
+    elif sys.argv[1] == 'misskey_sub':
+        asyncio.get_event_loop().run_until_complete(msky_follow())
     else:
-        print('Usage: python3 main.py [twitter|misskey]')
+        print('Usage: python3 main.py [twitter|misskey|misskey_sub]')
         sys.exit(1)
