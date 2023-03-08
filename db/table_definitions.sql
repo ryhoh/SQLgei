@@ -164,3 +164,10 @@ CREATE TABLE eki_station_join (
 );
  GRANT SELECT ON eki_station_join TO bot;
 -- 駅データ.jp ここまで
+
+-- misskey 系 ここから
+CREATE TABLE puppu (
+       code VARCHAR(32) PRIMARY KEY
+);
+ GRANT SELECT ON puppu TO bot;
+-- misskey 系、ここまで
