@@ -697,9 +697,8 @@ INSERT INTO i16
          FROM u16;
 
 INSERT INTO bot_detail (title, contents) VALUES
-       ('データベース', 'sqlite3'),
-       ('OS', 'Ubuntu'),
-       ('説明', '#SQL芸 を付けてSQL文をツイートすると、SQLを実行できます。'),
+       ('データベース', (SELECT version())),
+       ('説明', '#SQL芸 を付けてSQL文を投稿すると、SQLを実行できます。'),
        ('リポジトリ', 'https://github.com/ryhoh/SQLgei'),
-       ('テーブル一覧確認', 'select name from tables'),
-       ('テーブル定義確認', 'select sql from tables where name = ''テーブル名''');
+       ('テーブル一覧確認', 'SELECT * FROM tables'),
+       ('カラム一覧確認', 'SELECT * FROM columns WHERE table_name = ''テーブル名''');

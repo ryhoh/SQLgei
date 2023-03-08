@@ -35,11 +35,18 @@ CREATE VIEW help (title, contents) AS
  GRANT SELECT ON help TO bot;
 
 -- テーブル一覧取得用
-CREATE VIEW tables (schemaname, tablename) AS
-       SELECT schemaname, tablename
+CREATE VIEW tables (tablename) AS
+       SELECT tablename
          FROM pg_tables
         WHERE schemaname NOT LIKE 'pg_%' AND schemaname != 'information_schema';
  GRANT SELECT ON tables TO bot;
+
+ -- カラム一覧取得用
+CREATE VIEW columns (table_name, column_name, data_type) AS
+       SELECT table_name, column_name, data_type
+         FROM information_schema.columns
+        WHERE table_schema NOT LIKE 'pg_%' AND table_schema != 'information_schema'
+        ORDER BY ordinal_position;
 
 --------------------
 -- Functions
