@@ -151,11 +151,6 @@ class TestPreprocess(unittest.TestCase):
         actual = db_preprocess("```test````")
         self.assertEqual(expected, actual)
 
-        # 通常ケース
-        expected = "test"
-        actual = db_preprocess("`test`")
-        self.assertEqual(expected, actual)
-
 
 # 結合試験
 class TestJoin(unittest.TestCase):

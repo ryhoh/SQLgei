@@ -118,10 +118,7 @@ def db_preprocess(text: str) -> str:
     res = text.replace('#SQL芸', '')  # ハッシュタグは見ない
     res = res.replace('&lt;', '<').replace('&gt;', '>')  # HTMLエンティティを元に戻す
     res = res.strip(" \n\r\t")  # 前後の空白を削除
-    if re.fullmatch("```.*```", res, re.DOTALL):  # コードブロックの場合
-        res = res[3:-3]
-    elif re.fullmatch("`.*`", res):  # インラインコードの場合
-        res = res[1:-1]
+    res = res.replace("```", "")  # コードブロックの場合は削除
     return res
 
 """
