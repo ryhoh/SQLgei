@@ -3,22 +3,22 @@
 --------------------
 
 CREATE TABLE nations (
-       id SERIAL PRIMARY KEY,
-       official VARCHAR(32),
-       name VARCHAR(32)
+       id INT PRIMARY KEY,
+       official VARCHAR(32) NOT NULL,
+       short VARCHAR(32) NOT NULL
 );
  GRANT SELECT ON nations TO bot;
 
 CREATE TABLE prefs (
-       id SERIAL PRIMARY KEY,
-       name VARCHAR(16)
+       id INT PRIMARY KEY,
+       name VARCHAR(16) NOT NULL
 );
  GRANT SELECT ON prefs TO bot;
 
 CREATE TABLE stores (
-       id SERIAL PRIMARY KEY,
-       name VARCHAR(32),
-       hq_pref_id INT,
+       id INT PRIMARY KEY,
+       name VARCHAR(32) NOT NULL,
+       hq_pref_id INT NOT NULL,
 
        FOREIGN KEY (hq_pref_id) REFERENCES prefs(id)
 );
@@ -26,9 +26,9 @@ CREATE TABLE stores (
 
 CREATE TABLE foods (
        id SERIAL PRIMARY KEY,
-       store_id INT,
-       name VARCHAR(64),
-       yen INT,
+       store_id INT NOT NULL,
+       name VARCHAR(64) NOT NULL,
+       yen INT NOT NULL,
 
 	UNIQUE (name, store_id),
        FOREIGN KEY (store_id) REFERENCES stores(id)
@@ -37,19 +37,19 @@ CREATE TABLE foods (
 
 CREATE TABLE os (
        id SERIAL PRIMARY KEY,
-       name VARCHAR(32)
+       name VARCHAR(32) NOT NULL
 );
  GRANT SELECT ON os TO bot;
 
 CREATE TABLE editors (
        id SERIAL PRIMARY KEY,
-       name VARCHAR(32)
+       name VARCHAR(32) NOT NULL
 );
  GRANT SELECT ON editors TO bot;
 
 CREATE TABLE persons (
        id SERIAL PRIMARY KEY,
-       name VARCHAR(16)
+       name VARCHAR(16) NOT NULL
 );
  GRANT SELECT ON persons TO bot;
 
@@ -80,8 +80,8 @@ CREATE TABLE i16 (
 
 CREATE TABLE bot_detail (
        id SERIAL PRIMARY KEY,
-       title VARCHAR(32),
-       contents VARCHAR(256)
+       title VARCHAR(32) NOT NULL,
+       contents VARCHAR(256) NOT NULL
 );
  GRANT SELECT ON bot_detail TO bot;
 
