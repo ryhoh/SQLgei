@@ -70,8 +70,7 @@ class Table:
     @note 複数の文を与えた場合、最後のSELECT文に対する結果を返す
     """
     @classmethod
-    def from_select_stmt(self, query: str) -> "Table":
-        sqls = re.sub("--.*\n", "\n", query)  # コメントは見ない
+    def from_select_stmt(self, sqls: str) -> "Table":
         result = None
         with psycopg2.connect(dsn='postgresql://bot:bot@localhost:54321/sandbox?application_name=SQLgei') as conn:
             with conn.cursor() as cur:
@@ -103,10 +102,27 @@ SELECT文を実行して結果文字列を得る
 """
 def db_run_select_stmt(text: str) -> str:
     try:
-        result = str(Table.from_select_stmt(text.replace('&lt;', '<').replace('&gt;', '>')))
+        preprocessed = db_preprocess(text)
+        result = str(Table.from_select_stmt(preprocessed))
     except Exception as e:
         result = str(e)  # 例外時はその内容を文字列化して返す
     return result
+
+"""
+実行する文の前処理を行う
+
+@param text 実行する文
+@return 前処理後の文
+"""
+def db_preprocess(text: str) -> str:
+    res = text.replace('#SQL芸', '')  # ハッシュタグは見ない
+    res = res.replace('&lt;', '<').replace('&gt;', '>')  # HTMLエンティティを元に戻す
+    res = res.strip(" \n\r\t")  # 前後の空白を削除
+    if re.fullmatch("```.*```", res, re.DOTALL):  # コードブロックの場合
+        res = res[3:-3]
+    elif re.fullmatch("`.*`", res):  # インラインコードの場合
+        res = res[1:-1]
+    return res
 
 """
     実行結果をテキストと画像形式で返す
@@ -195,7 +211,7 @@ def twit_main():
             print('Found: %s, %s, %s' % (created_at, tweet_dict['user']['screen_name'], text))
             if '#SQL芸' in text:
                 print('has hashtag!')
-                result = db_run_select_stmt_ret_img(text.replace('#SQL芸', ''))
+                result = db_run_select_stmt_ret_img(text)
                 api.update_with_media(
                     filename=result[1],
                     status=twit_shorten_for_tweet(result[0]),
@@ -246,7 +262,7 @@ async def on_note(api: Misskey, note: json):
     text: str = note['text']
     if '#SQL芸' in text:
         print('has hashtag!')
-        result = db_run_select_stmt_ret_img(text.replace('#SQL芸', ''))
+        result = db_run_select_stmt_ret_img(text)
         # 先に画像をアップロード
         with open(result[1], 'rb') as f:
             img = api.drive_files_create(file=f)

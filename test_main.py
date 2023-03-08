@@ -128,16 +128,52 @@ select * from primes;
         self.assertEqual(expected, actual)
 
 
+class TestPreprocess(unittest.TestCase):
+    # 前処理のテスト
+    def test_preprocess(self):
+        # 通常ケース
+        expected = ""
+        actual = db_preprocess("#SQL芸")
+        self.assertEqual(expected, actual)
+
+        # 通常ケース
+        expected = "<>"
+        actual = db_preprocess("&lt;&gt;")
+        self.assertEqual(expected, actual)
+
+        # 通常ケース
+        expected = "test"
+        actual = db_preprocess("\n test\n ")
+        self.assertEqual(expected, actual)
+
+        # 通常ケース
+        expected = "test`"
+        actual = db_preprocess("```test````")
+        self.assertEqual(expected, actual)
+
+        # 通常ケース
+        expected = "test"
+        actual = db_preprocess("`test`")
+        self.assertEqual(expected, actual)
+
+
 # 結合試験
 class TestJoin(unittest.TestCase):
+    # 実用的な入力ケース
     def test_db_run_select_stmt(self):
         expected = \
 """one | two | a
 1⃣ | 2⃣ | あ
+1⃣ | 2⃣ | あ
+1⃣ | 2⃣ | あ
 """
-        actual = db_run_select_stmt("select '1⃣' as one, '2⃣' as two, 'あ' as a")
+        actual = db_run_select_stmt("""
+        ```select '1⃣' as one, '2⃣' as two, 'あ' as a  -- サンプルデータを
+        from u8  /* u8テーブルをダミーで使って */
+        limit 3;  -- 3回出力する```""")
         self.assertEqual(expected, actual)
 
+    # 画像出力との結合を見る
     def test_db_run_select_stmt_ret_img(self):
         expected = \
 """one | two | a
