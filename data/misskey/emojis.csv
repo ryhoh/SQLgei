@@ -1,0 +1,2687 @@
+id,code,info
+1,ai_acid_misskeyio,
+2,ai_embarrassed_misskeyio,
+3,ai_late_misskeyio,
+4,ainers_misskeyio,
+5,ai_panic_misskeyio,
+6,ai_petrified_misskeyio,
+7,ai_pointing_misskeyio,
+8,ai_psychedelic_misskeyio,
+9,ai_serious_misskeyio,
+10,ai_sign_misskeyio,
+11,ai_smile_misskeyio,
+12,ai_space_misskeyio,
+13,ai_tired_misskeyio,
+14,nouhin_kannryou_misskeyio,
+15,nouhin_shippai_misskeyio,
+16,aiscript,ai aiscript_logo
+17,ariganezenbutokashita_murakamisan,misskeyで有り金全部溶かした村上さん ありがねぜんぶとかしたむらかみさん ariganezenbutokasita_murakamisan
+18,confidential_murakamisan,村上さん confidential blur pixelized murakamisan
+19,era_,error エラー えら_ 
+20,hide_content_de_kakusite_love,内容を隠すで隠して♥ ないようをかくすでかくして♥ please_hide_with_content_warning_love nsfw 注釈 annotation
+21,hide_content_tukatte_love,内容を隠すつかって♥ ないようをかくすつかって♥ please_use_content_warning_love nsfw 注釈 annotation
+22,icon_murakamisan,村上さん むらかみさん aureoleark ark aureole 
+23,info,ノートはありません
+24,kemokamisan_nya,村上さん murakamisan
+25,kemonomurakamisan_akajidesu,けものむらかみさんあかじです ケモノ村上さん赤字です 赤字です akajidesu kemomimimurakamisan_akajidesu
+26,kidoku,既読 きどく read seen 
+27,mi_,ミ゚ ミ゜ ﾐ゚ ﾐ゜mi
+28,misskey,misskey
+29,misskey11,misskey_v11 v11
+30,misskey2017,misskey_2017_mar30
+31,misskey2022,misskey_title
+32,misskey_pre_v0_0_5018,misskey_pre2017_mar30_0643_v0.0.5018
+33,misskey_pre_v12,misskey_v12.0.0 misskey_2020_jan31
+34,misskeystackoverflow,kro stackoverflow 500 
+35,misskey_v0_0_5018,misskey_v0.0.5018
+36,misskey_v12_26_01,misskey2020_mar25_1454_v12_26
+37,misskey_v12_26_02,misskey2020_mar25_2119_v12_26
+38,misskey_v12_26_favicon,misskey_v12.26.0
+39,misskey_v12_27_1,misskey_v12.27.1
+40,murakamisan_send_money,レターパックで現金送る村上さん れたーぱっくでげんきんおくるむらかみさん letterpack_de_genkin_okuru_murakamisan murakamisan_letterpack
+41,murakamisan_shock,村上さんパニック むらかみさんぱにっく 村上さんショック むらかみさんしょっく murakamisan_panic えええ はずかしい せきめん 赤面 恥ずかしい 恥しい
+42,murakamisan_yoshi,村上さんヨシ! むらかみさんよし yoshi_murakamisan murakamisan_yosi yosi_murakamisan 現場村上さん
+43,note,ノート
+44,osizukani_onegaisimasu,お靜かにおねがいします お静かにおねがいします おしずかにおねがいします oshizukani_onegaishimasu quiet_please
+45,petthex_syuilo_9597,しゅいろ なでなで びよーん nadenade pat pet syuilo pet_the_wide_syuilo wide
+46,pudding_cat,プリン ねこ ねこプリン
+47,pudding_verified_misskey,プリン 認証プリン ミスキープリン
+48,silence,サイレンス
+49,ssr_faildtoloadimage,画像の読み込みに失敗しました がぞうのよみこみにしっぱいしました failed_to_load_image ssr failed load image 
+50,unknown_emoji,unknown emoji
+51,v12,misskey_v12
+52,wakatta,wakatta_ui わかった 
+53,ai_blink,藍 あい ai blink_ai まばたき 瞬き おめめぱちぱち ぱちぱち
+54,ai_bonk,bonk 藍 あい おこ 怒った 叩く たたく ひっと ぼんく だめ bap 
+55,ai_icon,ai
+56,ai_koreyarimashitaka,
+57,ai_nomming,ai_eating ai_mogumogu もぐもぐ mogumogu たべる 食べる おいしい
+58,ai_owo,owo ai 藍 owo藍 藍owo あい おを
+59,ai_yay,yay_ai 藍 あい ばんざい バンザイ ばんざーい やった やったぁ わぁい わーい やったー やったぁ うれしい ハッピー たのしい わーいわーい よろこび よろこぶ  happy yay ai praise
+60,ai_yaysuperfast,ai_hyper ai_yayhyper ai_trippin ai_superfastyay ai_yay_superfast ai_yay_hyper 藍 あい やったー 
+61,angry_ai,ai angry oko
+62,crying_ai,ai cry
+63,doya_ai,ai doya kiri smirk
+64,innocent_ai,ai_innocent innocent halo ai_halo halo_ai 藍 天使 藍天使 天使藍 あい にっこり ニッコリ 笑顔 
+65,owo_ai,藍 藍owo 藍おを おをあい owoai aiowo ai_owo
+66,sleeping_ai,ai sleep oyasumi suya
+67,smiling_ai,ai smile
+68,surprised_ai,ai surprise
+69,thinking__ai,ai
+70,thinking_ai,ai thinking
+71,woozy_ai,ai woozy 藍 ウージー 
+72,4ttenakuinu,4って鳴く犬 よん
+73,bluebird_frozen,frozen_bluebird 青い鳥 あおいとり 凍結 frozen 凍結した鳥 凍結した青い鳥 bluebird twitter_suspended freeze とうけつ touketu touketsu 
+74,kawauso,かわうそ 獺
+75,youtaiki_nemudaru,幼体期ねむだる ようたいきねむだる baby_nemudaru young_nemudaru
+76,longfox_body,ながいきつね_ボディ ながいきつね
+77,longfox_body_left,ながいきつね_ボディ_左回り ながいきつね
+78,longfox_body_right,ながいきつね_ボディ_右回り ながいきつね
+79,longfox_head,ながいきつね
+80,boredparrot,暇 ひま ボアードパロット
+81,fastparrot,ファストパロット パーティパロット パロット
+82,parrot,パロット パーティパロット
+83,parrot_sorena,それな それなぱろっと sorena_parrot that this
+84,angry_shibe,しべ犬 シベ犬 アングリーシベ angry upset mad screaming scream roar roaring bark barking dog shibe_dog dog_shibe sibe sibe_dog angry_shibe shibe_angry おこ 怒る 吠える ほえる
+85,shibeangry,しべ シベ シベアングリー おこ 怒る おこる むか むかっ アングリー angry upset mad muka oko okoru
+86,shibehappy,しべ シベ シベハッピー にこにこ にこっ 笑顔 しあわせ nikoniko happy shibehappy sibe_happy happy_shibe ShibeSoHappy
+87,shibesmug,しべ シベ シベスマッグ smug ドヤ顔 どや顔 どやがお どやぁ にやっ sibe ShibeSmug smug_shibe sibe_smug shibe_smug smug_sibe
+88,poop_vomiting_saurus,うんちげぼざうるす ウンチゲボザウルス unchi_gebo_saurus ungebo
+89,poop_vomiting_saurus_animation,ウンチゲボザウルス unchigebozaurusu ungebo_animation
+90,poop_vomiting_saurus_eat,うんちげぼざうるす ウンチゲボザウルス unchi_gebo_saurus ungebo_eat
+91,poop_vomiting_saurus_found,うんちげぼざうるす ウンチゲボザウルス unchi_gebo_saurus
+92,poop_vomiting_saurus_huggies,ウンチゲボザウルス うんちげぼざうるす ぎゅ ハグ unchigebozaurusu ungebo_huggies
+93,poop_vomiting_saurus_hungry,うんちげぼざうるす ウンチゲボザウルス unchi_gebo_saurus_hungry ungebo_hungry
+94,poop_vomiting_saurus_vomiting,うんちげぼざうるす ウンチゲボザウルス unchi_gebo_saurus_vomiting ungebo_vomiting
+95,unchi_gebo_saurus,ウンチゲボザウルス うんちげぼざうるす unchigebo_saurus unchigebo_zaurusu unchi_gebo_saurus unchi_gebo_zaurusu ungebo untigebo_saurus untigebo_zaurusu unti_gebo_saurus unti_gebo_zaurusu
+96,blebcat,
+97,blobbroken,
+98,blobcamera,blob かめら camera カメラ
+99,blob_closed_book,
+100,blobcozynap,おふとん ふとん futon huton 布団 お布団 ブロブコージーナップ ブロブコージィーナップ お昼寝 おひるね ひるね 昼寝 ohirune hirune nap cozynap ナップ
+101,blobeating_ehoumaki,blob eating ehoumaki 食べる 恵方巻き えほうまき ehomaki 
+102,blobgamer,blob gamer ゲーマー 
+103,blobglassesdown,
+104,blobgo,
+105,blobhammer,ban バン 追放 ハンマー バンハンマー ブロブハンマー
+106,blobhighfive,
+107,blob_hug_blahaj,イケアシャーク ikeashark サメ イケアのサメ ブローハイちゃん
+108,blobhyperthink,
+109,blobkotatsu,こたつ おこた 炬燵 火燵 blobkotatu kotatu kotatsu ブロブこたつ
+110,bloblargemouth,
+111,blobmail,
+112,blobnervous2,nervous えーっと えーと 指つん ゆびつん yubitun 指つんつん 言い訳 いいわけ iiwake
+113,blobno,blob_no blob no 
+114,blobowosquint,blobowo squint 目細め スキュイント スクイント きゃ 
+115,blobshh,
+116,blobsignya,
+117,blobsleepless,
+118,blobsweats,
+119,blob_think_smart,
+120,blobthumbsup,omotenidero 表出ろ
+121,blob_yum,
+122,nombread,
+123,ohoho_blobs,
+124,ablobaww,
+125,ablobblewobble,
+126,ablobcall,コール 泣きコール 応援 加油 call ouen crycall crycheer crying_call crying_cheering cheering_crying blob cry
+127,ablobdj,
+128,ablobdjslow,
+129,ablobdjveryslow,
+130,ablobdundundun,
+131,ablobgoodnightreverse,
+132,ablobhammer,BAN aban バン 追放 ハンマー バンハンマー ブロブハンマー
+133,ablobhungry,blob hungry
+134,ablobhype,
+135,ablobkeyboard,
+136,ablobmaracas,
+137,ablobpeekjohnny,
+138,ablobsmile,
+139,ablobsmilehappy,
+140,ablob_spinfast,
+141,ablobthinkingzerogravity,
+142,ablobwobroll,
+143,blob_congaroll_bounce,
+144,blob_devil,
+145,blob_disappointment,
+146,blob_flushed,
+147,blob_goggling,
+148,blobhai,
+149,blob_hello,
+150,blobhyperbounce,
+151,blob_hyper_nod,うんうん 肯く 首肯く 頷く うなづく うなずく 
+152,blob_keybord,キーボード
+153,blob_nope,
+154,blobooohai,
+155,blob_present,
+156,blob_rolling_bound,
+157,blob_sleepy,
+158,blobsnowball2,
+159,blob_squish,
+160,blob_super_nod,うんうん 肯く 首肯く 頷く うなづく うなずく 
+161,blob_surprise_blush,
+162,blobtoofast,
+163,burublobhyperthink,
+164,blabcatbea,
+165,blabcatpeek,
+166,blabcatverified,
+167,blabcatverifiedfake,
+168,blobcataco,
+169,blobcatartist,
+170,blobcataww,
+171,blobcatbigsob,
+172,blobcatboopblush,
+173,blobcatcofesip,
+174,blobcatcomfy,
+175,blobcatconfounded,blob cat confounded まごまご まごつく 困惑 ふええ 狼狽
+176,blobcatdroolreach,うまそう 美味そう おいしそう 美味しそう ほしい 欲しい よだれ 涎 ジュルール ドルール リーチ 手伸ばし 手を伸ばす てをのばす yummy want tasty 
+177,blobcatevil,
+178,blobcatflip,
+179,blobcatfluffpout,
+180,blobcat_frustration,ぐえー 
+181,blobcatgooglytrash,
+182,blobcatmeataww,
+183,blobcatmeltlove,
+184,blobcatmeltnomblobcatmelt,
+185,blobcatmlem,
+186,blobcatnomblobdoggo,
+187,blobcatnomwatermelon,
+188,blobcatnoplease,
+189,blobcatnotamused,>< ＞＜ blobcat notamused not_amused ふええ 
+190,blobcatoh,oh
+191,blobcat_ok_sign,
+192,blobcatpensive,
+193,blobcatphoto,
+194,blobcatphotobomb,blobcat blob photobomb peeking 覗く フォトボム フォトボミング うつりこむ 写真に映り込む
+195,blobcatphoto_frustration,blob blobcat blobcatphotobomb photobomb frustration frustrated blobcatfrustrated_photobomb blobcatphotobomb_frustrated 
+196,blobcatpolicepeek,警察 ポリス ポリスピーク 警察ちら見 ブロブキャットポリスピーク
+197,blobcatreachmelt,
+198,blobcatshrug,
+199,blobcatsign,
+200,blobcatstop,blob cat stop 止まれ やめて ねこ 
+201,blobcattea,tea お茶 おちゃ blob blobcat 
+202,blobcatthinking,
+203,blobcatuwu,
+204,blobcatverified,
+205,blobcat_woozy,
+206,catblob_hug_blahaj,イケアシャーク ikeashark サメ イケアのサメ ブローハイちゃん blobcat hug 
+207,catblob_hug_udon,catblob hug udon うどん ねこ どん兵衛
+208,comfyyes,yes はい 看板 かんばん kanban
+209,meow0_0,
+210,meowawauu,blob 笑顔 えがお egao smile happy ハッピー はっぴー
+211,meowblue,blobcatblue blob cat blue
+212,meowcry,cry 猫 ねこ neko 泣く なく naku 涙 なみだ namida
+213,meowfacepalm,
+214,meowFingerGuns,
+215,meowflower,
+216,meowgreen,blobcatgreen blob cat green
+217,meowhuggies,
+218,meowmelt,
+219,meowmeltcry,cry 猫 ねこ neko 泣く なく naku 涙 なみだ namida blobcatmeltcry blobcat blobcat_meltcry meltcry
+220,meoworange,blobcatorange blob cat orange
+221,meowpats,blob pat ナデナデ なでなで なでる 撫でる naderu nadenade
+222,meowPuffyHeadphones,
+223,meowScream,
+224,meowshh,
+225,meowShrug,
+226,meowSleeping,
+227,meowSurprised,
+228,meowtilt,
+229,ablobcatblink,パチパチ おめめパチパチ ブリンク ブロブキャットブリンク
+230,ablobcatblinkhyper,おめめパチパチハイパー パチパチハイパー ブリンクハイパー
+231,ablobcatcoffee,
+232,ablobcatcryingcute,
+233,ablobcatheadbangfastultra,うんうん 肯く 首肯く 頷く うなづく うなずく nod nodding nodhyper
+234,ablobcathyper,
+235,ablobcatnodmeltcry,うんうん 肯く 首肯く 頷く うなづく うなずく  ameownodmeltcry ablob blob ablobcat ameow cat meow nod melt cry
+236,ablobcatphotobomb,animated アニメーション 動く blobcat blob ablobcat photobomb peeking 覗く フォトボム フォトボミング うつりこむ 写真に映り込む
+237,ablobcatreachflip,
+238,ablobcatsnowjoy,
+239,ablobcatsweatsip,飲む シップ 汗 あせ
+240,ablobcatwave,
+241,ablobcatwhackyfast,
+242,ameowblink,ブロブキャットブリンク ブリンク
+243,ameowblinkreverse,ブロブキャットブリンクリバース ブリンク
+244,ameowbongo,
+245,ameownod,うなづく うなずく 首肯く 肯く 頷く ノッド ブロブキャットノッド ミャウノッド ニャーノッド
+246,blob_bongo_cat_keyboard,キーボード ボンゴ ボンゴキャット ボンゴねこ ボンゴキャットキーボード 
+247,blobcatblinkrev,ブロブキャットブリンクリバース ブリンク
+248,blobcatheartbongo,ハート 好き すき いいね ブロブキャットハートボンゴ
+249,blobcat_mudamudamuda,無駄無駄無駄 むだむだむだ 無駄無駄ラッシュ ブロブキャットムダムダムダ mudamudamuda blobcat punch パンチ ねこぱんち
+250,blobcatrainbow,レインボー にじいろ 虹色 七色 なないろ ななびかり ななひかり 七光 ゲーミング ブロブキャットレインボー
+251,blobcatstretchbottom,
+252,blobcatstretchmiddle,
+253,blobcatstretchtop,
+254,blobcatsweatflips,汗 あせ いやいや あわてる 慌てる ブロブキャットスウェットフリップス
+255,resonyance,
+256,ablobfox_loading,ablobfox loading
+257,blobfoxcheck,
+258,blobfoxfacepalm,
+259,blobfoxoutage,blobfox outage
+260,blobfoxsignbaka,
+261,blobfoxsignnou,
+262,blobfoxsignnoublush,
+263,blobfoxsignthx,
+264,blobfoxsignyes,
+265,abunhdcry,cry 兎 ウサギ うさぎ usagi バニー ばにー bani- bunny 泣く なく naku 涙 なみだ namida
+266,abunhdhappyhop,
+267,bun,
+268,bun_back,
+269,bunblanketkawaii,
+270,buncowboy,
+271,buncowboycry,cry 兎 ウサギ うさぎ usagi バニー ばにー bani- bunny 泣く なく naku 涙 なみだ namida
+272,buncry,cry 兎 ウサギ うさぎ usagi バニー ばにー bani- bunny 泣く なく naku 涙 なみだ namida
+273,bun_down,
+274,buneyes,
+275,bun_fliprev,
+276,bunglitch,
+277,bunhd,
+278,bunhd_aww,
+279,bunhdcouple,
+280,bunhdcry,cry 兎 ウサギ うさぎ usagi バニー ばにー bani- bunny 泣く なく naku 涙 なみだ namida
+281,bunhd_googly,
+282,bunhd_happy,
+283,bunhd_happyhop,
+284,bunhd_hop,
+285,bunhdhyperbounce,
+286,bunhd_kadomatsu,
+287,bunhd_kagamimochi,
+288,bunhdknife,
+289,bunhdlurkaww,
+290,bunhdrainbow,
+291,bunhd_sadpat,
+292,bunhd_sleep,
+293,bunhdverifiredmisskey,bun bunny verified misskey 
+294,bunlewd,
+295,bunpats,
+296,bunsad,
+297,bunsleep,
+298,bunthinking,
+299,bun_up,
+300,cofebun1,
+301,cofebun3,
+302,revbunhdgoogly,
+303,revbunhdsmug,
+304,cat_on_laptop,
+305,hyper_vibecat,dance 楽しい たのしい だんす ダンス tanoshii tanosii
+306,animuthinku,animu あにむ think thinking animu_think animu_thinking thinking_animu think_animu thinku_animu 考える かんがえる うーん しんきんぐ シンキング シンキングあにむ
+307,aramaki,荒巻 あらまき
+308,goblin_attack,ゴブリン goblin
+309,hakuzou,pawoo 白象 ハクゾウ はくぞう pawoo.net ぱうー パウー
+310,maid_nod,うんうん 肯く 首肯く 頷く うなづく うなずく 
+311,otachan_drinking,Otachan_DRINKING 
+312,pika,ピカ ぴか
+313,www_odamari,わらわらわらおだまり 黙
+314,youseino_akiko,妖精の晶子 ようせいのあきこ 与謝野晶子の妖精 よさのあきこのようせい yosano_akiko_no_yousei yosano_akiko_fairy yousei_akiko
+315,puniko_pout,
+316,reeEEE,
+317,cirno_saddest,ちるの チルノ
+318,cri,
+319,ota,
+320,owonervous,
+321,pixie_fan,
+322,puniko_cry,
+323,sadblob,cry sad かなしい 悲しい ぐにょぐにょ
+324,don_greeting,mastodon マストドン greeting_don mastodon_mascot
+325,kawaii_denmark,コンセント コンセントプラグ デンマーク デンマーク式コンセントプラグ
+326,koisuru_doragon,
+327,konomi_good,
+328,lul,
+329,owo_hyper,
+330,02lewd,
+331,lewd,
+332,chick_wink_heart,
+333,gustafgaveyoumyheart,
+334,menme_jito,menme ジト目
+335,menme_kanasi,menme cry crying 悲しい かなしい かなしむ 悲しむ 泣く なく 涙 なみだ
+336,menme_kyomu,menme 虚無 白目
+337,menme_pechi,menme menme_peti ぺちぺち ペチペチ pechipechi 
+338,menme_shake,menme シェイク 怒る
+339,menme_siosio,menme しおしお つかれた
+340,menme_surprise,menme surprised びっくり おどろく 驚く ！
+341,menme_tanosi,menme たのしい
+342,menme_thinking,menme thinking think ？ 疑問符 疑問 はてな
+343,menme_tokeru,menme 溶ける 暑い
+344,menme_uresi,menme
+345,notlikemiya,notlikethis notlike こんなはずでは みや 綾瀬美夜 頭を抱える あたまをかかえる
+346,nullcatchan_biglove,nullcatchan! ぬるきゃっとちゃん！ 
+347,nullcatchan_cry,nullcatchan! ぬるきゃっとちゃん！ 
+348,nullcatchan_erai,nullcatchan! ぬるきゃっとちゃん！ 
+349,nullcatchan_goodmorning,nullcatchan! ぬるきゃっとちゃん！ 
+350,nullcatchan_goodnight,nullcatchan! ぬるきゃっとちゃん！ 
+351,nullcatchan_love,nullcatchan! ぬるきゃっとちゃん！ 
+352,nullcatchan_nod,nullcatchan! ぬるきゃっとちゃん！ 
+353,nullcatchan_nope,nullcatchan! ぬるきゃっとちゃん！ 
+354,nullcatchan_ok,nullcatchan! ぬるきゃっとちゃん！ 
+355,nullcatchan_pipipi,nullcatchan! ぬるきゃっとちゃん！ 
+356,nullcatchan_pout,nullcatchan! ぬるきゃっとちゃん！ 
+357,nullcatchan_question,nullcatchan! ぬるきゃっとちゃん！ 
+358,nullcatchan_silence,nullcatchan! ぬるきゃっとちゃん！ 
+359,nullcatchan_sorry,nullcatchan! ぬるきゃっとちゃん！ 
+360,nullcatchan_thx,nullcatchan! ぬるきゃっとちゃん！ 
+361,nullcatchan_tira,nullcatchan! ぬるきゃっとちゃん！ 
+362,nullcatchan_zee,nullcatchan! ぬるきゃっとちゃん！ 
+363,aissh,
+364,angry_thinking_sleeping_face_with_tongue_sticking_out,
+365,bap,頭叩いてる絵文字
+366,chara,キャラ きゃら
+367,chicken_roll,
+368,cirno_when,チルノ ちるの
+369,danboard,
+370,doge,
+371,eyes_blink,
+372,flowey,フラウィー ふらうぃー おはな はな 花 クソ花
+373,foxjump,
+374,genbaneko,
+375,gyate_mokou_fire,もこう 藤原妹紅
+376,hibiki_flex,
+377,kyle,
+378,mastodon_oops,
+379,menharayippie,
+380,neko_kitui_scp_040_jp_j_snoj_Ikr_4185_cc_by_sa_3_0,
+381,neko_scp_040_jp_Ikr_4185_cc_by_sa_3_0,neko_test
+382,oh_shoboon,
+383,o_wa,ポプ子 popteamepic ポプテピピック popuko
+384,owaaaaaa,
+385,oyaji_body,
+386,psychedelic_fits,
+387,puniko_hi,
+388,rhaha_anger_loop,
+389,rhaha_norinori,
+390,rhaha_norinori_loop,
+391,take_this,
+392,tvchan,
+393,vomiting_thinking_skeptical_face_with_hugging_hands,
+394,wobbly_chicken,
+395,yen_face,
+396,heyy,
+397,pepehands,
+398,pepejam,pepe ペペ ぺぺ
+399,pepesad,sad pepe ペペ ぺぺ 
+400,pepesmug,pepe smug どやがお ドヤ顔 ペペ ペペ
+401,pepethinking,think pepe ぺぺ ペペ 
+402,sitt,
+403,polarbear,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+404,polarbearandsmallerpolarbear,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+405,polarbearbongocat,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+406,polarbear_crying,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+407,polarbear_fast,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+408,polarbear_fire,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+409,polarbear_hayasugi,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+410,polarbear_mambo_no5,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+411,polarbearpartyhat,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+412,polarbearpatpolarbear,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+413,polarbear_pensive,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+414,polarbear_sdvx,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+415,polarbear_slow,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+416,polarbearsunglasses,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+417,polarbear_superslow,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+418,polarbear_tomarikake,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+419,polarbearwarping,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+420,static_polarbear,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+421,static_polarbear_inverted,bear polarbear polar しろくま 白くま 白熊 白ぐま 白グマ シログマ シロクマ 北極熊 北極グマ ホッキョクグマ ポーラベア white_bear sirokuma siroguma shirokuma shiroguma kuma
+422,shpongle,シュポングル
+423,shpongle2,シュポングル shpongle_alt shpongle
+424,setsufuro_angry,setsufuro vtuber
+425,setsufuro_cheering,setsufuro vtuber
+426,setsufuro_gg,setsufuro vtuber
+427,setsufuro_heart,setsufuro vtuber
+428,setsufuro_hi,setsufuro vtuber
+429,setsufuro_omg,setsufuro vtuber
+430,setsufuro_pien,setsufuro vtuber
+431,setsufuro_question,setsufuro vtuber
+432,setsufuro_tententen,setsufuro vtuber
+433,setsufuro_thinking,setsufuro vtuber
+434,setsufuro_www,setsufuro vtuber
+435,hehe,
+436,JahySmug,
+437,puniko_smug2,
+438,puniko_smug3,
+439,starcatheart,スターキャットハート starcat heart love suki like いいね iine
+440,starcatredeye,スターキャットレッドアイ 星猫 starcat starcat_jp hoshineko hosineko 赤目 レッドアイ 赤い目 レッドアイ
+441,taniguti_hyperthink,
+442,yukkuri_marisa,ゆっくり魔理沙 ゆっくりまりさ yukkurimarisa
+443,yukkuri_reimu,ゆっくり霊夢 ゆっくりれいむ yukkurireimu
+444,ruisquirrel_mark,巣黒るい vtuber るいくん るいくんまーく スタンプ >< りす rui_squirrel  squirrel
+445,ruisquirrel_react_and_renote,るいくん 巣黒るい りす りのーと rui_squirrel reaction renote
+446,shibawhat,
+447,yanchon_cry,yanchon やんちょん
+448,yanchon_eat,yanchon やんちょん
+449,yanchon_kanpai,yanchon やんちょん
+450,yanchon_love,yanchon やんちょん
+451,yanchon_morning,yanchon やんちょん
+452,yanchon_night,yanchon やんちょん
+453,yanchon_scared,yanchon やんちょん
+454,yanchon_working,yanchon やんちょん
+455,yunirubatsu,yuniru yuniruyuni ゆにる ユニ ゆにるユニ
+456,yunirublush,yuniru yuniruyuni ゆにる ユニ ゆにるユニ
+457,yunirueat,yuniru yuniruyuni ゆにる ユニ ゆにるユニ
+458,yuniruheart,yuniru yuniruyuni ゆにる ユニ ゆにるユニ
+459,yunirumaru,yuniru yuniruyuni ゆにる ユニ ゆにるユニ
+460,yunirunipa,yuniru yuniruyuni ゆにる ユニ ゆにるユニ
+461,yuniruowo, yuniru yuniruyuni ゆにる ユニ ゆにるユニ
+462,yunirusurprise,yuniru yuniruyuni ゆにる ユニ ゆにるユニ
+463,happymac,
+464,rainbowshark,gamingshark
+465,sadmac,
+466,stat_sake,stat sake beer
+467,stat_sing,
+468,stat_sweets,stat sweets cake
+469,stat_tea,stat tea
+470,anidab_right,
+471,duckdance,subaru hololive
+472,nekobounce,
+473,nyanners,
+474,nyanners2,
+475,nyanners_hyper,
+476,parrot_wave1,
+477,rainbowneko,
+478,smugDance,
+479,twinsparrot,parrot
+480,ultrafastparrot,parrot
+481,cool_doggo,
+482,dog_smile,
+483,445,weight number evil number_of_evil hololive minato_aqua aqua 体重 悪魔の数字 あく魔の数字 あくたん 湊あくあ 44.5
+484,avocado_verified,アボカド 認証済みアボカド 認証アボカド
+485,bed_oide,おいで ベッドおいで bed oide べっど ベッド
+486,curry_pudding,カレープリン
+487,doughnut_pudding,ドーナツプリン ドーナッツプリン
+488,duck_verified,鴨 かも ダック 認証 認証鴨 認証かも 認証ダック duck verified_duck
+489,erupting_pudding,プリン 噴火 食べ物 food mountain magma
+490,french_spew,vomit 
+491,green_poop,みどりうんち うんこ グリーンプープ green poop
+492,magenta_square,material_error マテリアルエラー まてりあるえらー マジェンタ マゼンタ ピンク 
+493,nira_pudding,ニラプリン nirapurinn
+494,pudding_puddingified_verified,承認 認証 プリン ベリファイ 食べ物 food
+495,pudding_sushi,sushi pudding プリン寿司 プリンすし
+496,pudding_verified,
+497,pudding_verified_gold,プリン ぷりん カスタード custard custard_verified_gold custard_verified_business pudding_verified_business
+498,pudding_woozy,プリン 顔 ぼんやり face 食べ物 food
+499,ramen_pudding,ラーメンプリン
+500,relaxed_baby,happy_baby relax happy baby 赤ちゃん リラックス ハッピー しあわせ
+501,rolled_sushi_pudding,寿司プリン すしプリン 
+502,sidem_handsign,imas_m_handsign アイマス
+503,smiling_face_with_a_lot_of_hearts,smiling face hearts ハート
+504,sushi_pudding,プリン すしプリン
+505,wheeze,wheezing lol laugh funny
+506,666,number number_of_evil 悪魔の数字 dclxvi number_of_the_beast χξϛ 獣の数字 nero 皇帝ネロ 六百六十六 六百六拾六
+507,777,number boeing dcclxxvii blivia jackpot bigbonus big_bonus unix_file_permission uss_north_carolina 七百七十七 七百七拾七
+508,hyperthink,thinking
+509,syncing_face,
+510,thinkhappy,thinking happy
+511,thinking_cat_face,
+512,thinking_clap,
+513,thinking_face_both,
+514,thinking_framing,
+515,thinking_panic,
+516,thinking_rotate,thinking
+517,thinking_sunriseovermountains,
+518,thinknyan,
+519,thonk,
+520,thonk_roll,
+521,thonk_spin,
+522,verifinking,
+523,zen_thinking,
+524,bedroom_gyudon,牛丼 ぎゅうどん 寝室の牛丼 goma bedroom gyudon
+525,colaup,
+526,desyo,sushi
+527,gattsurishioramen,ｶﾞｯﾂﾘ塩ラーメン がっつりしおらーめん gattsurisioramen gattsurishioramen gatturisioramen gatturishioramen ラーメン pudding_ramen プリンラーメン
+528,genkotsu_hamburg,げんこつハンバーグ genkotsuhannba-gu genkotu_hamburg さわやか
+529,hon_wasabi,本わさび わさび わさびの根 wasabi
+530,hot_sauce,ホットソース デスソース タバスコ ペッパーソース スパイシーソース tabasco hot spicy hotsauce
+531,kamaboko,かまぼこ
+532,long_pancakes_bottom,pancake
+533,long_pancakes_middle,pancake
+534,long_pancakes_top,pancake
+535,monster_absolutely_zero,
+536,monster_chaos,
+537,monster_cuba_libre,
+538,monsterenergy,
+539,monster_pipeline_punch,
+540,monster_ultra,
+541,nattou,納豆 なっとう natto
+542,otonano_appletea,アップルティー 大人の紅茶 おとなのこうちゃ 村上さんがおいしいっていってたやつ
+543,pat_colaup,
+544,petthex_japanesecake,あんこの詰まったおいしい和菓子 あんこが詰まったおいしい和菓子 あんこのつまったおいしいわがし あんこがつまったおいしいわがし baked_mochocho imagawayaki oobanyaki obantoku oyaki kaitenyaki kaitenmanjuu custard_pancake kintsuba taikomanjuu taikoman taikoyaki taikouyaki nijuuyaki sharinmochi nattoumochi tokiwado japanese_cake wheelcake ajiman adumayaki azumayaki amaideyaki amatarouyaki amayaki ankomanjuu ebisuyaki enbanyaki ougonmanjuu otakemanjuu oyatsumanjuu gamegomochi gishiyaki kurimanjuu gozasourou ougonyaki koganeyaki shibaraku jimanyaki jinkoueiseimanjuu zuborayaki zundouyaki taihouyaki daimonjiyaki tarouyaki chapporoyaki tenrin toukaiyaki dotekin tomoeyaki dorakoyaki dorikonoyaki nanaoyaki nanakoshiyaki nanakoshiman hanamiyaki panjuuyaki higiriyaki bikkurimanjuu hittoyaki piipan fuuman houraimanjuu hourakumanjuu homerunyaki hoppeyaki mangetsuyaki mikasayaki meotomanjuu mochiduki yakiichiban yakimanjuu yanagimanjuu yokodunamanjuu roppouyaki obantokku obang-ttok obangttok osutoanderu ankorino
+545,pizza,ピザ マルゲリータピザ ナポリタンピザ vera_pizza margherita_pizza napolitan_pizza pizza_napoletana naples_style_pizza pizza_marinara
+546,pizza_charged_with_electricity,
+547,redbull,
+548,sandwich_buns_bottom,
+549,sandwich_buns_top_a,
+550,sandwich_buns_top_b,
+551,sandwich_lettuce,
+552,sandwich_tomato,
+553,satumaimo,薩摩芋 甘藷 唐芋 さつまいも サツマイモ
+554,sijimi,
+555,spam,
+556,suika,
+557,syuilo_nattoopen_failed,しゅいろ 納豆 失敗 
+558,thinking_omurice,オムライス おむらいす omlette rice thinking
+559,tube_wasabi,わさび wasabi チューブのわさび
+560,zone_kuro,エナジードリンク 黒ゾーン ゾーン
+561,otoge_2356,音ゲー おとげー 2356
+562,otoge_chuden,中伝 ちゅうでん chuudenn tyuudenn
+563,otoge_denim,denim デニム
+564,otoge_earthpower,earthpower 地力
+565,otoge_hantei_bad,bad バッド 判定
+566,otoge_hantei_good,good グド グッド 判定
+567,otoge_hantei_great,great グレ グレート 黄ばみ 判定
+568,otoge_hantei_poor,poor プア 空プア 判定
+569,otoge_kaiden,皆伝 かいでん
+570,otoge_kiwami_kaiden,極皆伝 きわみかいでん ゴリラ
+571,ifilter_misetehoshii,misetehosii i-filter filtering show
+572,ifilter_tsukaitai,tukaitai i-filter filtering use
+573,404_not_found,404notfound 見れない
+574,omega,ω fuguri オメガ ふぐり
+575,0,
+576,1_nisuru,nisuru にする
+577,a,
+578,aaaaaaaaaaaaaaaaaaaaaaaaa,
+579,aane,あーね a-ne あね ane
+580,akan,
+581,akanyatsuya,
+582,akugyo,
+583,akusaa,
+584,anatano_jitakuwo_keibishimasu,
+585,arama,
+586,are,あれ that
+587,arienai,
+588,arigato,
+589,arigato_2,
+590,arigatougozaimasu,
+591,arigunyatogonyainyasu,
+592,arisou,
+593,ariyorinoari,
+594,aru,
+595,aruaru,
+596,arusa,
+597,ashitaga,
+598,at_kobayashi,
+599,atsumori,
+600,ayashii_nihongo,怪しい日本語
+601,aza,
+602,azamasu,
+603,bababa,
+604,banyanya,banana ばにゃにゃ
+605,basilisk_time,バジリスクタイム basilisktime
+606,benkyou_shiro,
+607,bishoujodesukedo,
+608,bread_from_hell,
+609,but_you_are,demo_omae
+610,chanto_tabero,
+611,chasmo,
+612,chet,
+613,chinchin,
+614,chottodannshii,
+615,chottodekiru,
+616,chottonaniitterukawanannai,ちょっとなにいってるかわかんない
+617,chou,
+618,comeon_,カモン! come_on
+619,custom_emoji,カスタム絵文字 かすたむえもじ kasutamu_emoji
+620,dad,
+621,daijoubu,
+622,daijoubu_ask,
+623,daijyoubuda_mondainai,
+624,daikansya,
+625,daisuki,
+626,dare,who だれ 誰
+627,darega_umaikotoieto,
+628,darenimo_aisarenai,
+629,datou_corona,
+630,debobigego,
+631,dekinu,できぬ
+632,dekiru,できる
+633,desho,
+634,desu,
+635,desuwayo,ですわよ
+636,diggy_a,アッアラララァアアァ あっあらららぁああぁ axtuarararaaxaaaxa 
+637,doihii,
+638,dokidoki,
+639,done_is_better_than_perfect,tabunugokutoomoukara_riri-su_shiyouze release
+640,donmai,
+641,dosi_1,
+642,dosi_2,
+643,douita,
+644,downlo_do,
+645,dyomero,
+646,ecchi_konro_tenka,えっちコンロ点火！ えっちこんろてんか ecchikonrotenka ecchi_stove_fire
+647,ee,
+648,eeyan_2,ええやん
+649,erajan,
+650,eroit,
+651,erojan,えろじゃん erozyann jp エロじゃん
+652,ete,
+653,ete_fuete,
+654,everyday_behavior,
+655,extu,えっ eltu
+656,false,偽 ぎ ギ gi
+657,fruit_megamori_ynts,
+658,fuete,
+659,furyouhin,furyouhinn
+660,gege_ltu,げげーっ
+661,genbaneko_yoshi,
+662,gomamayo,
+663,gomenne,ごめんね
+664,go_study,
+665,go_work,shigoto_shiro
+666,gyafun,
+667,gyakudatta_kamo_shirenee,逆だったかもしれねェ
+668,gyoi,
+669,haccp_approved,
+670,haccp_non_approved,
+671,hahaue,mama hahaue ママ ははうえ 母上
+672,hai,
+673,hakushin,迫真 はくしん hakusin
+674,hangaku,sale
+675,hanko_sumi,
+676,ha_q,
+677,hate_speech,ヘイトスピーチ
+678,hayai,
+679,hayasugite_mienai,
+680,he_,へー hee he-
+681,hei,丙 へい hei hee 
+682,heiomachi,
+683,help_,ヘルプ! help
+684,henkin,hennkinn
+685,henpin,hennpinn
+686,hikaru_heart,
+687,hires_spatial_pressure,
+688,hiroukonpaira,
+689,ho,
+690,honi,
+691,honi_jibunndeshirabero,自分で調べろ じぶんでしらべろ ggrks 
+692,honmaka,
+693,honmaya,
+694,honwaka_res_suisyou_desu,ほんわかレス推奨です ほんわかれすすいしょうです honwakares_suisyoudesu honwakaresusuishoudesu honwaka suisyou
+695,hou,
+696,hutomomo,
+697,iessa,いえっさー イエッサー
+698,igaina_kyoutsuuten,意外な共通点 いがいなきょうつうてん igaina_kyoutsuuten igainakyoutsuuten igaina_kyotsuten igainakyotsuten  igaina_kyoutuuten igainakyoutuuten igaina_kyotuten igainakyotuten
+699,iizo,
+700,ijo,
+701,ikasune,
+702,index_out_of_range,
+703,inochinokiken,
+704,internetkemutukasisaconcours,
+705,io_update,
+706,iovc_came,
+707,iovc_come,
+708,iovc_go,
+709,ippannno_gokatei,いっぱんのごかてい
+710,ippantekinikaimononiikutotukaretesimaimasu,
+711,ishikawa_takuboku,石川啄木 いしかわたくのぶ isikawa_takunobu
+712,issue,
+713,janoute,
+714,java_dl,
+715,jigatiisasugitemienai,
+716,jinsei,
+717,jinseikan_kawaruyo,
+718,jisseki_kaijyo,zisseki_kaizyo
+719,jisyushite,zisyushite jisyusite zisyusite 自首して じしゅして
+720,job,しょく 職
+721,jouhourouei,
+722,jouhouryuushitsu,
+723,joule_netsu_de_jurultu,
+724,kaeritai,
+725,kaeroune,
+726,kakedasanai_engineer,
+727,kakkoii,
+728,kami,
+729,kami_desukedo,
+730,kamo,
+731,kanbai,完売 かんばい kanbai kannbai
+732,kanjouganai,
+733,kashiko_marihachi,
+734,kiaide_nantoka_shiro,
+735,kimitatchi_mounenasai,
+736,kinisunna,気にすんな きにすんな
+737,kirasiteta,choudo tyoudo kirashiteta
+738,kitanai,きたない 汚い
+739,kitanyo,
+740,koippoikoto_siyouzele,
+741,koke,
+742,koke_burger,burger こけ 苔
+743,kolonyanyachiwala,
+744,konyanyachiwa,
+745,koreha_tukaesou,
+746,koresuki,
+747,kou,甲 こう koo ko
+748,koukokunoshina,こうこくのしな 広告の品
+749,kowai,
+750,kusa,lol grass
+751,kusyami_deta,
+752,lgtm,
+753,maanantekoto,
+754,mada,
+755,majikayo,
+756,majisuka,
+757,makotoniossharutooridesuwa,まことに おっしゃる とおりですわ 誠に 通りですわ
+758,makotonokansha,
+759,mama,
+760,matakayo,
+761,matareyo,
+762,mazide,
+763,meigen,
+764,meijitsutomonitaikin,
+765,meijitsutomonityahan,
+766,meimei,mei2
+767,mendou,
+768,midyomidyo,
+769,mimige,
+770,minna_kokoniiru,everyone_is_here minnna_kokoniiru
+771,misuhai,ミス廃 みすはい mishai misshai misskey_addict ミスキー廃人 みすきーはいじん
+772,mitsu,
+773,mitsu_desu,
+774,mochimochi,
+775,moesou,燃えそう 萌えそう もえそう
+776,mofumofu,
+777,mog,
+778,mogesou,
+779,mojibake,文字化け
+780,moresou,もれそう
+781,motto,
+782,mou3jidashi_daisanjittekanji,
+783,mouissyoniha_ikenai,
+784,mukityoueki,
+785,mumei,
+786,murishinaide,
+787,murishite,
+788,mushiru,
+789,musume,むすめ 娘
+790,nai,
+791,nainai,
+792,namennayo,
+793,nandato,
+794,nandesuno,なんですの
+795,nanikore,
+796,naniwoitteru_nokawakarimase_n,
+797,nanodesu,
+798,nantokashiro,
+799,nanu,なぬ what
+800,naruhodo,
+801,natsu,夏 なつ natu
+802,nayomiya,
+803,nazo,
+804,nekochan,
+805,nekojan,
+806,nemu,
+807,nemuiwayo,ネムイわよ!! ねむい
+808,nenaito_shinu,
+809,neru,
+810,netdeshinjitsu,ねっとでしんじつ
+811,nice_,ナイス! nice
+812,niconico_choukaigi,
+813,niconico_namahousou,
+814,nikuudon_nimo,肉うどんにも にくうどんにも nikuudonnimo with_nikuudon_too
+815,ningen_desukedo,
+816,noja,のじゃ nojya nozya 
+817,now_send_gold,現で金送れ げんできんおくれ gendekinokure
+818,nurashitemo_nakanaide,
+819,ochitsuke,
+820,odaijini,
+821,ofuchobetto_shita_tefu_wo_mabugaddo_shite_ritto_ni_shimasu,インジェラ injera オフチョベットしたテフをマブガッドしてリットにします おふちょべっとしたてふをまぐがっどしてりっとにします ohutyobetto_sita_tehu_wo_mabugaddo_site_ritto_ni_simasu ofuchobetto_shita_tefu_wo_mabugaddo_shite_ritto_ni_shimasu
+822,oh,
+823,ohayou,
+824,ohayougozaimasen,
+825,ohayougozaimasu,
+826,ojiichan,oziichan
+827,okaeri,おかえり お帰り
+828,okometabenasai,
+829,omae,お前 おまえ jp
+830,omae_ga_tsukure,omaegatsukure omaegatukure お前が作れ おまえがつくれ jp
+831,omaegawarui,
+832,omedetou,congrats congratulation
+833,onaka_pekosugi_no_kei,
+834,oneechan,
+835,oniichan,
+836,onsen,温泉 おんせん
+837,ore,俺 おれ オレ
+838,oregawarui,
+839,orewo_server_ni_sitekure,俺をサーバーにしてくれ おれをさーばーにしてくれ orewo_server_ni_shitekure turn_me_into_a_server
+840,osi,推し おし oshi
+841,ososugite_mieppanashi,おそすぎてみえっぱなし 遅すぎて見えっぱなし
+842,otsu,乙 おつ otu
+843,otukaresama,
+844,oyurushikudasai,
+845,pakupakudesuwa,パクパクですわ！ ぱくぱくですわ！ jp
+846,pan_jan,
+847,pc,
+848,pecchintosh,
+849,pekoiwayo,ペコイわよ!! ぺこい
+850,phon,ほーん ホーン
+851,pojittelibu_sunao_keikakusei,
+852,ponkotsu,
+853,rakusen,落選 らくせん
+854,reino_are,
+855,ryoukai_shinnpann,
+856,s,
+857,sasuga,
+858,sasuga_neet,
+859,sekiro_death,
+860,setafunyo,
+861,seyana,
+862,shark_syukka,
+863,shigoto,
+864,shikakatan,しかかたん しか勝たん
+865,shikei,sikei しけい 死刑
+866,shikkouyuuyo,
+867,shinkan_erodesu,sinkan
+868,shinkan_otoshita,sinkan_otosita
+869,shirete_erai,知れてえらい しれてえらい sireteerai shireteerai
+870,shitenainoha_omaedake,
+871,shop,syoppu ショップ しょっぷ
+872,shou,
+873,shuki_heart,しゅき syuki
+874,shupushupuonyasai,しゅぷしゅぷ 温野菜
+875,sinngikyohi,shinngikyohi
+876,social_distance,
+877,sokoni_attemo_naidesune,
+878,sokoni_nakereba_naidesune,
+879,sonokanouseiwaaru,
+880,sore_575,
+881,sorehasou,
+882,soudasouda,そうだそうだ
+883,souhanaranyaro,そうはならんやろ
+884,souiugamezyaneekara_kore,
+885,souiuhimoaru,
+886,souiukoto,
+887,souiutokimoaru,
+888,souiutokoyazo,
+889,souiutoshigoro,
+890,soukamo,そうかも
+891,souomou,そうおもう think_so
+892,stamp_nattoruyarogai,なっとるやろがい nattoruyarogai
+893,stamp_nemui,nemui 眠い ねむい
+894,stamp_pie,おいパイ食わねぇか oipaikuwaneleka
+895,stamp_pie_bug,
+896,str_hametsu,
+897,strings_validation_error,
+898,sugoi,すごい
+899,suibotsu,
+900,sukebe,
+901,sukebe_2,すけべ! すけべ！
+902,support_center,sapo-tosennta-
+903,syo_ga_nai,syouganai_nyaa
+904,syuuri,
+905,taikin,
+906,take_a_break,
+907,tako,tako たこ タコ octopus
+908,takosune,
+909,tameninattane,
+910,taninnokotobaja_dame,
+911,tanoshisou,
+912,tapioca_natadecoco_ramen,タピオカナタデココラーメン
+913,tapioka,reiwa
+914,tasukete,
+915,tehepero,
+916,t_grill_de_gri,グリルでグリッ gurirudeguri ぐりるでぐりっ
+917,thaikick,
+918,t_heyakata,
+919,t_hodai,
+920,tiken,知見 ちけん chiken tomomi
+921,t_iroiroyabai,色々やばい いろいろやばい
+922,today_break,今日の破壊 きょうのはかい kyounohakai kyonohakai
+923,t_ofuton,
+924,t_oishii,おいしい oisii
+925,tokushu,とくしゅ トクシュ tokusyu
+926,tomato,emoji gyakukarayondemo ぎゃくからよんでも かいぶん にほんご
+927,tomimya,
+928,t_piropiro,ぴろぴろ ピロピロ
+929,translate,
+930,trojan,とろじゃん torojan
+931,true,sin shin まこと ま しん 
+932,tsuyoi,つよい tuyoi
+933,t_tsuratan,つらたん tsuratan turatan
+934,t_vaccine,wakutin ワクチン
+935,t_wakarimitaro,
+936,tyokusetu,slack ちょくせつはなした chokusetsu
+937,unconstitutionality,違憲 いけん ikenn
+938,utsu,
+939,utsukushii,
+940,vnn,
+941,vun,
+942,wakarimi,
+943,wakatte,
+944,wakuwaku,
+945,watakushidattesoudesuwa,わたくしだってそうですわ watakusidattesoudesuwa
+946,watashi,
+947,what_is,
+948,what_is_mrhc,
+949,what_is_omhnc,omhnc
+950,wikipedia_wo_wiki_tte_ryakusuna,
+951,yabai,yavai
+952,yabaidesukoto,ヤバい やばい
+953,yabaidesuwa,やばい ヤバい
+954,yabaiwayo,
+955,yakinikunotare,
+956,yametare,やめたれ
+957,yareyare,
+958,yarukiga_denai,
+959,yattane,
+960,yattare,やったれ
+961,yonutiwo,
+962,yorosiku_onegai,please よろしく おねがいします お願いします
+963,yosano_akiko,与謝野晶子 よさのあきこ yosanoakiko
+964,yumei,
+965,yurushite_kamisama,
+966,zehi,是非 ぜひ jp
+967,_zhhwe7eo_,
+968,zurui,ずるい
+969,zutsuuga_itai,
+970,5000chouen_hoshii,5000 ごせんちょうえんほしい 5000兆円欲しい！ 欲しい hosii hoshii ほしい want 5000cho yen
+971,5000en_hoshii,5000 ごせんえんほしい 5000円欲しい！ 欲しい ほしい want 5000yen
+972,5000t_5000tyouen,5000兆円 5000ちょうえん 5000chouen 5000choen 
+973,5000t_death,shi si し
+974,5000t_hosii,欲しい! ほしい! i_want
+975,5000t_kakuteisinkoku,確定申告 かくていしんこく kakuteishinkoku
+976,hotsprings,湯 ゆ 温泉 おんせん yu onsen
+977,altu,axtu
+978,baltu,
+979,daltu,
+980,deltu,
+981,doltu,
+982,eltu,extu
+983,galtu,
+984,geltu,gextu
+985,goltu,
+986,gultu,
+987,haltu,
+988,heltu,
+989,hiltu,
+990,holtu,
+991,iltu,
+992,kaltu,
+993,keltu,
+994,kiltu,
+995,koltu,
+996,kultu,
+997,ltuu,xtu
+998,maltu,
+999,meltu,
+1000,miltu,
+1001,moltu,
+1002,multu,
+1003,naltu,
+1004,neltu,
+1005,niltu,
+1006,nnltu,
+1007,nultu,nuxtu
+1008,oltu,oxtu
+1009,pultu,
+1010,riltu,
+1011,roltu,
+1012,rultu,
+1013,siltu,
+1014,sultu,
+1015,taltu,
+1016,teltu,
+1017,tiltu,
+1018,tultu,
+1019,ultu,uxtu
+1020,waltu,
+1021,yaltu,
+1022,yoltu,よっ ヨッ
+1023,yultu,
+1024,zoltu,
+1025,oozon,大損 おおぞん 損 ooson daison 
+1026,oozone,大曽根 おおぞね
+1027,otaku,おたく オタク
+1028,otoku,お得 おとく とく
+1029,son,損 そん
+1030,bochibochi_ikoune,ぼちぼちいこうね botiboti_ikoune 
+1031,mayonnaisekaketeagemashoune,
+1032,neyoune,
+1033,supiritasu_irete_agemashoune,スピリタス 入れて あげましょうね
+1034,sonnakotoarunda,そんなことあるんだ
+1035,sonnakotodekinai,
+1036,sonnakotodekirunda,
+1037,sonnakotodekitanda,
+1038,sonnakoto_itte_iinoka,そんなこと言っていいのか そんなこといっていいのか sonnakotoitteiinoka
+1039,sonnakotonai,
+1040,sonnamonoarunda,そんなものあるんだ
+1041,sonnnano_iranai,そんなのいらない sonnnanoiranai
+1042,sonnnasoubide_daijoubuka,
+1043,_a,
+1044,_ba,
+1045,_be,
+1046,_bi,
+1047,_bo,
+1048,_bu,
+1049,_da,
+1050,_de,
+1051,_di,
+1052,_do,
+1053,_du,
+1054,_e,
+1055,_fu,_hu
+1056,_ga,
+1057,_ge,
+1058,_gi,
+1059,_go,
+1060,_gu,
+1061,_ha,
+1062,_he,
+1063,_hi,
+1064,_ho,
+1065,_i,
+1066,_ka,
+1067,_ke,
+1068,_ki,
+1069,_kka,
+1070,_kkb,
+1071,_ko,
+1072,_ku,
+1073,_la,_xa
+1074,_le,_xe
+1075,_li,_xi
+1076,_lo,_xo
+1077,_ltsu,_xtsu
+1078,_lu,_xu
+1079,_lya,_xya
+1080,_lyo,_xyo
+1081,_lyu,_xyu
+1082,_ma,
+1083,_maru,
+1084,_me,
+1085,_mi,
+1086,_mo,
+1087,_mu,
+1088,_n,
+1089,_na,
+1090,_ne,
+1091,_ni,
+1092,_no,
+1093,_nu,
+1094,_o,
+1095,_pa,
+1096,_pe,
+1097,_pi,
+1098,_po,
+1099,_pu,
+1100,_ra,
+1101,_re,
+1102,_ri,
+1103,_ro,
+1104,_ru,
+1105,_sa,
+1106,_se,
+1107,_shi,_si
+1108,_so,
+1109,_su,
+1110,_ta,
+1111,_te,
+1112,_ten,
+1113,_ti,
+1114,_to,
+1115,_tsu,_tu
+1116,_u,
+1117,_wa,
+1118,_wo,
+1119,_ya,
+1120,_yo,
+1121,_yu,
+1122,_za,
+1123,_ze,
+1124,_zi,
+1125,_zo,
+1126,_zu,
+1127,arigataihanashi,ありがたいはなし arigatai_hanashi arigatai_hanasi
+1128,hidoihanashi,ひどいはなし
+1129,iihanashi,いいはなし
+1130,iihanashi_move,いいはなしムーブ iihanashimove
+1131,iihanashi_zh,いいはなし中文 好的故事
+1132,kanasiihanasi,悲しいはなし かなしいはなし kanashii_hanashi 
+1133,kokodakeno_hanashi,ここだけのはなし
+1134,kowaihanashi,こわいはなし
+1135,mondaihanashi,もんだいはなし
+1136,muzukashiihanashi,むずかしいはなし
+1137,omoshiroi_hanashi,面白いはなし おもしろいはなし omoshiroihanashi omosiroi_hanasi omosiroihanasi
+1138,shouganaihanashi,しょうがないはなし
+1139,sugoihanashi,すごいはなし
+1140,wainohanashi,わいのはなし
+1141,waruihanasi,わるいはなし
+1142,harrypotterto,haripota ハリポタ potter harry ハリー ポッター
+1143,harrypottertohyougennnoziyuu,haripota ハリポタ potter harry ハリー ポッター
+1144,harrypottertojunntakunasekiyushigenn,haripota ハリポタ potter harry ハリー ポッター
+1145,harrypottertojyuusyakaihenoakogare,haripota ハリポタ potter harry ハリー ポッター
+1146,harrypottertokeikakuseinonasa,haripota ハリポタ potter harry ハリー ポッター
+1147,harrypottertomutyanayoukyuu,ハリーポッターと無茶な要求 無茶な要求 haripota ハリポタ potter harry ハリー ポッター
+1148,harrypotterto_newline,haripota ハリポタ potter harry ハリー ポッター
+1149,harrypottertoniranomisoshiru,haripota ハリポタ potter harry ハリー ポッター
+1150,harrypottertosennryokunotikujitounyuu,haripota ハリポタ potter harry ハリー ポッター
+1151,harrypottertozennti2syuukannnokega,haripota ハリポタ potter harry ハリー ポッター
+1152,harrypottertozissekinonaimusyoku,haripota ハリポタ potter harry ハリー ポッター
+1153,youkoso,ようこそ welcome windows_welcome windowsxp_welcome windows_youkoso windowsxp_youkoso
+1154,youkoso_send_money,レターパックで現金送れ れたーぱっくでげんきんおくれ send_money_with_letterpack
+1155,youkoso_sou,そう sou
+1156,youkoso_uso,うそ uso lie
+1157,youkoso_you,よう you
+1158,asa,朝 あさ morning
+1159,asa7,朝 あさ
+1160,atu,圧 あつ atsu
+1161,goij,誤字 ごじ gozi goji
+1162,imouto2,妹 いもうと imouto imoto
+1163,ne,ね
+1164,seiron_punch,正論パンチ せいろんぱんち seironpanchi seironpanchi seironpanti
+1165,tin,珍 ちん chin めづらし
+1166,yume,夢 ゆめ
+1167,ak_a,
+1168,ak_i,
+1169,ak_ku,
+1170,ak_na,
+1171,ak_prolong,
+1172,ak_so,
+1173,ak_tu,
+1174,aliexpress_mistranslation,紛争を開始 ふんそうをかいし hunsouwokaisi funsouwokaishi start_the_war
+1175,ankoku_bisyou,（暗黒微笑） あんこくびしょう annkokubisyou
+1176,chuo_tokkai,中央特快 ちゅうおうとっかい tyuuou_tokkai chuuou_tokkai tyuuoutokkai chuuou_tokkai
+1177,click_the_date_to_view_replies_and_quotes,投稿時間(〜前)を押すと返信や引用が見れます とうこうじかんまえをおすとへんしんやいんようがみれます
+1178,custom_emoji2,カスタム絵文字 かすたむえもじ kasutamu_emoji
+1179,gachinko_battle,がちんこバトル gachinko gatinko gatinko_battle battle batoru gachinkobatoru gatinkobatoru
+1180,gensouteki,幻想的 げんそうてき gensoteki
+1181,ikanago_shipping_is,いかなごのくぎ煮の発送は いかなごのくぎにのはっそうは ikanago_no_kugini_no_hassou_ha
+1182,is_all_scam,fraud hasubete_sagidesu はすべて詐欺です はすべてさぎです
+1183,is_all_scam2,は全て詐欺です。 はすべてさぎです hasubetesagidesu
+1184,kaibunsyo_itadakimasita,怪文書いただきました かいぶんしょいただきました kaibunsho_itadakimashita
+1185,kakapoppo,カカポッポー かかぽっぽー kakapoppo-
+1186,kanneiyahataseitetsusyo,官営八幡製鐵所 かんえいやはたせいてつしょ かんえいやわたせいてつしょ kan'ei_yahatase_seitetusyo kanei_yahatase_seitetsusho kan'ei_yawatase_seitetusyo kanei_yawatase_seitetsusho the_imperial_steel_works_japan tiswj doko
+1187,keikai,警戒 けいかい 危険 危ない あぶない
+1188,kokokara_hagasu,ここからはがす
+1189,kyouzin,強靭 きょうじん kyoujin tough
+1190,local_is_post_from_every_user_within_this_site,ローカルはこのサイトの全ユーザーの投稿です ろーかるはこのさいとのぜんゆーざーののーとです
+1191,mo_josou_wo_tukete,も助走をつけて 殴る ガンジー civ
+1192,moutasukaranaizo,もう助からないゾ♡ もうたすからないぞ メーデー holy_cow_im_talking_to_a_dead_man boing767 air_canada_143 ところでヤードポンド法は滅ぼされねばならない
+1193,nemo,ねも
+1194,nemonemo,ねもねもっ!
+1195,ohayoo,おはよー! ohayo-! goodmorning
+1196,oyasumi2,おやすみ! oyasumi goodnight
+1197,oyasumisskey,おやすみすきー! goodnightskey
+1198,power_txt,パワー！
+1199,preview_content_by_eye_icon,目のアイコンで本文をプレビュー めのあいこんでほんぶんをぷれびゅー
+1200,sangatsu_tsuitachi_de_gozaimasu,さんがつついたち ３月１日 3月1日
+1201,sangatsu_tsuitachi_deha_gozaimasen,3月1日ではございません さんがつついたちではございません not_march_first
+1202,send_gil_with_mogletter,モグレターでギル送れ もぐれたーでぎるおくれ mogureta-degiruokure
+1203,send_money,letterpack cash fraud scam レターパックで れたーぱっくで
+1204,send_money_with_nekoposu,ネコポスで現金送れ ねこぽすでげんきんおくれ nekoposudegennkinnokure
+1205,sikyuu_kaihuu_c,shikyuu_kaifuu
+1206,sinogi_no_nioi,シノギのにおい shinoginonioi shinogi_smell 
+1207,siyou_desu,仕様デス しようです its_a_feature shiyou_desu
+1208,sosite_heiwa_ga_otozureta,そして平和が訪れた そしてへいわがおとずれた sositeheiwagaotodureta sositeheiwaga_otozureta
+1209,superplay,スーパープレー!
+1210,tukatta,使った つかった tsukatta used
+1211,tyousyoku_sikkou_yakuin,chosyoku_sikkou_yakuin 朝食執行役員 執行役員 朝食 breakfast ちょうしょく あさごはん
+1212,yoiko_ha_mane_sinidene,良い子は真似しないでね よいこはまねしないでね yoikohamaneshinaidene ダメ dame
+1213,zenbu_ga_wakattano,ぜんぶがわかったの zenbugawakattano
+1214,arupuppu,
+1215,gekopuppu,げこぷっぷー
+1216,koyanpuppu,こゃんぷっぷー
+1217,nyanpuppu,
+1218,pyonpuppu,
+1219,risupuppu,
+1220,tyunpuppu,
+1221,wanpuppu,わんぷっぷー
+1222,chigau_soujanai,tigau chigau soujanai suzuki_masayuki
+1223,iie,いいえ no negative 
+1224,kaishaku_chigai,解釈違い かいしゃくちがい kaishaku_tigai
+1225,emoji_too_much,絵文字多すぎ えもじおおすぎ emoji_oosugi emojioosugi toomuchemoji too_much_emoji
+1226,hashtag_ga_oosugiru,too_many_hashtag toomanyhashtag hasshutagu_ga_oosugiru
+1227,too_many_kanji,漢字が多すぎる かんじがおおすぎる kanjikata kanji_ga_oosugiru 
+1228,too_many_katakana,カタカナが多すぎる かたかながおおすぎる katakana_ga_oosugiru katakana_ga_osugiru katakanagaoosugiru toomanykatakana
+1229,daizyoubu_kakujikkennsuru,kakuzikken are_you_okay_do_you_wanna_nuclear_test
+1230,isshoni_kakujikken_shiyo,kakujikken lets_nuclear_test_together
+1231,kakujikkenn_shippaishita,核実験 かくじっけん kakujikken kakuzikken kakujikken_sippaisita kakujikken_sippaishita kakujikken_shippaisita kakujikken_shippaishita nuclear_test_failed
+1232,kakujikken_shitayo,核実験 かくじっけん kakujikken kakuzikken 核実験したよっ かくじっけんしたよっ kakujikken_sitayo nuclear_testing_finished_with_love
+1233,kakujikken_shitazo,核実験 かくじっけん kakujikken kakuzikken 核実験したぞ kakujikken_sitazo かくじっけんしたぞ  nuclear_testing_done
+1234,kakujikkensuruzo,核実験 かくじっけん kakujikken kakuzikken 核実験するぞ かくじっけんするぞ nuclear_testing
+1235,abura,アブラ あぶら 油
+1236,akumanotikara_da,"悪魔のチカラ"だ あくまのちからだ akumanochikarada
+1237,alaskan_malamute,アラスカンマラミュート あらすかんまらみゅーと arasukan_maramyu-to
+1238,anata_mata_renote_siteru,あなたまたrenoteしてる anatamatarrenotesiteru anatamatarino-toshiteru
+1239,anata_to_watasi_no_i_love_you,あなたとわたしのiloveyou anatatowatasinoiloveyou anatatowatashinoiloveyou
+1240,ankoleeno,アンコリーノ ankoriino  ancoleeno
+1241,antaga_numberone,あんたがナンバーワン あんたがなんばーわん あんたがno.1 あんたがno1 あんたがnumber1 anntaga_number_one
+1242,arajio,
+1243,ara_taihen,あら大変 あらたいへん arataihen
+1244,aruarutankentai,あるある探検隊 あるあるたんけんたい aruaru_tankentai
+1245,atari,当たり あたり
+1246,atetare,あてたれ
+1247,atode_kesu,あとでけす atodekesu
+1248,atode_kiku,あとできく atodekiku
+1249,atode_miru,あとでみる atodemiru
+1250,attaka_i,あったか〜い あったかーい あったかい attakai attakaai
+1251,attouteki_kansha,圧倒的感謝 attoutekikansha attootekikansha あっとうてきかんしゃ
+1252,authoritarianism,kenni_shugi kenni_syugi けんいしゅぎ
+1253,bakappuru,バカップル ばかっぷる bacouple
+1254,bikakin,微課金 びかきん
+1255,bike_ha_iizo,バイクはイイぞー bikeha_iizo bikehaiizo
+1256,bike_noritai,バイク乗りたい ばいくのりたい bikenoritai
+1257,bouryoku,暴力 ぼうりょく violence boryoku 
+1258,bump_of_tiken,bump_of_知見 バンプオブチケン ばんぷおぶちけん bumpof_tiken bump_of_chiken 
+1259,bunmei_kaika,
+1260,chantohagero,ちゃんとはげろ tyantohagero
+1261,chikara_power,力こそパワー ちからこそぱわー chikarakosopower tikarakosopower tikarakosopawa- tikarakoso_power tikarakoso_pawa- chikarakosopower chikarakosopawa- chikarakoso_power chikarakoso_pawa-
+1262,chikyuuheimensetsu,地球平面説 ちきゅうへいめんせつ tikyuheimen tikyuheimensetu tikyuheimensetsu tikyuuheimen tikyuuheimensetu tikyuuheimensetsu chikyuheimen chikyuheimensetu chikyuheimensetsu chikyuuheimen chikyuuheimensetu chikyuuheimensetsu
+1263,cho_omae_w,ちょ、おまｗ ちょ、おまw ちょおま chottomaew choomaew ちょっとお前
+1264,daigorou,大五郎 だいごろう
+1265,daihonei_happyou,大本営発表 だいほんえいはっぴょう daihonneihappyou daihonei_happyo
+1266,damage_haitta,ダメージはいった だめーじはいった dame-jihaitta dame-zihaitta
+1267,damage_uketa,ダメージうけた だめーじうけた dame-jiuketa
+1268,dance_robot_dance_koubun,ダンスロボットダンス構文 だんすろぼっとだんすこうぶん dansurobottodansukoubun
+1269,dekki,デッキ でっき deck 
+1270,docchimo,dottimo docchimo どっちも
+1271,do_it_yourself,jibunde_tsukurou diy doityourself
+1272,dokozumi_tekamisskey_yatteru,どこ住みてかMisskeyやってる どこずみてかみすきーやってる
+1273,doku_tikubi,毒乳首 どくちくび doku_chikubi poisonous_nipple
+1274,dosukebe,どすけべ
+1275,dosukebefes,どすけべ祭り どすけべまつり dosukebe_maturi dosukebe_matsuri dosukebe_fes 
+1276,douzo_douzo,どうぞどうぞ douzodouzo dozodozo doozodoozo
+1277,edasi,
+1278,ehehe,えへへw
+1279,eikoku_sinsi,英国紳士 えいこくしんし uk_gentleman eikoku_shinshi イギリス しんし
+1280,eikoku_syukujo,英国淑女 えいこくしゅくじょ uk_lady eikoku_shukujo イギリス しゅくじょ
+1281,endou_mame,エンドウ豆 えんどうまめ endou pea mame 
+1282,eti_suri,すりすり surisuri sulisuli 
+1283,f6_wo_osuna,f6を押すな f6をおすな dont_push_f6
+1284,fukai,深い ふかい deep hukai
+1285,full_combo,フルコン フルコンボ uc fullcombo
+1286,furotera,ふろてら hurotera
+1287,gakuseikibunga_nukesugi,学生気分が抜けすぎ がくせいきぶんがぬけすぎ gakuseikibunganukesugi
+1288,gakuseikibunga_nuketenai,学生気分が抜けてない がくせいきぶんがぬけてない gakuseikibunganuketenai
+1289,game_nonda,ゲーム飲んだ げーむのんだ
+1290,ganbare,がんばれ がんばれ! 
+1291,gekijouban_misskey_mugenmenntehenn,劇場版Misskey無限メンテ編 げきじょうばんみすきーむげんめんてへん 
+1292,gihyo,技評 技術評論社 ぎひょう ギヒョウ ギヒョー ぎひょー ぎじゅつひょうろんしゃ
+1293,goanzenni,ご安全に ごあんぜんに be_safe goannzennni 
+1294,gobaku,
+1295,gokitai_kudasai,ご期待ください ごきたいください gokitaikudasai
+1296,gomamayo_sarada,ゴママヨサラダ ごままよさらだ gomamayo_salad 
+1297,gouyuu,豪遊 ごうゆう goyu goyuu gouyu gouyuu
+1298,gyu_,ぎゅ〜 gyu~ gyu-
+1299,gyultu,ぎゅっ gyuxtu
+1300,hahaltu,ハハッ ﾊﾊｯ 
+1301,haiben_kanryou,排便完了 はいべんかんりょう haibennkanryo うんち
+1302,haigo_chuui,
+1303,haiso,はいそ 敗訴
+1304,hakudatu,
+1305,hasiri_ni_kita,走りに来た！ はしりにきた！ hashirinikita
+1306,hatumei,発明 はつめい
+1307,hazure,ハズレ はずれ
+1308,heikin,へいきん 平均 average
+1309,heizitu_kankeinai,平日関係ない へいじつかんけいない heijitukankeinai heijitsukankeinai
+1310,hentai_laminated,へんたい 変態 hentai
+1311,hetare,すたれ
+1312,hitoyasumi_siyo,ひと休みしよ？？ ひとやすみしよ？？ hitoyasumishiyo??
+1313,hokkuhoku,ホックホク
+1314,honwaka,ほんわか honnwaka
+1315,horoboshimashou,滅ぼしましょう ほろぼしましょう horobosimasho horobosimashou horobosimasyo horobosimasyou horoboshimasho horoboshimashou horoboshimasyo horoboshimasyou
+1316,hoshii,ほしい ほしい！ ほしい! hosii
+1317,huseikai,不正解 ふせいかい fuseikai
+1318,iiron,イーロン いーろん elon i-ron 
+1319,iisigoto_sitemasunee,いい仕事してますね いいしごとしてますね iishigotoshitemasune
+1320,imagawayaki,今川焼 いまがわやき
+1321,imasugu,いますぐ 今すぐ
+1322,imouto,いもうと imoto
+1323,imoutofes,いもうと祭り いもうとまつり imouto_fes imotofes
+1324,insyudasa,飲酒ださ！ inshudasa いんしゅださ！
+1325,internet_yamero,インターネットやめろ quit_internetting
+1326,isoge,
+1327,itera,いてら
+1328,ittan_shinkokyu,いったん深呼吸 いったんしんこきゅう
+1329,ittare,いったれ
+1330,iya_dane,嫌だね いやだね iyadane
+1331,iyann,いやん
+1332,jyoukyusya_muke,joukyuusya
+1333,kae,かえ 買え
+1334,kaikigenshou,かいきげんしょう 怪奇現象 kaikigensho kaikigensyou kaikigensyo
+1335,kaisen,開戦 かいせん
+1336,kaitare,かいたれ
+1337,kakin_sanzai,kakinsanzai かきんさんざい 課金散財
+1338,kaku_no_houki,核の放棄 かくのほうき kakunohouki
+1339,karame,カラメ からめ
+1340,keiba_yamero,競馬やめろ けいばやめろ keibayamero
+1341,kenkappuru,ケンカップル けんかっぷる kencouple
+1342,kenpouihan,憲法違反 けんぽういはん kenpou_ihan kenpo_ihan kenpoihan
+1343,kentou_suru,検討する けんとうする kento_suru
+1344,kiaide_nantoka_shita,気合でなんとかした きあいでなんとかした kiaide nantoka shita kiaidenantokashita kiaidenantokasita 
+1345,kinniku,筋肉 きんにく kinnniku
+1346,kinsi_card,禁止カード きんしかーど kinsicard kinsika-do kinsi_card kinsi_ka-do kinshicard kinshika-do kinshi_card kinshi_ka-do
+1347,kisyou_kanryou,起床完了 きしょうかんりょう kisyokanryo kisho_kanryo おきた 
+1348,kitanai_hanashi,
+1349,kitune_jai,狐じゃい! きつねじゃい! i_am_fox fubuki shirakami hololive 白上フブキ ホロライブ
+1350,kobayashiseiyaku_no_itoyouji,kobayasi itoyoji
+1351,kobayashiseiyakuno_itoyouji,kobayasi itoyoji
+1352,kokutai_goji,こくたいごじ 國體護持 kokutaigoji
+1353,ko_marihachi,mrhc marihachi komarihachi
+1354,komatta,こまった
+1355,konbanha,こんばんは〜 こんばんは konbanwa
+1356,konni_tiha,こんにちは！ こんにちは hello konnitiha konnitiwa konnichiha konnichiwa
+1357,kousite_zutto_renote_siteru,こうしてずっとrenoteしてる kousitezuttorenotesiteru koushitezuttorino-toshiteru
+1358,kugyou,苦行 くぎょう
+1359,kuma_bokujo,
+1360,kusodeka,くそでか $[x4$[x4[mfm]]
+1361,kusozako,くそざこ
+1362,kuttare,くったれ
+1363,kyokutan,極端 きょくたん
+1364,kyoumo_ii_penki,今日もいいペンキ! きょうもいいぺんき！ kyoumoiipenki kyomoiipenki
+1365,kyounosouzou,今日の創造 きょうのそうぞう todays_creation creations_today kyonosozo
+1366,kyugo_toiu_na_no_bouryoku,救護という名の暴力 きゅごというなのぼうりょく kyugotoiunanobouryoku
+1367,lolicon,ロリコン ろりこん rorikon 
+1368,maguro,マグロ まぐろ
+1369,makasero,まかせろ ませかろ
+1370,man,
+1371,masi,マシ まし mashi 増し
+1372,masimasi,マシマシ ましまし mashimashi 増し増し
+1373,matane,またね
+1374,mazaidasa,魔剤ださ まざいださ monster_not_cool モンエネださ 
+1375,mazeruna_kiken,まぜるな危険 まぜるなきけん mazerunakiken do_not_mix
+1376,mesugaki,メスガキ めすがき
+1377,mesugakifes,メスガキ祭り めすがきまつり mesugaki_matsuri mesugaki_maturi mesugaki_fes
+1378,miesugite_miushinaigachi,見えすぎて見失いがち みえすぎてみうしないがち miesugitemiushinaigati miesugitemiushinaigachi miesugitemiusinaigati miesugitemiusinaigachi miesugite_miushinaigati miesugite_miushinaigachi miesugite_miusinaigati miesugite_miusinaigachi
+1379,mosa,猛者 もさ もざ もしゃ もじゃ もうさ もうざ もうしゃ もうじゃ mosa moza mosha mozya moja mousa mouza mousha mouzya mouja
+1380,motto_yare,もっとやれ mottoyare
+1381,mou1ji_ichidaiji_ttekanji,もう一時一大事！って感じ もういちじいちだいじってかんじ
+1382,mousou_tomanneeyo,妄想止まんねぇよ もうそうとまんねぇよ mousoutomannnexeyo
+1383,mujihi,無慈悲 むじひ mujihi 
+1384,mukakin,無課金 むかきん
+1385,muteki,無敵 むてき
+1386,nade,なで
+1387,nadoto_kangaete_imasenka,
+1388,nakayoku_siyo,仲良くしよっ! なかよくしよっ! friends
+1389,na_nandaa,な...なんだあっ な…なんだあっ nanandaa na...nanndaaxtu
+1390,nandesou_henna_houkou_ni_bakari_omoikiri_ga_iinoyo,なんでそう変な方向にばかり思い切りがいいのよ!! なんでそうへんなほうこうにばかりおもいきりがいいのよ nanndesouhennnahoukounibakariomoikirigaiinoyo エマ
+1391,nanka_sugosou,なんかすごそう なんか凄そう nanka sugoso
+1392,nantokanaru,なんとかなる
+1393,naori_kake,なおりかけ
+1394,nattare,なったれ
+1395,neko_wo_suimasu,猫を吸います ねこをすいます get_cat
+1396,nekoyanke,ねこやんけ neko_yanke you_are_definitely_cat fubuki shirakami hololive 白上フブキ ホロライブ
+1397,neppiro,
+1398,nero,寝ろ ねろ
+1399,nigete,にげて
+1400,ninniku,ニンニク にんにく 大蒜 ninnniku
+1401,nnawake_needaro,んなわけねえだろ nnawakeneedaro
+1402,nouzei,納税 のうぜい nouzei
+1403,nullpointerexception,ぬるぽ 
+1404,nyuuyoku_kanryou,入浴完了 にゅうよくかんりょう nyuyokukanryo ふろ 
+1405,odayakajya_naiwane,おだやかじゃないわね 穏やかじゃないわね odayakajanaiwane
+1406,odekake_biyori,おでかけ日和 おでかけびより odekakebiyori 天気 バイク
+1407,ogoride_sushi,奢りで寿司 おごりですし ogoridesushi ogoride_susi
+1408,ogoride_yakiniku,
+1409,oherb_haemasuwa,おハーブ生えますわ! oha-buhaemasuwa
+1410,ojousama,お嬢様 おじょうさま ojosama ojoosama
+1411,okaerikudasaimase,おかえりくださいませ おかえり下さいませ 
+1412,okaerinasaimase,おかえりなさいませ
+1413,okawari_mo_iizo,
+1414,omae_atama_sdgs_janyo,お前頭sdgsじゃんよ おまえあたまsdgsじゃんよ omaeatamasdgsjanyo
+1415,omaemo_db_ni_naranaika,お前もdbにならないか おまえもdbにならないか
+1416,omae_wo_miteiru,お前を見ている おまえをみている omaewomiteiru
+1417,onikutabenasai,お肉食べなさい おにくたべなさい
+1418,oppai,おっぱい
+1419,oremoonajikimochi,俺も同じ気持ち おれもおなじきもち i_feel_the_same_too oremoonajikimochi oremoonajikimoti
+1420,oritemo_butaida,降りても舞台だ おりてもぶたいだ oritemobutaida starlight スタァライト 大場なな
+1421,oshii,惜しい！ おしい osii
+1422,osizuka_ni,お静かに おしずかに うるせえ oshizukani osizukani
+1423,osizukani,お静かに おしずかに oshizukani quiet
+1424,ossan,おっさん
+1425,otiketsu,おちけつ ochiketsu ochitsuke
+1426,otituke_motituke,おちつけもちつけ ochitsukemochitsuke
+1427,otokonoko,男の娘 おとこのこ おとこのむすめ otokonomusume
+1428,otonagai,大人買い おとながい otonakai
+1429,overkill_desu,オーバーキルです o-ba-kirudesu おーばーきるです おき
+1430,ozisan,おじさん ojisan
+1431,pan_cha_syukutyoku,pan_cha_shukuchoku パン 茶 宿直 当直 しょくちょく とうちょく
+1432,passion,パ〜ッション!! パッション
+1433,perfect,パフェ パーフェクト puc
+1434,pho_n,ho_n hoon ho--n
+1435,ponkotu_me,ponkotume ponkotsu_me ポンコツは私です ぽんこつは私です
+1436,ponpeponpe,ぽんぺぽんぺ ぽんぺ
+1437,posikayo,ポシカヨ ﾎﾟｼｶﾖ ポシヵﾖ poshikayo
+1438,ramen_zirou,ラーメン二郎 らーめんじろう
+1439,rasukaru,ラスカル
+1440,reaction_shooting,reaction shooting リアクションシューティング
+1441,rigyo,離業 りぎょう rigyou
+1442,rn,renote
+1443,ronpa,論破 ろんぱ ロンパ
+1444,ryoukataomoi,両片想い りょうかたおもい
+1445,sa_gyaku,サ虐 さぎゃく server_abuse 
+1446,saikou,さいこう 最高
+1447,saitama_txt,埼玉 さいたま saitama
+1448,sakushi,
+1449,sasyuu,サ終 サービス終了 sashu sashuu sasyu 
+1450,satuei_kaisi,撮影開始 さつえいかいし satsuei_kaishi
+1451,seikai,正解 せいかい
+1452,seiti_zyunrei,聖地巡礼 せいちじゅんれい seichi_junrei
+1453,semarikuru,
+1454,seme,攻め せめ
+1455,sensen,宣戦布告 せんせんふこく sensenfukoku sensenhukoku 
+1456,server_ni_suruzo,
+1457,shiikibi,しーきび siikibi ckibi 
+1458,shiimo,siimo しーも
+1459,shinanai_teidode,死なない程度で しなないていどで sinanai_teidode shinanai sinanai teidode
+1460,shinkan_arimasu,新刊あります しんかんあります shinkanarimasu sinkanarimasu 
+1461,sibehasu,しべはす shibehasu siberian_husky
+1462,simekiri,締切 しめきり shimekiri
+1463,sinpu,新譜 しんぷ shinpu shimpu
+1464,sintou_mekkyaku,心頭滅却 しんとうめっきゃく
+1465,sirane,shirane しらねー 知らね〜〜!!
+1466,siranke_do,知らんけど しらんけど sirankedo shirankedo
+1467,sisyou,師匠 ししょう shisho
+1468,sodatiga_futsuu,sodachiga_futsuu
+1469,sodatiga_warui,育ちが悪い
+1470,sonnakigasuru,そんな気がする そんなきがする sonnnakigasuru
+1471,sonogaku_500okuen,その額...500億円 その額…500億円 そのがく500おくえん sonogaku500okuen
+1472,sonohassouha_nakatta,その発想はなかった そのはっそうはなかった
+1473,sorehatigauyo,それは違うよ! それはちがうよ! sorewachigauyo no_thats_wrong
+1474,sorehauso,それはうそ
+1475,soreijouwa_ikenai,それ以上はいけない それいじょうはいけない
+1476,soremiryoku,それみりょく それ魅力
+1477,soretuyo,それつよ soretsuyo そつよれ sotuyore sotsuyore
+1478,soudane,そうだね
+1479,soudesune,そうですね
+1480,souka,そうか... そうか sooka soka 
+1481,soumitai,soomitai somitai そうみたい
+1482,sou_omouyona,souomouyona そう思うよな そうおもうよな
+1483,sumimasendeshita,すみませんでした sumimasendesita
+1484,sumimasendesita,すみませんでした sumimasendeshita
+1485,suttare,すったれ
+1486,syakaisei_filter,社会性フィルター しゃかいせいふぃるたー shakaisei_filter shakaiseifiruta- social_filter
+1487,syoshinsya_muke,shosinsha_muke for_newbies for_noobs for_beginners
+1488,syounin_yokkyuu_monster,承認欲求モンスター しょうにんよっきゅうもんすたー shounin_yokkyu_monster
+1489,syouso,勝訴 しょうそ shoso syoso shouso
+1490,syuilo,しゅいろ
+1491,syukka,出荷 しゅっか shukka
+1492,syuusen,終戦 しゅうせん shuusen syusen shusen
+1493,taiha_nai,他意はない たいはない taihanai taiwanai
+1494,taihen_imaokimashita,たいへんいまおきました taihen imaokimashita imaokimasita 
+1495,taihen_ne_,大変ね… たいへんね taihenne
+1496,taiho,逮捕 たいほ arrest arrested cuffed
+1497,taishika_nai,他意しかない たいしかない taishikanai taisikanai
+1498,taketori_kishou,竹取起床 たけとりきしょう taketori_kisyou
+1499,tanoshii,楽しい たのしい tanosii
+1500,teizi_taisyoku,定時退職 ていじたいしょく teiji_taishoku teijitaishoku teizitaisyoku
+1501,tekiiru,敵いる てきいる enemy
+1502,tendousetsu,天動説 てんどうせつ tendosetu tendosetsu tendousetu tendousetsu
+1503,tensai,天才 てんさい
+1504,teokure,手遅れ ておくれ
+1505,tetsugaku,哲学 てつがく tetugaku
+1506,tokuni_omae,特にお前 とくにおまえ tokuniomae
+1507,tonkotsu,とんこつ トンコツ
+1508,touhou,東方 とうほう toho
+1509,touring,ツーリング!! バイク tu-ringu
+1510,touring_biyori,ツーリング日和 つーりんぐびより touringbiyori ツーリング 日和
+1511,tousen,当選 とうせん tosen tosenn tousenn 
+1512,tsumeta_i,つめた〜い つめたーい つめたい tsumetai tumeta_i tumetai 
+1513,tsunda,つんだ 詰んだ tunda 
+1514,tyomo,チョモ ちょも chomo
+1515,tyotto_hitoyasumi,ちょっとひと休み ちょっとひとやすみ tyottohitoyasumi chottohitoyasumi
+1516,uke,受け うけ
+1517,ukiashidattesoudesuwa,浮き足だってそうですわ うきあしだってそうですわ ukiasidattesoudesuwa
+1518,ulehihihihi,wehihihihi uxehihihihi うぇひひひひ ｳｪﾋﾋﾋﾋwww
+1519,un_un_soremomata_aikatsudane,うんうんそれもまたアイカツだね アイカツ ununsoremomataaikatsudane
+1520,urayama,うらやま
+1521,usodausoda,うそだうそだ
+1522,vio_hair_removal_do,iovc vio脱毛する びおだつもうする viodatumousuru
+1523,waccha,ワッチャ
+1524,wakarikake,わかりかけ
+1525,wakarimiga_fukasugiru,わかりみが深すぎる わかりみがふかすぎる wakarimigafukasugiru wakarimigahukasugiru
+1526,wanchan,ワンちゃん わんちゃん wanchan wan_chan one_chan one_chance a_chance
+1527,warui_otona,わるいおとな waruiotona
+1528,watakushiha_soudeha_arimasenwa,
+1529,watashiga_tabeta,私がたべた わたしがたべた watasigatabeta watasiga_tabeta watashigatabeta watashiga_tabeta
+1530,watasi_mata_renote_siteru,わたしまたrenoteしてる watasimatarenotesiteru watashimatarino-toshiteru
+1531,yabee_hasan_suru,やべー破産する やべーはさんする yabeehasansuru on_the_verge_of_going_bankrupt
+1532,yabe_yatu,やべー奴 やべーやつ yabe-yatu yabe-yatsu
+1533,yakuzo,やくぞ 焼くぞ
+1534,yareba_dekiru,ヤレばデキる やればできる yarebadekiru 
+1535,yasai,ヤサイ やさい 野菜
+1536,yasai_seikatsu,やさいせいかつ yasai seikatu seikatsu
+1537,yasashii_sekai,やさしいせかい yasasii sekai yasashii yasasi yasashi
+1538,yasumikibunga_nuketenai,休み気分がぬけてない やすみきぶんがぬけてない 
+1539,yasumikibunnga_nukeppanashi,休み気分が抜けっぱなし やすみきぶんがぬけっぱなし yasumikibunnga nukeppanashi
+1540,yattaze,やったぜ
+1541,yattaze2,やったぜ
+1542,yatteiki,やっていき
+1543,yoito_omoimasu,良いと思います よいとおもいます
+1544,yukichi,
+1545,yurusenai,許せない ゆるせない
+1546,yurusimasu,許します ゆるします yurushimasu
+1547,yuunou,
+1548,zako_heart,ざぁこ
+1549,zakotu_sinkeituu,坐骨神経痛 ざこつしんけいつう zakotusinkeituu zakotsu_shinkeitsu sciatica
+1550,zenbu,ぜんぶ 全部
+1551,zenbu_kae,全部買え ぜんぶかえ zenbukae
+1552,zenin_sugai,全員須貝 ぜんいんすがい zenninnsugai allniceguy
+1553,zennou,全能 ぜんのう zenno
+1554,zettaini_iru,zettainiiru ぜったいにいる 絶対にいる
+1555,zetubou_no_kisyou,絶望の起床 ぜつぼうのきしょう zetsubounokishou 
+1556,zidouhanbaiki,自動販売機 じどうはんばいき 自販機 じはんき zihanki jihanki jidouhanbaiki
+1557,ziko,自己 じこ jiko
+1558,zinrui,人類 じんるい jinrui
+1559,zyuusyou,重症 じゅうしょう juushou jusho zyusyo
+1560,anata_ima_iimashitane,あなた今言いましたね あなたいまいいましたね anata_ima_iimasitane
+1561,anataima_makkutte_iimashitane,あなた今マックって言いましたね あなたいままっくっていいましたね you_just_said_mac_didnt_you makku iimasitane
+1562,anataima_makudotte_iimashitane,あなた今マクドって言いましたね あなたいままっくっていいましたね you_just_said_mcd_didnt_you makudo iimasitane
+1563,anataima_unkotte_iimashitane,unko
+1564,iduka_kiyoko,伊塚キヨ子
+1565,haibokusya,敗北者 はいぼくしゃ haibokusha
+1566,kimikesu,君消す きみけす delet_dis 
+1567,kowaiwa,怖いわ... 怖いわ こわいわ 怖いわ… scared
+1568,nanmowakaran,何もわからん なんもわからん
+1569,nannmo_wakarannzu,なんもわからんズ
+1570,naruhodo_wakaran,なるほどわからん naruhodo wakaran
+1571,omaeha_oreno_hahaoyaka,お前は俺の母親か おまえはおれのははおやか omaehaorenohahaoyaka you_arent_my_mother
+1572,shintyoku_damedesu,進捗ダメです しんちょくだめです no_progress shinchokudamedesu shinchoku_damedesu shintyokudamedesu shintyoku_damedesu sinchokudamedesu sinchoku_damedesu sintyokudamedesu sintyoku_damedesu
+1573,suguaori,すぐ煽り すぐあおり sugu_aori
+1574,wakaran,わからん idk
+1575,wakaranai,わからない idk i_dont_know
+1576,zensyo_suru,善処する ぜんしょする zenshosuru
+1577,genkai_toppa,限界突破 げんかいとっぱ genkaitoppa
+1578,tariki_hongan,他力本願 たりきほんがん tarikihongan 
+1579,ba_wo_wakimaeyoune,場をわきまえようね ばをわきまえようね bawowakimaeyoune know_your_place
+1580,emoji_ni_shite,絵文字にして えもじにして make_it_emoji emojify_this emoji_ni_site emojinisite emojinishite
+1581,beroberoberobero,べろべろべろべろ
+1582,chu,chu! chu_kawaii tyu ちゅ チュ
+1583,hokahoka,ほかほか
+1584,doyukoto_doyukoto,どゆこと?どゆこと?  どゆことどゆこと doyukotodoyukoto
+1585,kininaru,気になる きになる kininaru
+1586,shintyoku_doudesuka,progress how_is_progress shinchoku_doudesuka
+1587,sorenante_anime,それなんてアニメ それなんてあにめ what_anime_is_that which_anime_is_that what_kind_of_anime_is_that sorenanteanime sorenante_anime sorenannteanime sorenannte_anime
+1588,sorenante_manga,それなんて漫画 それなんてまんが sorenanntemanga sorenantemanga what_manga_is_that which_manga_is_that what_kind_of_manga_is_that
+1589,sorenante_socialgame,それなんてソシャゲ それなんてそしゃげ sorenanntesoshage sorenantesoshage what_social_game_is_that which_social_game_is_that what_kind_of_social_game_is_that
+1590,akeome,あけおめ happy_new_year
+1591,kotoyoro,ことよろ ことしもよろしくおねがいします new_years_greeting
+1592,amarinimo_kawaii,
+1593,ara_kawaii,
+1594,desuyone,ですよね
+1595,eenyade,ええんやで eennyade 
+1596,emoit,えもいっ! えもいっ！
+1597,erait,えらいっ! えらいっ！
+1598,idai,偉大 いだい idai
+1599,igyo,偉業 いぎょう igyou goodjob greatjob 
+1600,iijamaika,いいじゃまいか iizyamaika
+1601,iikotoiu,いいこと言う いいこという
+1602,kanpeki,完璧 かんぺき kannpeki
+1603,kao_ga_yosugi,顔が良すぎ かおがよすぎ too_handsome too_good_looking kaogayosugi
+1604,kawaii,可愛いっ! かわいいっ! kawaiiltu kawaiixtu
+1605,kawaiii,かわいい kawaii
+1606,kawaiine,
+1607,kawaisugidaro,
+1608,kawaisugiru,
+1609,kawaisugiru,
+1610,kimoti_ii,きもちいい 気持ちいい 気持ち良い kimochiii kimochi kimotiii kimoti 
+1611,kitai,期待 きたい 
+1612,nyuuyoku_ha_igyou,入浴は偉業 にゅうよくはいぎょう bath_is_igyo bath_is_igyou bath_is_a_feat nyuuyokuha_igyo nyuuyokuha_igyou nyuuyoku_ha_igyo nyuuyoku_ha_igyou nyuuyokuhaigyou nyuuyokuhaigyo
+1613,sore,それ sorena this that
+1614,sounanda,そうなんだ sonanda
+1615,subarac,すばらしい すばらC subarashii subarasii subarac 
+1616,suki_heart,好き すき suki
+1617,super_igyo,スーパー偉業 すーぱーいぎょう superigyo
+1618,suteki,素敵 すてき
+1619,suteki2,素敵 すてき suteki suteki_kanji
+1620,tashikani,たしかに tasikani
+1621,totemo_kawaii,
+1622,umasou,うまそう umaso
+1623,wakaranakumonai,わからなくもない
+1624,wakaru,わかる understand gotit agree 
+1625,yokatta,よかった
+1626,yuushou,優勝 ゆうしょう yusho yushou yusyo yusyou yuusho yuushou yuusyo yuusyou
+1627,gibun_johda,기분좋다 キブンジョッタ gibun_jota gibun_johta
+1628,jaryeok_kaengsaeng,自力更生 じりょくこうせい じりきこうせい jaryeok kaengsaeng 자력갱생 자력 갱생
+1629,taedonggang_beer,대동강맥주 大同江麥酒 大同江麦酒 だいどうこうばくしゅ 大同江ビール テドンガンビール アツいビール テドンガンメッチュ テドンガンメクチュ daedong_gang_maekju taetong_kang_maekchu
+1630,fes,祭り まつり フェス maturi
+1631,groovy,グルーヴィ グルービー
+1632,iq65536,iq65536 iq500 iq
+1633,my_new_gear,マイニューギア mng
+1634,out,out! アウト
+1635,safe,セーフ
+1636,see_you_next_time,seeyounexttime
+1637,test,テスト てすと
+1638,uso800,嘘八百 うそはっぴゃく usohappyaku
+1639,yabe,やべ やばい nsfw
+1640,anchan,
+1641,ap,activity_pub activitypub activitypub_logo
+1642,bitcoin,
+1643,brainworx,
+1644,calorie_zero,カロリーゼロ ゼロカロリー zero calorie
+1645,cando,キャンドゥ 100円ショップ 100en_shop
+1646,chatgpt,えーあい エーアイ チャットエーアイ チャットジーピーティー ChatGenerativePretrainedTransformer
+1647,daiso,ダイソー だいそー
+1648,dvd_audio,
+1649,eastwest,
+1650,goodtale,
+1651,hires,audio
+1652,ilok,
+1653,insight,
+1654,izotope,
+1655,kimwipe,
+1656,marugame,marukame
+1657,mcdonalds,
+1658,midi,
+1659,midi2,
+1660,murakamisan_logo,村上さん むらかみさん murakamisan
+1661,nasa,
+1662,nectar,
+1663,neoberb,
+1664,neutron,
+1665,ozone,
+1666,p_i_p,pip npm
+1667,qc_abandoned,QC qcabandoned
+1668,qc_rejected,qcrejected QC
+1669,revoice,
+1670,rx,
+1671,ryzen_circle,らいぜん ライゼン 
+1672,scp_foundation_cc_by_sa_3_0,
+1673,seria,セリア せりあ
+1674,srs_wow,
+1675,stamp_qcpass,
+1676,synchro_arts,
+1677,three_black_circles_with_white_outlines_are_too_simple_and_therefore_ineligible_for_copyright_protection__publicdomain,ﾊﾊｯ mouse_silhouette
+1678,type_local,普通 ふつう local futsuu futsuuu futuu futuuu hutsuu hutsuuu hutuu hutuuu
+1679,waves,
+1680,yamaha_motor_logo,ヤマハモーター 
+1681,yodobashi,
+1682,acrobat_pdf,
+1683,adobe,あどべ アドベ
+1684,atok,ATOK
+1685,aviutl,
+1686,bitwig,daw
+1687,blender,
+1688,brave,
+1689,chrome_teardrop,browser
+1690,clipstudiopaint,クリップスタジオペイント
+1691,cr_edge,
+1692,discord,social ディスコード でぃすこーど
+1693,flstudio,fl daw
+1694,gravity,グラビティ グラビティー SNS sns gravity_sns gravity_logo
+1695,ibispaint,アイビスペイント あいびすぺいんと aibisupeinnto
+1696,ie,browser
+1697,illustrator,
+1698,inkscape,インクスケイプ
+1699,kaiteki,かいてき 快適 快的 カイテキ 
+1700,krita,クリタ
+1701,misscat,ミスキャット ミスキークライアントアプリ MissCat
+1702,missririca,icon_ririca miss_ririca icon miss ririca
+1703,mochocho_db,mochocho_database モチョチョデータベース もちょちょでーたべーす
+1704,opera,
+1705,pdf,
+1706,photoshop,ps フォトショ ふぉとしょ フォトショップ
+1707,reaper,
+1708,safari,browser
+1709,sai,paint_tool_sai 彩 さい ペイントツール彩 ペイントツールSAI easy_paint_tool_sai
+1710,skype,
+1711,socialhub,
+1712,studio_one,daw
+1713,subwaytooter,subway_tooter
+1714,thunderbird,thunderbird_logo サンダーバード 雷鳥 mozilla_thunderbird
+1715,tor_browser,tor browser onion onon_browser トーア トア トーアブラウザ トアブラウザ
+1716,vivaldi,
+1717,vlc,
+1718,vroidstudio,
+1719,yo,よっ
+1720,activitypub,activity_pub activity_pub_logo
+1721,cloudflare,
+1722,dart,
+1723,deno,デノ deno_logo deno_dinosaur
+1724,digitalocean,
+1725,docker,
+1726,fortran,フォートラン
+1727,git,ギット version_control_system git_logo バージョン管理 version_management 
+1728,github,
+1729,gitlab,
+1730,grunt,
+1731,haskell,ハスケル
+1732,hsp,hot_soup_processor hsp_logo ホットスーププロセッサ
+1733,javascript,
+1734,linux,
+1735,lisp,リスプ lisp_logo
+1736,lisp_alien,lisp alien リスプ エイリアン lisplogo_alien
+1737,mercurial,hg バージョン管理 version_management version_control_system
+1738,mongodb,
+1739,MySQL,
+1740,nim,ニム nim_crown nim_logo
+1741,nodejs,
+1742,openstack,
+1743,perl,
+1744,perl_camel,perl camel perl_logo perl_symbol パール パールキャメル ラクダ perlのラクダ
+1745,python,
+1746,raku,perl6
+1747,react,リアクト りあくと
+1748,redis,
+1749,ruby,ルビー rubygem ruby_logo
+1750,rust,
+1751,subversion,svn apache_subversion サブバージョン アパッチサブバージョン バージョン管理 version_management version_control_system
+1752,typescript,ts タイプスクリプト typescript_logo
+1753,vue,
+1754,wasabi,
+1755,appcode,jetbrains ac
+1756,clion,jetbrains cl
+1757,datagrip,jetbrains dg
+1758,datalore,jetbrains dl
+1759,dotcover,jetbrains dc
+1760,dotmemory,jetbrains dm
+1761,dotpeek,jetbrains dp
+1762,dottrace,jetbrains dt
+1763,goland,jetbrains go
+1764,hub,jetbrains hb
+1765,intellij,jetbrains ij idea
+1766,jetbrains,ジェットブレインズ
+1767,kotlin,jetbrains
+1768,mps,jetbrains
+1769,phpstorm,jetbrains ps
+1770,pycharm,jetbrains pc
+1771,resharper,jetbrains rs
+1772,resharper_cpp,jetbrains rsc resharper-cpp
+1773,rider,jetbrains rd
+1774,rubymine,jetbrains rm
+1775,space,jetbrains
+1776,teamcity,jetbrains tc
+1777,toolbox,jetbrains
+1778,upsource,jetbrains up
+1779,webstorm,jetbrains ws
+1780,youtrack,jetbrains yt
+1781,amd,
+1782,android,
+1783,hololive,ホロライブ hororaibu
+1784,intel,
+1785,microsoft,
+1786,nijisanji,にじさんじ nijisanji nijisanzi niji3ji niji3zi nizisanji nizisanzi nizi3ji nizi3zi 2jisanji 2jisanzi 2ji3ji 2ji3zi 2zisanji 2zisanzi 2zi3ji 2zi3zi 23
+1787,apex,ea
+1788,epic_games,epicgames
+1789,genshin,原神 原神 げんしん ゲンシン ｹﾞﾝｼﾝ logo_genshin
+1790,knockout_city,ea
+1791,leagueoflegends,
+1792,mabinogi,
+1793,neosvr,neos ネオス NeosVR 
+1794,osu,
+1795,otinaide_io,落ちないで.io 落ちないでio おちないでどっとあいおー おちないであいおー
+1796,steam,
+1797,vrc,
+1798,vrchat,
+1799,alma_linux,almalinux alma アルマ
+1800,arch,アーチ archlinux arch_linux linux リナックス ライナックス
+1801,asahilinux,asahi_linux asahi linux 朝日リナックス あさひ リナックス ライナックス
+1802,darlinghq,macos apple macintosh mach
+1803,dosbox,dosbox msdos
+1804,fedora,fedora_os fedora_logo fedora_linux フェドラ linux フェドーラ
+1805,freebsd,bsd フリービーエスディー
+1806,gentoo,gentoo_linux linux ジェントゥー ゲントゥー ジェンツー ゲンツー
+1807,haiku,BeOS haiku 俳句 はいく
+1808,ios,iOS アイオーエス あいおーえす 
+1809,kali_dragon,kalilinux kali_linux カリ
+1810,lineage_os,android
+1811,mageia,マギア マギアリナックス linux mageia_linux
+1812,manjaro,マンジャロ manjaro_linux arch_based linux
+1813,nixos,ニクスオーエス ニクス ニックス ニックスオーエス nix_os nix linux
+1814,reactos,reactos windows
+1815,redhat,red_hat レッドハット 赤帽子 赤帽
+1816,rocky_linux,rockylinux rocky ロッキー
+1817,winehq,wine windows wine_is_not_an_emulator
+1818,worksonmymachine,works_on_my_machine 
+1819,yubico,yubico_logo yubikey yubico_favicon favicon_yubico
+1820,yubico_title,yubico yubico_logo
+1821,5g,
+1822,akkoma,あっこま あつこま アツコマ アッコマ
+1823,ap_amzn,
+1824,audioplugin_deals,
+1825,aws,
+1826,azure,
+1827,booth,ブース booth.pm
+1828,calckey,カルクキー カルッキー キャルクキー fediverse
+1829,copilot,github_copilot
+1830,crepu,くるっぷ クルップ SNS sns kuruppu crepu_sns
+1831,dlsite,
+1832,evernote,
+1833,funkwhale,ファンクホエール ファンクヱール クジラ 鯨
+1834,gc2,ガーシー丼 がーしー 
+1835,ggrks_search,google search_it_yourself
+1836,gimp,ギンプ
+1837,gnu_social,gnusocial ぐにゅー ぐぬそ 言論の自由 
+1838,hub_porn,pornhub
+1839,i_mode,imode iモード
+1840,io,misskey_io misskeyio
+1841,java,
+1842,javascript_with_coffeecup,javascript_meme
+1843,keybase,
+1844,kuroneko_yamato,クロネコヤマト
+1845,marshmallow_qa,marshmallow marshmallow-qa マシュマロ マシュマロ 質問箱 qa QA 
+1846,mastodon,social sns ますとどん マストドン
+1847,milktea,ミルクティー
+1848,patreon,パトレオン
+1849,paypal,ペイパル
+1850,peertube,peertube_logo
+1851,pixelfed,ピクセルフェッド fediverse
+1852,pleroma,プレロマ ぷれろま
+1853,plugin_alliance,
+1854,plugin_boutique,
+1855,quip,くいっぷ クイップ kuippu 
+1856,reddit,レディット
+1857,slack,
+1858,soundcloud,
+1859,submarin,さぶまりん サブマリン
+1860,telegram,
+1861,twitch,ツイッチ ついっち
+1862,twitter,
+1863,twitter2006,ひ ヒ ﾋ hi twitter_logo twitter logo_twitter twitter_favicon twitter_icon
+1864,unext,
+1865,vultr_bird,vultr ヴァルチャー バルチャー
+1866,youtube,
+1867,atom,github_atom
+1868,EclipseIDE,
+1869,emacs,gnu_emacs gnuemacs イーマックス
+1870,excel,
+1871,gnu_nano,nano
+1872,helix_editor,ヘリックス ヒリックス helix editor post_modern_text_editor
+1873,ichitarou,一太郎 いちたろう ititaro
+1874,kakoune,
+1875,kate,
+1876,latex_logo,latex らてふ 
+1877,leafpad,リーフパッド leafpad_text_ediitor
+1878,mery,メリー
+1879,neovim,
+1880,notepad_plus_plus,notepad++
+1881,office,
+1882,onenote,
+1883,powerpoint,
+1884,sakura_editor,サクラエディタ さくらえでぃた sakuraeditor sakura text_editor
+1885,sublime_text,sublime sublimetext
+1886,terapad,テラパッド terapad_text_editor tpad tpadicon
+1887,vim,
+1888,visual_studio,visualstudio microsoft_visual_studio
+1889,v_scode,vscode vim vi
+1890,windows_notepad,notepad ノートパッド メモ帳 microsoft_notepad
+1891,word,
+1892,wordpad,microsoft_wordpad windows_wordpad ワードパッド
+1893,neko_cats_eye,
+1894,neko_cats_eye_blue,
+1895,neko_closing_eyes,
+1896,neko_eyes_shut,
+1897,neko_fish,
+1898,neko_frowning,
+1899,neko_glasses3,
+1900,neko_gray,
+1901,neko_nyaan,
+1902,neko_oinari,
+1903,neko_relax,
+1904,neko_roling_eyes,
+1905,neko_roling_eyes2,
+1906,neko_sad,
+1907,neko_siam,
+1908,neko_smiley,
+1909,neko_smirk,
+1910,neko_star_eyes,
+1911,neko_sunglasses,
+1912,neko_sweat,
+1913,neko_thinking,
+1914,neko_tired,
+1915,neko_tired2,
+1916,neko_xd,
+1917,aemoji_bell,ベル チリン チンチン
+1918,flyingdisc,フライングディスク フリスビー 最強
+1919,hee_button,へぇ〜 hele- hexe-
+1920,ic_qfp,ic qfp
+1921,rip,rest_in_peace tombstone 墓石 お墓 おはか はかいし リップ りっぷ 死 し 死にました しにました
+1922,yubikey,yubico key yubiKey_5 yubikey_nfc nfc yubikey_nano 
+1923,allekra_fx,アレクラfx allergy_medicine アレルギー薬
+1924,loxomin_miskist,ロキソミンミスキスト loxomin_miskist
+1925,loxomin_msk,ロキソミン loxomin
+1926,soldering,道具 はんだごて solder
+1927,00,
+1928,000,
+1929,04,
+1930,100minuspts,点数 points
+1931,110,
+1932,1up,
+1933,334,hanshin はんしん 阪神 なんでや！阪神関係ないやろ！ なんでや!阪神関係ないやろ!
+1934,575,
+1935,acceleratedclock,clock 時計 とけい
+1936,agooglehearts,
+1937,agoogleoctopus,
+1938,ba90,dangerous
+1939,blank,
+1940,blaze,fire 火 ひ
+1941,chikuwa,
+1942,clock,時計 とけい
+1943,cv,
+1944,cyber_hacking,matrix まとりっくす マトリックス
+1945,disputed,
+1946,emergency,keisatsu police_siren alarm light rotating_light flash flashing_red_light rotating_red_light red_light_rotating pi-po- patoka-noare patrol_light patolight patlight light_patrolcar patrol_car_lights
+1947,eo_flag,esperanto エスペラント エスペラント語 世界語 希望語 
+1948,error,
+1949,explosion,
+1950,fakenews,fake news
+1951,github_unicorn,
+1952,hanshin,阪神 はんしん
+1953,hasta_la_vista,
+1954,hyperacceleratedclock_backwards,clock 時計 とけい
+1955,jiangshi,china
+1956,karakarauo,
+1957,laser,
+1958,loading,
+1959,macos,loading cursor mouse mac
+1960,mappin,
+1961,minecraft_cake,cake ケーキ マイクラ
+1962,minecraft_tnt,tnt マイクラ
+1963,need_for_sleep,
+1964,negi,
+1965,nervouscursor,
+1966,new_l,
+1967,new_r,
+1968,pangya_jikan,
+1969,prohibit_bath,ban
+1970,prohibit_water,ban
+1971,pui,
+1972,punch_left_fast,パンチ
+1973,radioactive,
+1974,rec,
+1975,score_65535,
+1976,simcard,
+1977,speechbubble,
+1978,speechbubble_,
+1979,speechbubble_rant_left,
+1980,speechbubble_zigzag_left,
+1981,speechbubble_zigzag_right,
+1982,supertada,
+1983,tada_broccoli,
+1984,tetrapod1,
+1985,thought_bubble,
+1986,thought_bubble_,
+1987,tokipona,toki_pona ときぽな トキポナ 도기보나 道本語 道本 
+1988,touhuku,china
+1989,twitter_fact_check,
+1990,twitter_heart,
+1991,ukulele,ウクレレ
+1992,uni,
+1993,uptoyou,
+1994,vs,
+1995,win_computer,
+1996,you_are_winner,
+1997,nananana,takagi joyman ジョイマン じょいまん
+1998,yonnnana,よんなな
+1999,yosano_akiko_is_always_watching_you,与謝野晶子 よさのあきこ yosanoakiko 
+2000,c30,icon_c30 sky 青い空 空 そら 青空 あおそら あおぞら
+2001,dedeo,ででお デデオ
+2002,icon_balloon,balloon 風船 ふうせん fu-sen icon_fu-sen 
+2003,icon_goma,goma ごま ゴマ 胡麻 icon_g0ma_ g0ma_icon
+2004,icon_hisubway,hisubway_icon はいさぶうぇい はいさぶゑい サブウェイ サブヱイ hisubway 怪レい日本语
+2005,icon_kawanerio,川音リオ かわねりお kawanerio
+2006,icon_kiyoko,伊塚キヨ子 いづかきよこ iduka_kiyoko
+2007,icon_kiyomaru,kiyomaru きよまる
+2008,icon_long_mewlme_bottom,
+2009,icon_long_mewlme_chest,
+2010,icon_long_mewlme_head,
+2011,icon_long_mewlme_middle,
+2012,icon_mattyatea,mattyatea_icon mattyatea まっちゃてぃー
+2013,icon_nae,nae なえ なえなえ nae2 icon_nae2 naenae
+2014,icon_renfa,renfa renfa_icon
+2015,icon_syuilo,しゅいろ syuilo
+2016,icon_thinaticsystem,scream thinaticsystem しなちくシステム sinatikusisutemu shinatikushisutemu しなちくしすてむ しなちなち sinati sinachi thinachi thinati エクレール マルティノッジ Martinozzi Éclair Martinodge Eclair ekure-ru marutexinozzi marutelinozzi 叫ぶ さけぶ sakebu 驚く おどろく odoroku surprised
+2017,icon_xflest,ふれすと xflest
+2018,kobatokokoa,
+2019,mei23,
+2020,mewlme_woozy_head,めうるみ
+2021,mikadoninjin,みかどにんじん carotene icon_carotene きゃろってね
+2022,nemudaru_tofu,ねむだるとうふ ねむだる豆腐 namudaru tofu
+2023,syuiro,しゅいろ
+2024,yotimu_hai,yotimuhai 426hai  よちむはい よちむ応援 
+2025,bossan,bossan ぼっさん ribbonchan りぼんちゃん ribonchan
+2026,golden_yagoo,ゴールデンyagoo golden_yago golden_yagou golden_yagoh gooruden_yago
+2027,yagoo,谷郷元昭 たにごうもとあき やごー ホロライブのえらいひと yagou yagoh yago
+2028,yosano_party,与謝野晶子 よさのあきこ yosanoparty partyyosano
+2029,ablobcatfloofpat,pet pat なでなで 
+2030,blobcatawwpat,なでなで
+2031,fuuka_pat,kazamin_pat kazaminpat fuukapat かざみん ふうか kazamin_nadenade fuuka_nadenade かざみんなでなで ふうかなでなで petthex_fuuka
+2032,hamburger_petthex,hamburger naderu
+2033,pet_the_angel,petthex_angel pet pat nadenade なでなで angel 
+2034,petthex_ai,藍 あい なでなで pet pat ai
+2035,petthex_balloon,petthex_風船 petthex_ふうせん petthex_fu-sen
+2036,petthex_blobcat_frustration,なでなで pet pat blobcat blobcat_frustration 
+2037,petthex_c30,c30_pat pet pat nadenade なでなで icon_c30 
+2038,petthex_carotene,pet_the_carotene なでなで nadenade pet pat pet_carotene きゃろってねなでなで petpet_carotene
+2039,petthex_desyo,寿司なでなで すしなでなで sushi_nadenade desyo_nadenade nadenade pet pat なでなで
+2040,petthex_goma,petthex_g0ma_ pet pat なでなで なでなでごま 
+2041,petthex_inu,petinu ぺっといぬ pet pat inu nadenade なでなで
+2042,petthex_kiyoko,なでなで pet pat nadenade 伊塚キヨ子なでなで いづかきよこなでなで
+2043,petthex_kro,kro pet pat なでなで クロ petpet 
+2044,petthex_mattyatea,petpet pet pat なでなで まっちゃてぃーなでなで
+2045,petthex_mei23,mei23 meimei めいめい めいめいなでなで なでなで pet pat 
+2046,petthex_menme,menme nadenade なでなで pet pat
+2047,petthex_murakamisan,petthex_aureoleark petthex_ark ark pet pat nadenade なでなで 村上さん
+2048,petthex_muyuhira,六葩くる 六葩 むゆひら なでなで pet pat muyuhira_kuru
+2049,petthex_poop_vomiting_saurus,pet pat nadenade なでなで ウンチゲボザウルス ウンゲボ ungebo_nadenade
+2050,petthex_ryotak,
+2051,petthex_syuilo,しゅいろ pet pat nadenade なでなで 
+2052,petthex_twitter,ツイッターなでなで nadenade pet pat 
+2053,petthex_yanchon,yanchon_nadenade なでなで pet pat yanchon_nadenade やんちょんなでなで なでなでやんちょん
+2054,petthex_yonnnana,よんなななでなで なでなで nadenade pet pat 
+2055,petthex_yosano_akiko,なでなで pet pat 与謝野晶子 よさのあきこ yosanoakiko_nadenade
+2056,petthex_yotimu,pet pat なでなで pet_yotimu pat_yotimu pet_426 pat_426 なでなでよちむ なでなで426
+2057,machida,machida machidashi machidasi matida matidashi matidasi tokyo まちだ 町田 東京
+2058,hokkaidou,北海道 ほっかいどう 試される大地 hokkaidou_prefecture
+2059,nagano,長野県 ながのけん nagano_prefecture
+2060,niigata,新潟県 にいがたけん niigata_prefecture
+2061,saga,佐賀県 さがけん saga_prefecture
+2062,saitama,埼玉 さいたま
+2063,sanjuu,三重 さんじゅう mie
+2064,tochigi,栃木県 とちぎけん totigi_prefecture
+2065,hammer_and_sickle,hammerandsickle ソ連 ussr
+2066,shime,〆 しめ 締め sime
+2067,left_side_balloon_without_tail,ふきだし fukidashi hukidasi
+2068,left_side_balloon_with_tail,ふきだし fukidashi hukidasi
+2069,left_side_jagged_balloon_without_tail,ふきだし fukidashi hukidasi
+2070,left_side_thinking_balloon_without_tail,ふきだし fukidashi hukidasi
+2071,left_side_thinking_balloon_with_tail,ふきだし fukidashi hukidasi
+2072,right_side_balloon_without_tail,ふきだし fukidashi hukidasi
+2073,right_side_balloon_with_tail,ふきだし fukidashi hukidasi
+2074,right_side_jagged_balloon_without_tail,ふきだし fukidashi hukidasi
+2075,right_side_thinking_balloon_without_tail,ふきだし fukidashi hukidasi
+2076,right_side_thinking_balloon_with_tail,ふきだし fukidashi hukidasi
+2077,blinking_cursor,idle
+2078,pog,ポグ ポッグ Ryan Gootecks Guiterrez
+2079,fact,
+2080,fake,
+2081,ferdiverified,
+2082,flag_gray,flag_grey flag_government_official
+2083,gray_desk_with_mic,grey_desk_with_mic desk mic state-affiliated_media
+2084,puddingified_rejected,却下 認証 プリン ベリファイ 食べ物 food x
+2085,puddingified_verified_recursion,承認 認証 プリン ベリファイ 食べ物 food check
+2086,puddingified_verify,承認 認証 プリン ベリファイ 食べ物 food check
+2087,rejected_verify,
+2088,verified_blue,認証マーク verified 認証ブルー
+2089,verified_gold,認証マーク 企業認証 verified_business ゴールド認証
+2090,verified_gold_gradient,認証マーク 企業認証 verified_business ゴールド認証
+2091,verified_grey,認証マーク 政府認証 verified_government gov government グレー認証 政府関係 多国間機関
+2092,verified_misskey,認証マーク verified_green 認証グリーン 認証ミスキー 認証ミスキスト
+2093,verified_misskey_gradiant,認証マーク verified_green_gradiant 認証グリーングラデェーション 認証ミスキー 認証ミスキスト
+2094,verified_puddingified_verify,承認 認証 プリン ベリファイ 食べ物 food check
+2095,verified_reject,
+2096,verifiedsabakan,
+2097,verified_stroke_1,公式 official not_twitter_blue
+2098,verify,認証マーク verified
+2099,jp_tutorial_world,vrchat チュートリアルワールド
+2100,just_h,h justh just_h_party party just H
+2101,vrchat_user_is_online_in_a_private_world,
+2102,half_closed_eyes_woozy,
+2103,smile_woozy,
+2104,thinking_woozy,
+2105,woozy_angry,
+2106,woozy_sob,
+2107,woozytoocold,
+2108,woozytoohot,
+2109,ot_hyakusogan,
+2110,share,
+2111,arigatofes,
+2112,kawaiifes,かわいい祭り かわいいまつり kawaiimaturi kawaiimatsuri
+2113,naruhodofes,
+2114,tasukarufes,たすかるまつり tasukarumatsuri tasukarumaturi thanks fes saved helpful rescured tasukaru matsuri maturi
+2115,tasuketefes,help たすけてまつり
+2116,aa_a,
+2117,ableton_live,
+2118,aftereffects,
+2119,ageage,
+2120,ai,
+2121,aified,
+2122,ajifry,
+2123,aki,
+2124,ansible,
+2125,approved,
+2126,ara_steak,
+2127,ara_suteki,
+2128,argocd,argo_cd
+2129,arigachi,
+2130,arukamo,
+2131,atatakaisekai,
+2132,atatakaisekai,
+2133,atsuiyoo,
+2134,aussieparrot,
+2135,baiba,
+2136,baked_mochocho,
+2137,bara_jan,
+2138,benri,
+2139,blobsnowball1,
+2140,boku,
+2141,booth_logo,
+2142,boron,
+2143,boron,
+2144,broken_image,
+2145,bubuntekini_sou,
+2146,buturi_de_naguru,
+2147,cerenkov,
+2148,cevio,
+2149,chara_eyeless,
+2150,cheonggyecheon,
+2151,chian_saikou,
+2152,chigauno,
+2153,chocotto,
+2154,chotto_chigau,
+2155,chotto_wakaru,
+2156,chrome,
+2157,chuteki,
+2158,chuteki,
+2159,clippy,クリッピー
+2160,cluster,
+2161,coc_6,
+2162,coc_7,
+2163,conoha_logo,
+2164,creditcard_face,カードマン かーどまん 楽天カードマン
+2165,c_sharp,
+2166,cyberpunk2077,
+2167,daitai_atteru,
+2168,dajare,
+2169,dame,
+2170,damedesu,
+2171,dareda_imano,
+2172,dase,
+2173,dasite,
+2174,de,
+2175,dealwithitparrot,
+2176,dekai,
+2177,dekiraa,
+2178,demaekan,
+2179,desuka,
+2180,desuwa,
+2181,desuyo,
+2182,dlang_kun,
+2183,docker_moby,
+2184,doecchi,
+2185,dokaben,
+2186,dokagui_kizetubu,
+2187,doki,
+2188,donitikankeinai,
+2189,dontt,
+2190,doomo,
+2191,dore,
+2192,dosukoi,
+2193,dot_marisa,
+2194,dot_reimu,
+2195,doudemoiine,
+2196,douiu_imi_desuka,
+2197,douzo_douzo,
+2198,edamame,
+2199,edge,
+2200,eeyan,
+2201,eggdog,
+2202,error_jan,
+2203,eti,
+2204,_exclamation_mark,
+2205,exclamation_sign,
+2206,expack_500_is_economical,
+2207,exploding_woozy,
+2208,eyes_fidgeting,
+2209,fediverse,
+2210,firefox,
+2211,flying_money,
+2212,frisk,
+2213,fumifumi,
+2214,fumu,
+2215,fumufumu,
+2216,funwari,
+2217,furuhe,
+2218,fuwafuwa,
+2219,fuyu,
+2220,ga,
+2221,galaxy,
+2222,ganbaruzoi,
+2223,ganbatta,
+2224,gaon_sleepy,
+2225,gateway,
+2226,genbaneko_dousite,現場猫 げんばねこ どうして genbaneko_doushite dousitegenbaneko
+2227,genmai_shisho,
+2228,gichigichi,
+2229,giman,
+2230,give_money,お金 おかね give money cash あげる take_my_money
+2231,go_chest_ni_gowasu,
+2232,gogono,
+2233,gokigenyou,
+2234,golang_gopher,
+2235,goodgame,
+2236,goodluck,
+2237,goukyuu,
+2238,gozasourou,
+2239,gozennno,
+2240,grafana,
+2241,guhuhu,
+2242,guwaa_meshi_terro_ja,
+2243,ha,
+2244,haibokuwoshiritai,
+2245,haihaihamujanai,
+2246,haiku_wo_yomu_gaii,
+2247,hanakin,
+2248,hanashihanashi,
+2249,hanka,
+2250,happy,
+2251,haraitai_ponponpain,
+2252,haru,
+2253,higeki,
+2254,hoba,
+2255,hokohoko,
+2256,hol_crew_happy,
+2257,hol_crew_love,
+2258,honmatsu_tentou,
+2259,honshitsu_jouhou,
+2260,honsore,
+2261,hotondo_ihou,
+2262,hou_shiyou,
+2263,hunikideyatteru,
+2264,ichiriaru,
+2265,icon_ryotak,
+2266,igokotiyosa,
+2267,igokotiyosa,
+2268,igyo_omurice,
+2269,igyosugiru,
+2270,igyou,
+2271,ii,
+2272,iine,
+2273,iiyo,
+2274,iiyone,
+2275,ijin,
+2276,iki,
+2277,ikioi_daiji,
+2278,ikite,
+2279,imadesyo,
+2280,imakita_sangyou,
+2281,imanohanashi,
+2282,ingaouhou,
+2283,iniwach,
+2284,internet_roujinkai,
+2285,internet_tyuunenkai,
+2286,_interrobang_mark,
+2287,inu_downer,
+2288,inu_happy,
+2289,iro,
+2290,irohas,
+2291,iron,
+2292,ishikawa_takuboku_is_always_watching_you,
+2293,itekima,
+2294,itterassyai,
+2295,i_voted,
+2296,i_voted_jp,
+2297,jakigan,
+2298,jigoku,
+2299,jikuujyou_no_sonzaisyoumei,
+2300,jinruimetubou,
+2301,jissai_yasui,
+2302,jisshitsu,
+2303,jiyuu,
+2304,joubutsushite_clemence,
+2305,juudai_incident,juudaiinshidento
+2306,jyuuden_nai,
+2307,jyuuden_shiro,
+2308,kafun,
+2309,kaiketsu,
+2310,kaisoku,
+2311,kakoku,
+2312,kakugi_kettei,
+2313,kakugo,
+2314,kakutei,
+2315,kanashii,
+2316,kanzennirikaisita,
+2317,kanzennisore,
+2318,kanzennisou,
+2319,kanzenrikai,
+2320,katikaku,
+2321,kattare,
+2322,kattenitatakae,
+2323,kawaikochan,
+2324,kawaisokawaisonanodesu,
+2325,kawayoi,
+2326,kayowai,
+2327,kekkin,
+2328,kiatu_no_sei,
+2329,kiduki,
+2330,kinishinaide,
+2331,kinketu,
+2332,kinnki,
+2333,kinnki,
+2334,kirakira,
+2335,kireteruyo,
+2336,kitsukitsu,
+2337,kitsunechan,
+2338,koi,
+2339,kojin_kaihatsu_yazo,
+2340,kojin_unei_yazo,
+2341,komeda,
+2342,koorudo,
+2343,kora,
+2344,kore,
+2345,koucha,
+2346,kouhai,
+2347,kowaii,
+2348,kubernetes,
+2349,kue,
+2350,kumagaya,
+2351,kuromaku,
+2352,kuruu,
+2353,kyash,
+2354,kyouha_yasumizya,
+2355,kyoumibukai,
+2356,kyoumo_itiniti,
+2357,kyusai,
+2358,kyuubo,
+2359,kyuukei,
+2360,live2d,
+2361,logbo_wasuretenai,
+2362,love,
+2363,lstm,
+2364,majires_suruto,
+2365,major_league_baseball,
+2366,manal,
+2367,manyo_shu,万葉集 萬葉集 まんようしゅう
+2368,mareniyokuaru,
+2369,matakattesimattana,
+2370,matsukensanba,
+2371,matsukensanba,
+2372,mattyaski,
+2373,mazuiwayo,
+2374,mchammer,
+2375,mc_hammer_symbolic,
+2376,mexican_cat,
+2377,mfm,
+2378,miraijin,
+2379,miraini_ikiteru,
+2380,m_league_abemas,
+2381,m_league_drivens,
+2382,m_league_fightclub,
+2383,m_league_furinkazan,
+2384,m_league_logo,
+2385,m_league_phoenix,
+2386,m_league_pirates,
+2387,m_league_raiden,
+2388,m_league_sakuraknights,
+2389,mochiron,
+2390,mochi_tsuite,
+2391,mokuzou_kenchiku,
+2392,mo_morochinda,
+2393,monday,
+2394,monkahmm,
+2395,monkas,
+2396,mononiyoru,
+2397,monosugoi,
+2398,moriougai,
+2399,morochin,
+2400,morojan,
+2401,mouse,
+2402,muchi_situ,
+2403,mujun,
+2404,muri,
+2405,murikamo,
+2406,muryou,
+2407,muzu,
+2408,muzui,
+2409,naigachi,
+2410,naikamo,
+2411,naiyouganaiyoutte_dajarehadaiji,内容がないようって...ダジャレは大事 ないようがないようって…ダジャレは大事 
+2412,nanda_koitsu,
+2413,nan_dato_,
+2414,nani,
+2415,naniwaro,
+2416,nanka_ugoiterukara_ok,nankaugoiterukaraok
+2417,nanto,
+2418,naruhodonaa,
+2419,natsukashii,
+2420,nerunerunerune,
+2421,neta_dayona,
+2422,nete,
+2423,nihongo_de_ok_gatagata,
+2424,ningen_ha_oroka,ningenhaoroka
+2425,ninkimono,
+2426,no,
+2427,npm,
+2428,numa,
+2429,nyancat,
+2430,nyanparrot,
+2431,nyanpuppuchan,
+2432,nyanpuppuchan_eating_baked_mochocho,
+2433,obaachan,
+2434,oboeta,
+2435,ochingin,
+2436,off,
+2437,oioioi,
+2438,oishiine,
+2439,oishii_pasta_tukutta_omae,
+2440,oishisou,
+2441,oisho,
+2442,oisho,
+2443,okaeshi_mousu,
+2444,okashiine,
+2445,ok_dman,
+2446,okeyaga_moukaru,
+2447,okiwotasikani,
+2448,okusuri,
+2449,oldtimeyparrot,
+2450,omaemokaa,
+2451,omae_no_koto,
+2452,omaeno_siwaza_datanoka,
+2453,omae_sore_savanna_demo_onajikoto_ienno,お前それサバンナでも同じこと言えんの？ おまえそれさばんなでもおなじこといえんの sabanna_demo omae_sore_sabanna_demo_onazikoto_ienno
+2454,omoshiroi,
+2455,onaziku,
+2456,onaziku,
+2457,onsha_ha_hima_nanodesuka,
+2458,oobannyaki,
+2459,ooo_otitsuite,
+2460,open_eye_crying_laughing,
+2461,order_constant,
+2462,order_cubic,
+2463,order_factorial,
+2464,order_linear,
+2465,order_logarithmic,
+2466,order_quadratic,
+2467,ore_no_kotoka,
+2468,oshimai,
+2469,osusume,
+2470,otouto,
+2471,otto_tega,
+2472,otukarefes,
+2473,oyasumi,
+2474,oyoo,
+2475,peisu,
+2476,petthex,
+2477,petthex_blobcatmeltcry,
+2478,peyupeyu,
+2479,pirelli_tyre_hard,
+2480,pirelli_tyre_inter,
+2481,pirelli_tyre_medium,
+2482,pirelli_tyre_soft,
+2483,pirelli_tyre_wet,
+2484,pixiv,
+2485,pixiv_icon,
+2486,poayoo,
+2487,poetto,
+2488,pokaeri,
+2489,poyasuni,
+2490,_prolong,
+2491,puro,
+2492,_question_mark,
+2493,r15,
+2494,ramee,
+2495,raspberrypi,
+2496,reaction_shooter,
+2497,realtek,
+2498,regretcar,
+2499,regretcar_1,
+2500,regretcar_2,
+2501,regretcar_3,
+2502,retahasu,
+2503,rikidouzan,
+2504,ringi_syounin,
+2505,ronri_shussha,
+2506,rouhi,
+2507,ryotak_ginkou_267_yen,
+2508,ryuukou,
+2509,sadparrot,
+2510,sagashiteta,
+2511,saikidou,
+2512,saikyou,
+2513,sanzai,
+2514,saretai,
+2515,saretemitai,
+2516,scala,
+2517,seitai_server,
+2518,seitai_server_ni_siteyarou,
+2519,sekinin,
+2520,sekiyuou,
+2521,senpai,
+2522,sensei,
+2523,server_ni_naruzo,
+2524,setsu,
+2525,seyakate,
+2526,sheep_verified,
+2527,shigomodo,
+2528,shin,
+2529,shinjirou_koubun,
+2530,shinsaku,
+2531,shiogatanneeyo,
+2532,shitai,
+2533,shosetsuaru,
+2534,shukujitsu_shukkin,
+2535,shukujitukankeinai,syukujitukankeinai
+2536,shukusei,
+2537,shukusei,
+2538,shumi,
+2539,simanto,
+2540,singityuu,
+2541,sinri,
+2542,sirikara_genyu,
+2543,sitehosii,
+2544,sitenai,
+2545,siteru,
+2546,sittai,
+2547,sittai,
+2548,sitteokou,
+2549,social_is_local_and_follow,
+2550,sodane,
+2551,sonna_anatani_finalfantasyxiv_freetrial_toiumonoga_sonzaisuru,
+2552,sonna_banana,
+2553,sonnani,
+2554,sonnani_ureshiika,
+2555,sonomama_fuuton_de_neteore,
+2556,sonotyousi,
+2557,soredeshikanai,
+2558,sorehadoukana,
+2559,soremomatajinsei,
+2560,sore_of_sore,
+2561,sore_yatteru,
+2562,soudane,
+2563,soudayo,
+2564,soudesu,
+2565,soukashira,
+2566,sounano,
+2567,sousore,
+2568,soutai,
+2569,souwayo,
+2570,stamp,
+2571,sugesuge_voo,
+2572,sugosou,
+2573,suki,
+2574,sukkiri,
+2575,sukkiri2,
+2576,sukkokoko,
+2577,super_chat_10000yen,
+2578,super_chat_500yen,
+2579,sutekidane,
+2580,synthv,
+2581,syokken_ranyou,
+2582,syu,
+2583,tabetai,
+2584,tabun_sou,
+2585,taichou_fryou,
+2586,taisetu,
+2587,taotie,
+2588,taso,
+2589,tasukaru,
+2590,tatebayasi,
+2591,tazimi,
+2592,teetee,
+2593,teetee,
+2594,teiji_taisha,
+2595,teikei_end,
+2596,teikei_start,
+2597,teine,
+2598,teinei,
+2599,teineini,
+2600,tere,
+2601,thinking_knife,
+2602,thinking_pad,
+2603,tiken2,
+2604,tikutiku_kotoba,
+2605,time,
+2606,to,
+2607,tobu_nodaline,
+2608,tokkyu_jubutsu,
+2609,totemosore,
+2610,totemosou,
+2611,totemoyoi,
+2612,tottemo_cute,
+2613,tourounagashi,
+2614,toutoi,
+2615,toutoi,
+2616,tripletsparrot,
+2617,tsugihanashi,
+2618,tsuyoso,
+2619,turai,
+2620,uber_eats,
+2621,ubuntu,
+2622,uhee,
+2623,ultimate_anko_circle,
+2624,ultra_bakasake_nomi,
+2625,un,
+2626,unitycube,
+2627,unitycube_2004,
+2628,ureshii,
+2629,usapyonpyon,
+2630,usodesu,
+2631,utau,
+2632,vlang,
+2633,vocaloid,
+2634,vscode,
+2635,vultr,
+2636,vultr_logo,
+2637,waai,
+2638,wagahai,
+2639,waimo,
+2640,wakaiseyo,
+2641,wakarase,
+2642,wakarisou,
+2643,wakarukamo,
+2644,wakarunaa,
+2645,wana,trap
+2646,waraitomanneeyo,
+2647,warauna,
+2648,wasureta,
+2649,_wave,
+2650,wave,
+2651,winny,
+2652,wo,
+2653,woozy_cute,
+2654,xtu,
+2655,yaan,
+2656,yabai_logo,
+2657,yaitare,
+2658,yamero,
+2659,yarujan,
+2660,yodobashi_extreme,
+2661,yoidore,
+2662,yokuaru,
+2663,yokunai,
+2664,yokutteyo,
+2665,yokuyatta,
+2666,yoltsu,
+2667,yoroshikuonegaishimasu,
+2668,yosasou,
+2669,yotimu_cry,
+2670,yotimu_sirome,
+2671,yotimu_suki,
+2672,yunirucry,
+2673,yuniruganbare,
+2674,yunirugg,
+2675,yunirugl,
+2676,yuri_jan,
+2677,yurubo,
+2678,yusho,
+2679,zangyou,
+2680,zenchi1,
+2681,zenchi2,
+2682,zikan_ga_tokeru,
+2683,zikan_wo_tokasu,
+2684,zip_de_kure,
+2685,zunda_mochi,
+2686,zyuuyou,

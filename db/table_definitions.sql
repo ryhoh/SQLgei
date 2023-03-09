@@ -166,6 +166,13 @@ CREATE TABLE eki_station_join (
 -- 駅データ.jp ここまで
 
 -- misskey 系 ここから
+CREATE TABLE msky_emoji (
+       id SERIAL PRIMARY KEY,
+       name VARCHAR(128) NOT NULL,
+       info VARCHAR(1024)
+);
+ GRANT SELECT ON msky_emoji TO bot;
+
 CREATE TABLE puppu (
        code VARCHAR(32) PRIMARY KEY
 );
