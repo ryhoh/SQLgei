@@ -25,7 +25,6 @@ SELECT文の実行結果テーブル
 
 """
 class Table:
-    MAX_ROW_SIZE = 60  # 1行の最大文字数
     COL_DELIMITER = ' | '  # カラム間の区切り文字
 
     """
@@ -45,24 +44,11 @@ class Table:
 
     """
     def __str__(self) -> str:
-        # カラム名がない場合は、空行x2を返す
-        if len(self.columns) == 0:
-            return '\n\n'  # @@暫定
-
-        # 基準の長さを決めておく
-        col_num = len(self.columns)
-        row_size_per_col = (self.MAX_ROW_SIZE - len(self.COL_DELIMITER) * (col_num - 1)) // col_num
-
-        # カラム名が長すぎる場合は、末尾に...をつけて切り詰める
-        columns = self.__cut_columns(self.columns, row_size_per_col)
-
         # 結果の出力
-        result = self.COL_DELIMITER.join(columns) + '\n'
+        result = self.COL_DELIMITER.join(self.columns) + '\n'
         for record in self.records:
             record: Tuple[Any]
             record_str = map(str, record)
-            # データが長すぎる場合は、末尾に...をつけて切り詰める
-            record_str = self.__cut_columns(record_str, row_size_per_col)
             result += self.COL_DELIMITER.join(record_str) + '\n'
         return result
     
