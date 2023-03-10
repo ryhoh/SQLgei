@@ -4,3 +4,5 @@
 credential.json
 venv/*
 db/psql/*
+
+data/misskey/venv
