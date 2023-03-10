@@ -25,6 +25,9 @@ SELECT文の実行結果テーブル
 
 """
 class Table:
+    MAX_ROW_SIZE = 60  # 1行の最大文字数
+    COL_DELIMITER = ' | '  # カラム間の区切り文字
+
     """
     @param columns カラム名
     @param records データ
@@ -41,12 +44,40 @@ class Table:
     @return 文字列化した結果
 
     """
-    def __str__(self) -> str:  # temporary
-        result = ' | '.join(self.columns) + '\n'
+    def __str__(self) -> str:
+        # カラム名がない場合は、空行x2を返す
+        if len(self.columns) == 0:
+            return '\n\n'  # @@暫定
+
+        # 基準の長さを決めておく
+        col_num = len(self.columns)
+        row_size_per_col = (self.MAX_ROW_SIZE - len(self.COL_DELIMITER) * (col_num - 1)) // col_num
+
+        # カラム名が長すぎる場合は、末尾に...をつけて切り詰める
+        columns = self.__cut_columns(self.columns, row_size_per_col)
+
+        # 結果の出力
+        result = self.COL_DELIMITER.join(columns) + '\n'
         for record in self.records:
             record: Tuple[Any]
-            result += ' | '.join(map(str, record)) + '\n'
+            record_str = map(str, record)
+            # データが長すぎる場合は、末尾に...をつけて切り詰める
+            record_str = self.__cut_columns(record_str, row_size_per_col)
+            result += self.COL_DELIMITER.join(record_str) + '\n'
         return result
+    
+    """
+    項目が長すぎる場合は、末尾に...をつけて切り詰める
+    1項目の最大文字数はrow_size_per_colで指定する
+    ただし、日本語の場合は1文字を2文字分の長さとして扱う
+
+    @param columns 項目リスト
+    @param row_size_per_col 1項目の最大文字数
+    @return 切り詰め後の項目リスト
+    """
+    def __cut_columns(self, columns: List[str], row_size_per_col: int) -> List[str]:
+        res = [util.cut_string(column, row_size_per_col, 1.8) for column in columns]
+        return res
     
     """
     @return デバッグ用文字列
