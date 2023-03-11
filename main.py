@@ -276,15 +276,21 @@ async def on_note(api: Misskey, note: json):
     if '#SQL芸' in text:
         print('has hashtag!')
         result = db_run_select_stmt_ret_img(text)
-        # 先に画像をアップロード
-        with open(result[1], 'rb') as f:
-            img = api.drive_files_create(file=f)
-        # 画像つき、引用ノートを投稿
+
+        image_needed = '画像' in text or 'image' in text
+
+        if image_needed:  # 画像有効な場合
+            # 先に画像をアップロード
+            with open(result[1], 'rb') as f:
+                img = api.drive_files_create(file=f)
+
+        # 引用ノートを投稿
         api.notes_create(
             text=twit_shorten_for_tweet(result[0], max_len=1024),
-            file_ids=[img['id']],
+            file_ids=[img['id']] if image_needed else None,  # 画像が必要な場合のみ画像を添付
             renote_id=note['id']
         )
+
         print('noted.')
 
 """
