@@ -51,10 +51,10 @@ def cut_string(string: str, max_size: int, n: float = 2.0) -> str:
 文字列のうち、アスキー文字が何文字含まれているかを返す
 """
 def count_ascii(s: str) -> int:
-    return len([c for c in s if c.isascii()])
+    return sum(c.isascii() for c in s)
 
 """
 文字列のうち、アスキー文字以外が何文字含まれているかを返す
 """
 def count_non_ascii(s: str) -> int:
-    return len([c for c in s if not c.isascii()])
+    return len(s) - count_ascii(s)

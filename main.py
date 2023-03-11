@@ -12,7 +12,6 @@ import psycopg2
 import tweepy
 import websockets
 
-
 import util
 
 
@@ -175,7 +174,7 @@ def twit_shorten_for_tweet(text: str, max_len: int = 280, dots: str = '...\n') -
 
     """
     def tweet_length(tweet_text: str) -> int:
-        ascii_n = sum(c.isascii() for c in tweet_text)
+        ascii_n = util.count_ascii(tweet_text)
         return ascii_n + 2 * (len(tweet_text) - ascii_n)
     
     result = ''
