@@ -436,7 +436,7 @@ INSERT INTO i16
 
 INSERT INTO bot_detail (title, contents) VALUES
        ('データベース', (SELECT version())),
-       ('説明', '#SQL芸 を付けてSQL文を投稿すると、SQLを実行できます。'),
+       ('説明', 'hashtag SQL芸 を付けてSQL文を投稿すると、SQLを実行できます。'),
        ('リポジトリ', 'https://github.com/ryhoh/SQLgei'),
        ('テーブル一覧確認', 'SELECT * FROM tables'),
        ('カラム一覧確認', 'SELECT * FROM columns WHERE table_name = ''テーブル名''');
