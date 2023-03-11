@@ -37,13 +37,15 @@ CREATE TABLE foods (
 
 CREATE TABLE os (
        id SERIAL PRIMARY KEY,
-       name VARCHAR(32) NOT NULL
+       name VARCHAR(32) NOT NULL,
+       emoji VARCHAR(128)
 );
  GRANT SELECT ON os TO bot;
 
 CREATE TABLE editors (
        id SERIAL PRIMARY KEY,
-       name VARCHAR(32) NOT NULL
+       name VARCHAR(32) NOT NULL,
+       emoji VARCHAR(128)
 );
  GRANT SELECT ON editors TO bot;
 

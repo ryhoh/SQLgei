@@ -1,0 +1,20 @@
+id,name,emoji
+1,Windows,:youkoso:
+2,Mac OS,:macos:
+3,AlmaLinux,:alma_linux:
+4,Arch Linux,:arch:
+5,Asahi linux,:asahilinux:
+6,Fedora,:fedora:
+7,FreeBSD,:freebsd:
+8,Gentoo Linux,:gentoo:
+9,Haiku OS,:haiku:
+10,iOS,:ios:
+11,Kali Linux,:kali_dragon:
+12,LineageOS,:lineage_os:
+13,Mageia,:mageia:
+14,Manjaro,:manjaro:
+15,NixOS,:nixos:
+16,ReactOS,:reactos:
+17,Red Hat,:redhat:
+18,Rocky Linux,:rocky_linux:
+19,Ubuntu,:ubuntu:

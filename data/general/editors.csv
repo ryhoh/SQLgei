@@ -1,0 +1,19 @@
+id,name,emoji
+1,Atom,:atom:
+2,Eclipse,:EclipseIDE:
+3,Emacs,:emacs:
+4,nano,:gnu_nano:
+5,Helix Editor,:helix_editor:
+6,Kakoune,:kakoune:
+7,Kate,:kate:
+8,Leafpad,:leafpad:
+9,Mery,:mery:
+10,Neovim,:neovim:
+11,NotePad++,:notepad_plus_plus:
+12,サクラエディタ,:sakura_editor:
+13,SublimeText,:sublime_text:
+14,TeraPad,:terapad:
+15,Vim,:vim:
+16,Visual Studio,:visual_studio:
+17,メモ帳,:windows_notepad:
+18,ワードパッド,:wordpad:
