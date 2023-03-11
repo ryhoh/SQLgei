@@ -281,7 +281,7 @@ async def on_note(api: Misskey, note: json):
             img = api.drive_files_create(file=f)
         # 画像つき、引用ノートを投稿
         api.notes_create(
-            text=twit_shorten_for_tweet(result[0]),
+            text=twit_shorten_for_tweet(result[0], max_len=1024),
             file_ids=[img['id']],
             renote_id=note['id']
         )
