@@ -134,7 +134,10 @@ def db_preprocess(text: str) -> str:
     res = text.replace('#SQL芸', '')  # ハッシュタグは見ない
     res = res.replace('&lt;', '<').replace('&gt;', '>')  # HTMLエンティティを元に戻す
     res = res.strip(" \n\r\t")  # 前後の空白を削除
-    res = res.replace("```", "")  # コードブロックの場合は削除
+    
+    # コードブロックが存在する場合は、コードブロック内のみをDBMSに渡す
+    if len(res.count('```')) >= 2:
+        res = res.split('```')[1]
     return res
 
 """
