@@ -136,8 +136,10 @@ def db_preprocess(text: str) -> str:
     res = res.strip(" \n\r\t")  # 前後の空白を削除
     
     # コードブロックが存在する場合は、コードブロック内のみをDBMSに渡す
-    if len(res.count('```')) >= 2:
-        res = res.split('```')[1]
+    if res.count('```') >= 2:
+        res = res[res.find('```') + 3:]
+        res = '\n'.join(res.splitlines()[1:])  # コードブロックの最初の行を削除 (sql などの言語指定を削除)
+        res = res[:res.find('```')]
     return res
 
 """

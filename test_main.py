@@ -147,8 +147,13 @@ class TestPreprocess(unittest.TestCase):
         self.assertEqual(expected, actual)
 
         # 通常ケース
-        expected = "test`"
-        actual = db_preprocess("```test````")
+        expected = "test"
+        actual = db_preprocess("```\ntest```")
+        self.assertEqual(expected, actual)
+
+        # 通常ケース
+        expected = "test"
+        actual = db_preprocess("```sql\ntest```")
         self.assertEqual(expected, actual)
 
 
@@ -162,10 +167,12 @@ class TestJoin(unittest.TestCase):
 1⃣ | 2⃣ | あ
 1⃣ | 2⃣ | あ
 """
-        actual = db_run_select_stmt("""
-        ```select '1⃣' as one, '2⃣' as two, 'あ' as a  -- サンプルデータを
-        from u8  /* u8テーブルをダミーで使って */
-        limit 3;  -- 3回出力する```""")
+        actual = db_run_select_stmt("""```sql
+select '1⃣' as one, '2⃣' as two, 'あ' as a  -- サンプルデータを
+from u8  /* u8テーブルをダミーで使って */
+limit 3;  -- 3回出力する
+```
+""")
         self.assertEqual(expected, actual)
 
     # 画像出力との結合を見る
