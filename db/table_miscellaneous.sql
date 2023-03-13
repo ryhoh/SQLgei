@@ -153,37 +153,37 @@ $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_flip (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[flip ', str, ' ]');
+       RETURN CONCAT('$[flip ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_flip_v (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[flip.v ', str, ' ]');
+       RETURN CONCAT('$[flip.v ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_flip_h (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[flip.h ', str, ' ]');
+       RETURN CONCAT('$[flip.h ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_flip_hv (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[flip.h,v ', str, ' ]');
+       RETURN CONCAT('$[flip.h,v ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_font (str anyelement, font anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[font.', font, ' ', str, ' ]');
+       RETURN CONCAT('$[font.', font, ' ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_blur (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[blur ', str, ' ]');
+       RETURN CONCAT('$[blur ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
@@ -201,7 +201,7 @@ $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_jelly (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[jelly ', str, ' ]');
+       RETURN CONCAT('$[jelly ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
@@ -213,127 +213,127 @@ $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_bounce (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[bounce ', str, ' ]');
+       RETURN CONCAT('$[bounce ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_shake (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[shake ', str, ' ]');
+       RETURN CONCAT('$[shake ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_twitch (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[twitch ', str, ' ]');
+       RETURN CONCAT('$[twitch ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinzr (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.z,right ', str, ' ]');
+       RETURN CONCAT('$[spin.z,right ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinzl (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.z,left ', str, ' ]');
+       RETURN CONCAT('$[spin.z,left ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinz (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.z,alternate ', str, ' ]');
+       RETURN CONCAT('$[spin.z,alternate ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinxr (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.x,right ', str, ' ]');
+       RETURN CONCAT('$[spin.x,right ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinxl (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.x,left ', str, ' ]');
+       RETURN CONCAT('$[spin.x,left ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinx (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.x,alternate ', str, ' ]');
+       RETURN CONCAT('$[spin.x,alternate ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinyr (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.y,right ', str, ' ]');
+       RETURN CONCAT('$[spin.y,right ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinyl (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.y,left ', str, ' ]');
+       RETURN CONCAT('$[spin.y,left ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spiny (str anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.y,alternate ', str, ' ]');
+       RETURN CONCAT('$[spin.y,alternate ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinspdzr (str anyelement, speed anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.z,right,speed=', speed, 'ms ', str, ' ]');
+       RETURN CONCAT('$[spin.z,right,speed=', speed, 'ms ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinspdzl (str anyelement, speed anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.z,left,speed=', speed, 'ms ', str, ' ]');
+       RETURN CONCAT('$[spin.z,left,speed=', speed, 'ms ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinspdz (str anyelement, speed anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.z,alternate,speed=', speed, 'ms ', str, ' ]');
+       RETURN CONCAT('$[spin.z,alternate,speed=', speed, 'ms ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinspdxr (str anyelement, speed anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.x,right,speed=', speed, 'ms ', str, ' ]');
+       RETURN CONCAT('$[spin.x,right,speed=', speed, 'ms ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinspdxl (str anyelement, speed anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.x,left,speed=', speed, 'ms ', str, ' ]');
+       RETURN CONCAT('$[spin.x,left,speed=', speed, 'ms ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinspdx (str anyelement, speed anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.x,alternate,speed=', speed, 'ms ', str, ' ]');
+       RETURN CONCAT('$[spin.x,alternate,speed=', speed, 'ms ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinspdyr (str anyelement, speed anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.y,right,speed=', speed, 'ms ', str, ' ]');
+       RETURN CONCAT('$[spin.y,right,speed=', speed, 'ms ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinspdyl (str anyelement, speed anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.y,left,speed=', speed, 'ms ', str, ' ]');
+       RETURN CONCAT('$[spin.y,left,speed=', speed, 'ms ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE FUNCTION msky_spinspdy (str anyelement, speed anyelement) RETURNS TEXT AS $$
 BEGIN
-       RETURN CONCAT('$[spin.y,alternate,speed=', speed, 'ms ', str, ' ]');
+       RETURN CONCAT('$[spin.y,alternate,speed=', speed, 'ms ', str, ']');
 END;
 $$ LANGUAGE plpgsql;
 
