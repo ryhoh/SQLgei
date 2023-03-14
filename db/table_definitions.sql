@@ -175,6 +175,15 @@ CREATE TABLE msky_emoji (
 );
  GRANT SELECT ON msky_emoji TO bot;
 
+CREATE TABLE msky_hiragana (
+       id SERIAL PRIMARY KEY,
+       kana CHAR(1) NOT NULL,
+       emoji_id INTEGER NOT NULL,
+       
+       FOREIGN KEY (emoji_id) REFERENCES msky_emoji(id)
+);
+ GRANT SELECT ON msky_hiragana TO bot;
+
 CREATE TABLE puppu (
        code VARCHAR(32) PRIMARY KEY
 );
