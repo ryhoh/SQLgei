@@ -302,7 +302,7 @@ async def on_note(api: Misskey, note: json):
     text: str = note['text']
     if '#SQL芸' in text:
         print('has hashtag!')
-        result = db_run_select_stmt_ret_img(text)
+        result = db_run_select_stmt_ret_img(text, style='orgtbl')
 
         image_needed = '画像' in text or 'image' in text
 
