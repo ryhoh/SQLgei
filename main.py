@@ -9,6 +9,7 @@ from typing import Any, List, Tuple
 
 from misskey import Misskey
 import psycopg2
+import tabulate
 import tweepy
 import websockets
 
@@ -25,15 +26,19 @@ SELECT文の実行結果テーブル
 """
 class Table:
     COL_DELIMITER = ' | '  # カラム間の区切り文字
+    ALLOWED_STYLE = set(('simple', 'orgtbl',))  # 許可されたテーブルスタイル
 
     """
     @param columns カラム名
     @param records データ
 
     """
-    def __init__(self, columns: List[str], records: List[Tuple[Any]]) -> None:
+    def __init__(self, columns: List[str], records: List[Tuple[Any]], style: str = 'simple') -> None:
         self.columns = columns
         self.records = records
+        if style not in self.ALLOWED_STYLE:
+            raise ValueError('Unknown style: %s' % style)
+        self.style = style
 
     """
     テーブル文字列化関数
@@ -44,25 +49,12 @@ class Table:
     """
     def __str__(self) -> str:
         # 結果の出力
-        result = self.COL_DELIMITER.join(self.columns) + '\n'
-        for record in self.records:
-            record: Tuple[Any]
-            record_str = map(str, record)
-            result += self.COL_DELIMITER.join(record_str) + '\n'
-        return result
-    
-    """
-    項目が長すぎる場合は、末尾に...をつけて切り詰める
-    1項目の最大文字数はrow_size_per_colで指定する
-    ただし、日本語の場合は1文字を2文字分の長さとして扱う
-
-    @param columns 項目リスト
-    @param row_size_per_col 1項目の最大文字数
-    @return 切り詰め後の項目リスト
-    """
-    def __cut_columns(self, columns: List[str], row_size_per_col: int) -> List[str]:
-        res = [util.cut_string(column, row_size_per_col, 1.8) for column in columns]
-        return res
+        if self.style == 'simple':
+            return self.__show_simple()
+        elif self.style == 'orgtbl':
+            return self.__show_by_tabulate()
+        else:
+            raise ValueError('Unknown style: %s' % self.style)
     
     """
     @return デバッグ用文字列
@@ -77,16 +69,40 @@ class Table:
     """
     def __eq__(self, other: "Table") -> bool:
         return self.columns == other.columns and self.records == other.records
+    
+    """
+    シンプルな結果表示関数
+    1行目にカラムを、2行目以降にデータを、それぞれ' | 'で区切りながら出力する
+    
+    @return 結果表示文字列
+    """
+    def __show_simple(self) -> str:
+        result = self.COL_DELIMITER.join(self.columns) + '\n'
+        for record in self.records:
+            record: Tuple[Any]
+            record_str = map(str, record)
+            result += self.COL_DELIMITER.join(record_str) + '\n'
+        return result
+    
+    """
+    psqlの結果表示関数
+    
+    @return 結果表示文字列
+    """
+    def __show_by_tabulate(self) -> str:
+        result = tabulate.tabulate(self.records, headers=self.columns, tablefmt=self.style)
+        return result
 
     """
     SQLを実行して、結果テーブルを返す
 
     @param query 実行するSQL
+    @param style 結果のテーブルスタイル
     @return 実行結果テーブル
     @note 複数の文を与えた場合、最後のSELECT文に対する結果を返す
     """
     @classmethod
-    def from_select_stmt(self, sqls: str) -> "Table":
+    def from_select_stmt(self, sqls: str, style: str = 'simple') -> "Table":
         result = None
         with psycopg2.connect(dsn='postgresql://bot:bot@localhost:54321/sandbox?application_name=SQLgei') as conn:
             with conn.cursor() as cur:
@@ -96,7 +112,8 @@ class Table:
                         if cur.description is not None:
                             result = Table(
                                 columns=[col[0] for col in cur.description],
-                                records=cur.fetchall()
+                                records=cur.fetchall(),
+                                style=style,
                             )
                     except psycopg2.ProgrammingError as e:
                         if e.args[0] == "can't execute an empty query":
@@ -108,18 +125,18 @@ class Table:
                     result = Table(columns=[], records=[tuple()])
                 return result
 
-
 """
 SELECT文を実行して結果文字列を得る
 
 @param text 実行するSELECT文
+@param style 結果のテーブルスタイル
 @return 実行結果文字列
 
 """
-def db_run_select_stmt(text: str) -> str:
+def db_run_select_stmt(text: str, style: str = 'simple') -> str:
     try:
         preprocessed = db_preprocess(text)
-        result = str(Table.from_select_stmt(preprocessed))
+        result = str(Table.from_select_stmt(preprocessed, style))
     except Exception as e:
         result = str(e)  # 例外時はその内容を文字列化して返す
     return result
@@ -148,11 +165,16 @@ def db_preprocess(text: str) -> str:
 
     @param text 実行するSELECT文
     @param max_line_n 画像の方に表示する結果の行数制限
+    @param style 結果のテーブルスタイル
     @return (実行結果文字列，実行結果の画像パス)
 
     """
-def db_run_select_stmt_ret_img(text: str, max_line_n: int = 50) -> Tuple[str, str]:
-    result = db_run_select_stmt(text)
+def db_run_select_stmt_ret_img(
+    text: str,
+    max_line_n: int = 50,
+    style: str = 'simple'
+) -> Tuple[str, str]:
+    result = db_run_select_stmt(text, style=style)
     result = '\n'.join(result.split('\n')[:max_line_n])
     filename = 'tmp/tmp' + str(hash(result))  # ハッシュを用いて一意なファイル名を決める
     with open(filename + '.txt', 'w') as f:
