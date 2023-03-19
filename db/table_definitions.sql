@@ -38,14 +38,14 @@ CREATE TABLE foods (
 CREATE TABLE os (
        id SERIAL PRIMARY KEY,
        name VARCHAR(32) NOT NULL,
-       emoji VARCHAR(128)
+       emoji VARCHAR(128) -- fixme id を参照すべき
 );
  GRANT SELECT ON os TO bot;
 
 CREATE TABLE editors (
        id SERIAL PRIMARY KEY,
        name VARCHAR(32) NOT NULL,
-       emoji VARCHAR(128)
+       emoji VARCHAR(128) -- fixme id を参照すべき
 );
  GRANT SELECT ON editors TO bot;
 
@@ -185,7 +185,7 @@ CREATE TABLE msky_hiragana (
  GRANT SELECT ON msky_hiragana TO bot;
 
 CREATE TABLE puppu (
-       code VARCHAR(32) PRIMARY KEY
+       code VARCHAR(32) PRIMARY KEY  -- fixme msky_emoji.id を参照すべき
 );
  GRANT SELECT ON puppu TO bot;
 -- misskey 系、ここまで
