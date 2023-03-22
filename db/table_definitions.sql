@@ -93,7 +93,7 @@ CREATE TABLE dependencies (
        url VARCHAR(256) NOT NULL,
        license_or_term VARCHAR(256) NOT NULL
 );
- GRANT SELECT ON libraries TO bot;
+ GRANT SELECT ON dependencies TO bot;
 
 -- 駅データ.jp ここから
 CREATE TABLE eki_company (
