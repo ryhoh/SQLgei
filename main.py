@@ -1,7 +1,6 @@
 import asyncio
 import datetime
 import json
-import re
 from subprocess import Popen
 import sys
 import time
@@ -18,6 +17,9 @@ import util
 
 # Timezone を日本に合わせる
 JST = datetime.timezone(datetime.timedelta(hours=+9), 'JST')
+
+# レートリミット用
+misskey_last_note_time = datetime.datetime.now(JST)
 
 
 """
@@ -301,6 +303,12 @@ async def msky_main():
 async def on_note(api: Misskey, note: json):
     text: str = note['text']
     if '#SQL芸' in text:
+        # レートリミットを設ける
+        # 最後にノートを作成してから15秒経過するまでは待つ
+        global misskey_last_note_time
+        while datetime.datetime.now(JST) - misskey_last_note_time < datetime.timedelta(seconds=15):
+            time.sleep(1)
+        
         print('has hashtag!')
         result = db_run_select_stmt_ret_img(text, style='orgtbl')
 
@@ -319,6 +327,9 @@ async def on_note(api: Misskey, note: json):
         )
 
         print('noted.')
+
+        # 最後にノートを作成した時間を更新
+        misskey_last_note_time = datetime.datetime.now(JST)
 
 """
 Misskeyフォローバック関数
