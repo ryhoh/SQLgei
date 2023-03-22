@@ -36,3 +36,7 @@ INSERT INTO bot_detail (title, contents) VALUES
        ('リポジトリ', 'https://github.com/ryhoh/SQLgei'),
        ('テーブル一覧確認', 'SELECT * FROM tables'),
        ('カラム一覧確認', 'SELECT * FROM columns WHERE table_name = ''テーブル名''');
+
+INSERT INTO dependencies (name, url, license_or_term) VALUES
+       ('ekidata', 'https://ekidata.jp/', 'https://ekidata.jp/agreement.php'),
+       ('inappropriate-words-ja', 'https://github.com/MosasoM/inappropriate-words-ja', 'MIT License');

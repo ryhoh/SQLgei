@@ -87,6 +87,14 @@ CREATE TABLE bot_detail (
 );
  GRANT SELECT ON bot_detail TO bot;
 
+CREATE TABLE dependencies (
+       id SERIAL PRIMARY KEY,
+       name VARCHAR(64) NOT NULL,
+       url VARCHAR(256) NOT NULL,
+       license_or_term VARCHAR(256) NOT NULL
+);
+ GRANT SELECT ON libraries TO bot;
+
 -- 駅データ.jp ここから
 CREATE TABLE eki_company (
        company_cd      INTEGER          DEFAULT 0 NOT NULL PRIMARY KEY,

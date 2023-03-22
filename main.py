@@ -19,6 +19,9 @@ import util
 # Timezone を日本に合わせる
 JST = datetime.timezone(datetime.timedelta(hours=+9), 'JST')
 
+# 不適切なワードリスト
+BAD_WORDS = set()
+
 
 """
 SELECT文の実行結果テーブル
@@ -126,6 +129,17 @@ class Table:
                 return result
 
 """
+不適切なワードを、ファイルから読み込んでsetに入れる
+"""
+def load_bad_words() -> None:
+    with open('bad_words/Offensive.txt', 'r') as f:
+        for line in f:
+            BAD_WORDS.add(line.strip())
+    with open('bad_words/Sexual.txt', 'r') as f:
+        for line in f:
+            BAD_WORDS.add(line.strip())
+
+"""
 SELECT文を実行して結果文字列を得る
 
 @param text 実行するSELECT文
@@ -157,7 +171,17 @@ def db_preprocess(text: str) -> str:
         res = res[res.find('```') + 3:]
         res = '\n'.join(res.splitlines()[1:])  # コードブロックの最初の行を削除 (sql などの言語指定を削除)
         res = res[:res.find('```')]
+
+    res = replace_bad_words(res)  # 不適切なワードを置換する
     return res
+
+"""
+文字列中の不適切なワードを、指定した文字列に置換する
+"""
+def replace_bad_words(text: str) -> str:
+    for bad_word in BAD_WORDS:
+        text = text.replace(bad_word, '*' * len(bad_word))
+    return text
 
 """
     実行結果をテキストと画像形式で返す
@@ -368,6 +392,8 @@ async def on_follow(api: Misskey, user: json):
 
 
 if __name__ == '__main__':
+    load_bad_words()
+
     if sys.argv[1] == 'twitter':
         twit_main()
     elif sys.argv[1] == 'misskey':
