@@ -1,1 +1,4 @@
 https://ekidata.jp/
+
+station の 0000-00-00 を空文字列に置換する
+（カラム側は NULL 許容にしておく）
