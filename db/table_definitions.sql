@@ -192,5 +192,4 @@ CREATE TABLE msky_hiragana (
 );
  GRANT SELECT ON msky_hiragana TO bot;
 
- GRANT SELECT ON puppu TO bot;
 -- misskey 系、ここまで

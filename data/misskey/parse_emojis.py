@@ -25,10 +25,10 @@ infos = [elm.contents[0] if len(elm.contents) > 0 else "" for elm in infos]
 print(len(codes), len(infos))
 
 # csvに追記する
-written_code = set()
+written_code = prev_version_codes
 with open('emojis.csv', 'a') as f:
     for i in range(len(codes)):
-        if codes[i] not in written_code and codes[i] not in prev_version_codes:
+        if codes[i] not in written_code:
             f.write('%s,%s,%s\n' % ((idx+1),codes[i], infos[i]))
             written_code.add(codes[i])
             idx += 1
