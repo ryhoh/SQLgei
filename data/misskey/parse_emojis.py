@@ -1,5 +1,17 @@
+import csv
+
 from bs4 import BeautifulSoup
 
+prev_version_codes = set()
+# 前バージョンのcsvファイルを読み込む
+with open('emojis.csv', 'r', newline='') as f:
+    spamreader = csv.reader(f, delimiter=',')
+    _ = next(spamreader)  # skip header
+    for row in spamreader:
+        prev_version_codes.add(row[1])
+        idx = int(row[0])
+
+# htmlファイルを読み込む
 with open('emojis.html', 'r') as f:
     html = f.read()
 
@@ -12,7 +24,11 @@ infos = [elm.contents[0] if len(elm.contents) > 0 else "" for elm in infos]
 
 print(len(codes), len(infos))
 
-with open('emojis.csv', 'w') as f:
-    f.write('id,code,info\n')
+# csvに追記する
+written_code = set()
+with open('emojis.csv', 'a') as f:
     for i in range(len(codes)):
-        f.write('%s,%s,%s\n' % ((i+1),codes[i], infos[i]))
+        if codes[i] not in written_code and codes[i] not in prev_version_codes:
+            f.write('%s,%s,%s\n' % ((idx+1),codes[i], infos[i]))
+            written_code.add(codes[i])
+            idx += 1

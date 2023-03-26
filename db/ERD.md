@@ -134,20 +134,16 @@ eki_station }|--|| eki_station_join : associative
 
 msky_emoji {
     SERIAL id PK
-    VARCHAR(128) name
-    VARCHAR(1024) info
+    VARCHAR(128) code UK
+    VARCHAR(8192) info
 }
 
 msky_hiragana {
     SERIAL id PK
-    CHAR(1) kana
-    INTEGER emoji_id FK
+    CHAR(2) kana
+    VARCHAR(32) emoji_code FK
 }
 
 misky_emoji ||--|| misky_hiragana : corresponds
-
-puppu {
-    VARCHAR(32) code PK
-}
 
 ```

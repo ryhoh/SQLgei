@@ -178,22 +178,19 @@ CREATE TABLE eki_station_join (
 -- misskey 系 ここから
 CREATE TABLE msky_emoji (
        id SERIAL PRIMARY KEY,
-       name VARCHAR(128) NOT NULL,
-       info VARCHAR(1024)
+       code VARCHAR(128) NOT NULL UNIQUE,
+       info VARCHAR(8192)
 );
  GRANT SELECT ON msky_emoji TO bot;
 
 CREATE TABLE msky_hiragana (
        id SERIAL PRIMARY KEY,
-       kana CHAR(1) NOT NULL,
-       emoji_id INTEGER NOT NULL,
+       kana CHAR(2) NOT NULL,
+       emoji_code VARCHAR(32) NOT NULL,
        
-       FOREIGN KEY (emoji_id) REFERENCES msky_emoji(id)
+       FOREIGN KEY (emoji_code) REFERENCES msky_emoji(code)
 );
  GRANT SELECT ON msky_hiragana TO bot;
 
-CREATE TABLE puppu (
-       code VARCHAR(32) PRIMARY KEY  -- fixme msky_emoji.id を参照すべき
-);
  GRANT SELECT ON puppu TO bot;
 -- misskey 系、ここまで
