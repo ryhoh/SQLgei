@@ -108,7 +108,7 @@ eki_station {
     VARCHAR(256) station_name_k
     VARCHAR(256) station_name_r
     INTEGER line_cd FK
-    INTEGER pref_cd
+    INTEGER pref_cd FK
     VARCHAR(32) post
     VARCHAR(1024) address
     DOUBLE PRECISION lon
@@ -120,6 +120,7 @@ eki_station {
 }
 
 eki_line ||--|{ eki_station : has
+prefs ||--o{ eki_station : has
 
 eki_station_join {
     INTEGER line_cd PK
